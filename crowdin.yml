@@ -1,7 +1,7 @@
 files:
   - source: /src/docs/**/ru/**/*
     translation: /docs/%two_letters_code%/**/%original_file_name%
-  - source: /src/website/website.json
+  - source: /src/website/lang.json
     translation: /website/%two_letters_code%.json
 
 project_id_env: CROWDIN_PROJECT_ID
