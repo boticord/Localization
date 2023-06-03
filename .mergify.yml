@@ -10,7 +10,7 @@ pull_request_rules:
   - name: Automatic merge when the pull request is made by BotiCordBot.
     conditions:
       - base=main
-      - author=everydayrains #BotiCordBot soon
+      - author=BoticordAC
     actions:
       merge:
         method: squash
