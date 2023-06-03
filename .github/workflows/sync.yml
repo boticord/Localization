@@ -19,8 +19,6 @@ jobs:
         with:
          download_translations: true
          localization_branch_name: crowdin-stage
-         #skip_untranslated_strings: true
-         #skip_untranslated_files: true
          export_only_approved: true
          commit_message: 'New Crowdin translations'
 
