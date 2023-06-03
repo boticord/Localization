@@ -3,3 +3,6 @@ files:
     translation: /docs/%two_letters_code%/**/%original_file_name%
   - source: /website/ru.json
     translation: /website/%two_letters_code%.json
+
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN

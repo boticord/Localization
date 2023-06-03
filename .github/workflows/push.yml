@@ -1,0 +1,44 @@
+name: Add new string to Crowdin
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - docs/ru/**
+      - website/ru.json
+  workflow_dispatch:
+
+jobs:
+  push:
+    name: Push to crowdin
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Crowdin sync
+        uses: crowdin/github-action@v1
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+          env:
+            GITHUB_TOKEN: ${{ secrets.BoticordAC_TOKEN }}
+            GITHUB_ACTOR: BoticordAC
+            CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+            CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+  message:
+    name: Send message to Discord
+    runs-on: ubuntu-latest
+    needs: [push]
+    steps:
+      - name: Send Message
+        uses: tsickert/discord-webhook@v5.3.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+          content: Новый перевод доступен мда
+          username: BoticordAC
+          avatar-url: https://crowdin-static.downloads.crowdin.com/images/project-logo/591477/small/41cbcf6c3da0a7b9774445ddbbd6998238.png
