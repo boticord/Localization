@@ -1,5 +1,5 @@
 files:
-  - source: /src/docs/**/*
+  - source: /docs/**/ru/**/*
     translation: /docs/%two_letters_code%/**/%original_file_name%
-  - source: /src/website/*
+  - source: /website/ru.json
     translation: /website/%two_letters_code%.json
