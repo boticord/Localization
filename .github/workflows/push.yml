@@ -24,7 +24,7 @@ jobs:
           upload_translations: false
           download_translations: false
           config: ./crowdin.yml
-          source: src/**
+          source: src/*
           translation: website/%two_letters_code%.json
           
         env:
