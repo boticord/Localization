@@ -17,6 +17,8 @@ jobs:
         with:
           config: ./crowdin.yml
           download_translations: true
+          upload_sources: false
+          upload_translations: false
           localization_branch_name: crowdin-stage
           skip_untranslated_strings: true
           skip_untranslated_files: true
