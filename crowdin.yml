@@ -1,3 +1,5 @@
 files:
-  - source: /src/**/*
-    translation: /%locale_with_underscore%/**/%original_file_name%
+  - source: /src/docs/**/*
+    translation: /docs/%two_letters_code%/**/%original_file_name%
+  - source: /src/website/*
+    translation: /website/%two_letters_code%.json
