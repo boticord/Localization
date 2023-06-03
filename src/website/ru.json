@@ -3,7 +3,7 @@
     "login": {
       "success": {
         "message": "Вы успешно вошли в аккаунт!",
-        "crowdinContext": "TODO"
+        "crowdinContext": "Уведомление в попапе при успешном входе"
       },
       "error": {
         "message": "Ошибка входа: {error}",
