@@ -25,6 +25,7 @@ jobs:
           download_translations: false
           config: ./crowdin.yml
           source: src/**
+          translation: .
           
         env:
             GITHUB_TOKEN: ${{ secrets.BoticordAC_TOKEN }}
