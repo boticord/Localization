@@ -12,30 +12,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Sync
         uses: crowdin/github-action@v1
         with:
-          upload_sources: true
-          upload_translations: true
-          download_translations: true
-          localization_branch_name: l10n_crowdin_translations
-          create_pull_request: true
-          pull_request_title: 'New Crowdin Translations'
-          pull_request_body: 'New Crowdin translations by [Crowdin GH Action](https://github.com/crowdin/github-action)'
-          pull_request_base_branch_name: 'main'
-        #  config: ./crowdin.yml
-        #  download_translations: true
-        #  localization_branch_name: crowdin-stage
-        #  skip_untranslated_strings: true
-        #  skip_untranslated_files: true
-        #  export_only_approved: true
-        #  commit_message: 'New Crowdin translations'
+         config: ./crowdin.yml
+         download_translations: true
+         localization_branch_name: crowdin-stage
+         skip_untranslated_strings: true
+         skip_untranslated_files: true
+         export_only_approved: true
+         commit_message: 'New Crowdin translations'
 
-        #  create_pull_request: true
-        #  pull_request_title: 'New Crowdin translations'
-        #  pull_request_body: 'New Crowdin pull request with translations'
-        #  pull_request_labels: 'enhancement'
-        #  pull_request_base_branch_name: 'main'
+         create_pull_request: true
+         pull_request_title: 'New Crowdin translations'
+         pull_request_body: 'New Crowdin pull request with translations'
+         pull_request_labels: 'enhancement'
+         pull_request_base_branch_name: 'main'
 
         env:
           GITHUB_TOKEN: ${{ secrets.BoticordAC_TOKEN }}
