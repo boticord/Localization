@@ -16,6 +16,7 @@ jobs:
         uses: crowdin/github-action@v1
 
         with:
+          config: ./crowdin.yml
           download_translations: true
           localization_branch_name: crowdin-stage
           skip_untranslated_strings: true
@@ -29,7 +30,6 @@ jobs:
           pull_request_labels: 'enhancement'
           pull_request_base_branch_name: 'main'
 
-          config: ./crowdin.yml
 
         env:
           GITHUB_TOKEN: ${{ secrets.BoticordAC_TOKEN }}
