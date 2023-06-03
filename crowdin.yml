@@ -10,10 +10,11 @@ api_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGl
 # e.g. true or false
 #
 languages_mapping: &languages_mapping
+preserve_hierarchy: true
 
 #
 # Files configuration
 #
 files:
-  - source: /src/docs/**/*
+  - source: /src/**/*
     translation: /%locale_with_underscore%/docs/**/%original_file_name%
