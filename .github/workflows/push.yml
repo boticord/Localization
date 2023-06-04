@@ -23,6 +23,9 @@ jobs:
           upload_sources: true
           upload_translations: false
           download_translations: false
+
+          github_user_name: BoticordAC
+          github_user_email: boticordac@users.noreply.github.com
           
         env:
             GITHUB_TOKEN: ${{ secrets.BoticordAC_TOKEN }}
