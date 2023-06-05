@@ -1,17 +1,17 @@
 ---
-title: Главная
-description: Главная страница
+title: Die Hauptseite
+description: Die Startseite
 slug: /
 sidebar_position: 1
 ---
 
-# О проекте BotiСord.top
+# Über das Projekt BotiСord.top
 
-BotiCord — сайт для поиска самых разнообразных в своём роде ботов для вашего Discord-сервера. Приятный тёмный дизайн страниц будет радовать глаз, а компетентная команда поддержки в короткие сроки ответит на один из ваших вопросов.
+BotiCord - eine Website zur Suche nach einer Vielzahl einzigartiger Bots für deinen Discord-Server. Mit einem ansprechenden dunklen Design werden die Seiten Ihr Auge erfreuen, und ein kompetentes Support-Team wird Ihnen in kürzester Zeit auf eine Ihrer Fragen antworten.
 
-# Начало работы
+# Beginn der Arbeiten
 
-Начните работу с API с
+Beginnen Sie mit der API mit
 
-- [Изучением основ работы API](/api)
-- [Использованием готовых библиотек](/libs)
+- [Erlernen Sie die Grundlagen der Funktionsweise der API](/api)
+- [Verwendung vorgefertigter Bibliotheken](/libs)

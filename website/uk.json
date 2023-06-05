@@ -2,14 +2,14 @@
   "auth": {
     "login": {
       "success": {
-        "message": "Вы успешно вошли в аккаунт!",
+        "message": "Ви успішно увійшли в акаунт!",
         "crowdinContext": "Уведомление в попапе при успешном входе"
       },
       "error": {
-        "message": "Ошибка входа: {error}",
+        "message": "Помилка входу: {error}",
         "crowdinContext": "TODO",
         "default": {
-          "message": "Попробуйте ещё раз.",
+          "message": "Спробуйте ще раз.",
           "crowdinContext": "TODO"
         }
       }
@@ -18,49 +18,49 @@
   "common": {
     "support": {
       "server": {
-        "message": "сервер поддержки",
+        "message": "сервер підтримки",
         "crowdinContext": "TODO"
       }
     },
     "action": {
       "cancel": {
-        "message": "Отменить",
+        "message": "Скасувати",
         "crowdinContext": "TODO"
       },
       "send": {
-        "message": "Отправить",
+        "message": "Відправити",
         "crowdinContext": "TODO"
       },
       "save": {
-        "message": "Сохранить",
+        "message": "Зберегти",
         "crowdinContext": "TODO"
       },
       "clear": {
-        "message": "Очистить",
+        "message": "Очистити",
         "crowdinContext": "TODO"
       },
       "delete": {
-        "message": "Удалить",
+        "message": "Видалити",
         "crowdinContext": "TODO"
       },
       "disable": {
-        "message": "Отключить",
+        "message": "Вимкнути",
         "crowdinContext": "TODO"
       },
       "find": {
-        "message": "Найти",
+        "message": "Знайти",
         "crowdinContext": "TODO"
       }
     },
     "limits": {
       "text": {
-        "message": "Мин. {n} символ | Мин. {n} символа | Мин. {n} символов",
+        "message": "Мін. {n} символ | Мін. {n} символу | Мін. {n} символів",
         "crowdinContext": "TODO"
       }
     },
     "unknown": {
       "user": {
-        "message": "Неизвестный пользователь",
+        "message": "Невідомий користувач",
         "crowdinContext": "TODO"
       }
     }
@@ -68,27 +68,27 @@
   "resource": {
     "activity": {
       "invite": {
-        "message": "Пригласить",
+        "message": "Запросити",
         "crowdinContext": "TODO"
       },
       "join": {
-        "message": "Вступить",
+        "message": "Вступити",
         "crowdinContext": "TODO"
       },
       "vote": {
-        "message": "Поднять",
+        "message": "Підняти",
         "crowdinContext": "TODO"
       },
       "edit": {
-        "message": "Редактировать",
+        "message": "Редагувати",
         "crowdinContext": "TODO"
       },
       "information": {
-        "message": "Информация",
+        "message": "Інформація",
         "crowdinContext": "TODO"
       },
       "users": {
-        "message": "Пользователей",
+        "message": "Користувачів",
         "crowdinContext": "TODO"
       },
       "tags": {
@@ -96,55 +96,55 @@
         "crowdinContext": "TODO"
       },
       "links": {
-        "message": "Ссылки",
+        "message": "Посилання",
         "crowdinContext": "TODO"
       },
       "description": {
-        "message": "Описание",
+        "message": "Опис",
         "crowdinContext": "TODO"
       },
       "reviews": {
-        "message": "Оценки и отзывы",
+        "message": "Оцінки та відгуки",
         "crowdinContext": "TODO",
         "checked": {
-          "message": "Оценки и отзывы проверены",
+          "message": "Оцінки та відгуки перевірені",
           "crowdinContext": "TODO"
         },
         "nothing": {
-          "message": "Отзывов пока нет.",
+          "message": "Відгуків поки що немає.",
           "crowdinContext": "TODO",
           "first": {
-            "message": "Оставьте первый!",
+            "message": "Залиште перший!",
             "crowdinContext": "TODO"
           }
         },
         "count": {
-          "message": "Нет отзывов | {n} отзыв | {n} отзыва | {n} отзывов",
+          "message": "Немає відгуків | {n} відгук | {n} відгуків | {n} відгуків",
           "crowdinContext": "TODO"
         }
       },
       "notify": {
         "reviews": {
           "error": {
-            "message": "Просмотр отзывов недоступен",
+            "message": "Перегляд відгуків недоступний",
             "crowdinContext": "TODO"
           }
         },
         "vote": {
           "captcha": {
-            "message": "Секундочку... Нужно проверить не робот ли вы",
+            "message": "Секундочку... Потрібно перевірити, чи не робот ви",
             "crowdinContext": "TODO",
             "timeout": {
-              "message": "Время ожидания капчи истекло",
+              "message": "Час очікування капчі минув",
               "crowdinContext": "TODO"
             },
             "error": {
-              "message": "Ошибка при проверке капчи",
+              "message": "Помилка під час перевірки капчі",
               "crowdinContext": "TODO"
             }
           },
           "success": {
-            "message": "Успешный ап!",
+            "message": "Успішний ап!",
             "crowdinContext": "TODO"
           }
         }
@@ -152,26 +152,26 @@
     },
     "status": {
       "hidden": {
-        "message": "Скрыт",
+        "message": "Прихований",
         "crowdinContext": "TODO"
       },
       "public": {
-        "message": "Публичный",
+        "message": "Публічний",
         "crowdinContext": "TODO"
       },
       "banned": {
-        "message": "Заблокирован",
+        "message": "Заблоковано",
         "crowdinContext": "TODO"
       },
       "pending": {
-        "message": "Ожидает проверки",
+        "message": "Очікує на перевірку",
         "crowdinContext": "TODO"
       }
     },
     "bot": {
       "pending": {
         "action": {
-          "message": "Опции",
+          "message": "Опції",
           "crowdinContext": "TODO"
         }
       },
@@ -180,15 +180,15 @@
         "crowdinContext": "TODO"
       },
       "prefix": {
-        "message": "Префикс",
+        "message": "Префікс",
         "crowdinContext": "TODO"
       },
       "shards": {
-        "message": "Шардов",
+        "message": "Шардів",
         "crowdinContext": "TODO"
       },
       "library": {
-        "message": "Библиотека бота",
+        "message": "Бібліотека бота",
         "crowdinContext": "TODO"
       },
       "website": {
@@ -196,17 +196,17 @@
         "crowdinContext": "TODO"
       },
       "developers": {
-        "message": "Разработчики",
+        "message": "Розробники",
         "crowdinContext": "TODO"
       },
       "notify": {
         "vote": {
           "error": {
-            "message": "Не удалось поднять бота: {error}",
+            "message": "Не вдалося підняти бота: {error}",
             "crowdinContext": "TODO"
           },
           "hidden": {
-            "message": "Нельзя апнуть бота который скрыт из общего списка!",
+            "message": "Не можна апнути бота який прихований із загального списку!",
             "crowdinContext": "TODO"
           }
         }
@@ -228,11 +228,11 @@
       "notify": {
         "vote": {
           "error": {
-            "message": "Не удалось поднять сервер: {error}",
+            "message": "Не вдалося підняти сервер: {error}",
             "crowdinContext": "TODO"
           },
           "hidden": {
-            "message": "Нельзя апнуть сервер который скрыт из общего списка!",
+            "message": "Не можна апнути сервер, який прихований із загального списку!",
             "crowdinContext": "TODO"
           }
         }

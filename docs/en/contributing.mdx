@@ -1,75 +1,74 @@
 ---
-title: Вклад в проект
-description: Вклад в проект
-slug: /contributing
+title: Contribution to the project
+description: Contribution to the project
+slug: /contibuting
 sidebar_position: 100
 ---
 
-# Введение
+# Introduction
 
-Любой желающий может внести свой вклад в развитие проекта. Для этого необходимо следовать следующим правилам:
+Anyone can contribute to the development of the project. To do this, the following rules must be followed:
 
-## Основное
+## Base
 
-1.  Все изменения должны быть четко описаны в коммите и pull request'е.
-2.  Ведите себя прилично. Не используйте нецензурную лексику и не оскорбляйте других участников проекта.
-3.  Желательно пользоваться английским языком, поскольку является международным языком
+1.  All changes must be clearly described in the commit and pull request.
+2.  Be a good person. Don't use profanity and do not insult other members of the project.
+3.  Use English as preferred language, because it's an international language
 
-## Ветки
+## Branches
 
--   `main` - основная ветка проекта
--   `dev` - ветка разработки
+-   `main` - primary branch
+-   `dev`- development branch
 
-## Коммиты
+## Commits
 
-Четких правил для коммитов нет, но есть несколько рекомендаций:
+There are no clear rules for the commits, but there a few guidelines:
 
--   Комиты должны желательно быть на английском языке
--   Использовать [conventional commits](https://conventionalcommits.org)
+-   Commits preferably should be used in English
+-   Use [conventional commits](https://conventionalcommits.org)
 
-### Примеры
+### Examples
 
-1.  <strike>Changed text</strike> ❌ Коммит не описывает, почему изменен текст, где.
-2.  **chore(Faq): Added additional answer to the question ** ✅ Идеально!
+1.  <strike>Changed text</strike> ❌Commit doesn't describe why and where a text was changed.
+2.  **chore(Faq): Added additional answer to the question ** ✅ Perfect!
 
-## Документация
+## Documentation
 
-Документация должна быть написана на русском языке. Для написания документации используется [Docusaurus](https://docusaurus.io/).
-Если вы хотите изменить документацию на другом языке, то используйте [Crowdin](https://i18n.boticord.top/).
+Documentation must be written in Russian. Use [Docusaurus](https://docusaurus.io/) for writing documentation.
+If you want change documentation in another language, use [Crowdin](https://i18n.boticord.top/).
 
-## Я разработчик библиотеки для вашего API, как мне добавить её в вашу документацию?
+## I'm a developer of library for your API, How I can add it to your documentation?
 
-Чтобы это сделать, создайте форк репозитория, добавьте нужную документацию, используя [форматирование Markdown](https://docusaurus.io/docs/markdown-features) и отправьте pull request в наш репозиторий. 
-Шаблон страницы в документации для библиотеки:
+Create fork of repository, add the required documentation using [Markdown formatting](https://docusaurus.io/docs/markdown-features) and send pull request to our repository. 
+Template for page in documentation in the library:
 
 ```md
 ---
-title: Имя
-description: Описание
-slug: /sdk/имя
+title: Name
+description: Description
+slug: /sdk/name
 ---
 
-<описание библиотеки>
+<library description>
 ```
 
-Форма pull request'а:
+Pull request form:
 
 ```md
-Добавлена информация о библиотеке <название библиотеки>
+Added information about library <library name>
 
-Язык: <язык программирования>
-Библиотека: <название библиотеки>
+Language: <library language>
 
-<описание библиотеки>
+<library description>
 
-Ссылка на репозиторий: <ссылка на репозиторий>
+Repository link: <url>
 
-Ссылка на документацию: <ссылка на документацию>
+Documentation link: <url>
 
-Ссылка на автора: <ссылка на автора>
+Author link: <url>
 ```
 
-## Перевод
+## Translation
 
-Для перевода мы используем [Crowdin](https://crowdin.com/). Если вы хотите помочь с переводом, то перейдите по [ссылке](https://crowdin.com/project/boticord/).
-Изменения файлов в папке `locale` не допускаются.
+We use [Crowdin](https://crowdin.com/) for translation. If you want to help with translation, go to [link]https://crowdin.com/project/boticord/).
+Changes to the files in `locale` directory are not allowed.
