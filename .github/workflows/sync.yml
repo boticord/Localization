@@ -20,7 +20,8 @@ jobs:
          upload_sources: false
          upload_translations: false
          download_translations: true
-#         export_only_approved: true
+         download_language: "en"
+         export_only_approved: true
 
       #   download_translations_args: --export-only-approved
 
