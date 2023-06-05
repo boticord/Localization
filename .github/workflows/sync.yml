@@ -22,6 +22,9 @@ jobs:
          download_translations: true
 #         export_only_approved: true
 
+         download_translations_args: --export-only-approved
+
+
          localization_branch_name: crowdin-stage
          commit_message: 'New Crowdin translations'
 
