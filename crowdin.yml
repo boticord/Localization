@@ -1,6 +1,8 @@
 files:
-  - source: /src/docs/**/ru/**/*
-    translation: /docs/%two_letters_code%/**/%original_file_name%
+  - source: /src/docs/**/ru/*
+    translation: /docs/%two_letters_code%/%original_file_name%
+  - source: /src/docs/**/ru/**/api
+    translation: /docs/%two_letters_code%/api/%original_file_name%
   - source: /src/website/lang.json
     translation: /website/%two_letters_code%.json
 
