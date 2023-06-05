@@ -20,8 +20,11 @@ jobs:
          upload_sources: false
          upload_translations: false
          download_translations: true
-         localization_branch_name: crowdin-stage
+         skip_untranslated_strings: true
+         skip_untranslated_files: true
          export_only_approved: true
+
+         localization_branch_name: crowdin-stage
          commit_message: 'New Crowdin translations'
 
          create_pull_request: true
