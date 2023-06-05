@@ -1,22 +1,22 @@
 ---
 title: Уведомления
-description: Получение уведомлений о любых действиях с ботом на BotiCord
+description: Receiving notifications about any actions with the bot on BotiCord
 ---
 
-# Уведомления
+# Notifications
 
-Получать уведомления о действиях с ботом на BotiCord можно двумя способами: WebSocket и HTTPs WebHooks. Далее про них:
+There are two ways to receive notifications on Boticord: WebSocket and HTTPs WebHooks. More about them:
 
 ## WebSocket
 
-[WebSocket](https://ru.wikipedia.org/wiki/WebSocket) это базовый способ для получения уведомлений о действиях с ботами.
+[WebSockets](https://ru.wikipedia.org/wiki/WebSocket) are a basic way to receive notifications on actions with bots.
 
-### Как подключиться
+### How to connect
 
-Кратко:
+In short:
 
 1. `wss://gateway.boticord.top/websocket/`;
-2. client hello: `{"event":"auth","data":{"token":"token from boticord user settings"}}`;
+2. client hello: `{"event":"auth","data":{"token":"token from user settings"}}`;
 3. server hello: `{"event":"hello","data":{"id":"connection id"}}`;
 4. server notification:
 
@@ -53,72 +53,72 @@ description: Получение уведомлений о любых дейст�
 }
 ```
 
-Подробно:
+In detail:
 
-1. Вашей программе (далее: клиент) необходимо установить соединение по пути `wss://gateway.boticord.top/websocket/`;
-2. Клиент должен отправить сообщение в виде валидного JSON: `{"event":"auth","data":{"token":"..."}}`. В поле `token` необходимо вписать токен, который можно получить в настройках в профиле владельца бота на мониторинге. `https://boticord.top/me` в настройках, чуть ниже, необходимо сгенерировать токен.
-3. После того как клиент отошлёт сообщение серверу, сервер должен ответить: `{"event":"hello","data":{"id":"специальный айди вашего клиента (не бота и не сервер)"}`
-4. Если сервер не ответил или ответил чем-то другим, попробуйте позже или исправьте ошибку, о которой вам сообщил сервер (обычно, указан неверный токен или он вовсе отсутствует)
-5. Сервер будет отправлять уведомления в следующем формате:
+1. Your program (client) needs to instantiate a connection to `wss://gateway.boticord.top/websocket/`;
+2. Client must send a valid JSON message: `{"event":"auth","data":{"token":"..."}}`. Field `token` must contain a token, which you can get in bot's owner settings on website. `https://boticord.top/me` In settings a little bit below you must generate a new token.
+3. After the client send a message to server, server will reply with `{"event":"hello","data":{"id":"your client's special id (not a bot, not a server.)"}`
+4. If server doesn't respond or sends something else, try again later or fix the error reported to you by the server (usually the wrong token or no token was provided at all)
+5. Server will send notifications in the following format:
 
 ```json
 {
   "event": "notify",
   "data": {
-    "type": число, один из типов событий, см. NotifyTypes,
-    "payload": любые дополнительные данные в JSON (например, содержание комментария), или null,
-    "affected": строка, айди ресурса, о котором происходит слбытие, например, айди комментария,
-    "user": строка, айди пользователя, что спровоцировал это уведомление,
-    "happened": число, метка времени UNIX в миллисекундах, когда произошло событие
+    "type": number, one of types of events. (check NotifyTypes),
+    "payload": any additional data in the JSON (such as the content of a comment), or null,
+    "affected": string, id of the resource that the event is about, for example, id of a comment,
+    "user": string, member id of user that triggered the notification,
+    "happened": number, the UNIX timestamp in milliseconds when the event occurred
   }
 }
 ```
 
-#### Как происходят отключения
+#### How do disconnections happen
 
-Если токен в настройках бота на ботикорде был удалён или перегенерирован, сервер оборвёт соединение WebSocket с кодом выхода `1006`. В любых других случаях отключения по желанию сервера не предусмотрены, однако клиент может безопасно отключится в любой момент. Если соединение пропало, ваш клиент должен попытаться подключиться заново, соблюдая глобальный рейт-лимит 15 попыток в 10 сек, до тех пор, пока соединение не установится снова, затем нужно повторить авторизацию.
+If the token in bot's settings was deleted or regenerated, server will teminate the WebSocket connection with the exit code `1006`. In any other situation disconnecting is not performed, however client can be safely disconnected at any time. If connection was lost, your client must try to reconnect until the connection is fixed. You must take the global rate-limit of 15 attempts/10s into consideration. After that you have to repeat authorization.
 
 ## HTTPs WebHooks
 
-Также BotiCord может отправлять вам уведомления по HTTPs, делая запросы POST на указанный вами адрес.
+Also, Boticord can send notifications through HTTPs, by sending POST requests to the address that you have provided.
 
-### Подготовка вашего сервера
+### Preparing your server
 
-Кратко:
+In short:
 
-1. Откройте порт 80 для http или 443 для https, для подсети `2a06:98c0::/29` (AS132892 - Cloudflare, Inc);
-2. Проверьте, работает ли IPV6;
-3. Принимайте POST запросы на указанном в настройках бота на ботикорде (вкладка API) адресе;
-4. Проверяйте правильность запросов с помощью токена из настроек бота, который мы передаём в хеадерах.
+1. Open port 80 for HTTP or 443 for HTTPS, for subnet `2a06:98c0::/29` (AS132892 - Cloudflare, Inc);
+2. Check if IPV6 works;
+3. Receive POST requests at the address specified in bot settings (API tab);
+4. Check the correctness of requests with token from bot's settings, which will be passed in the headers.
 
-Подробно:
+In detail:
 
-1. BotiCord использует [IPV6](https://habr.com/ru/company/droider/blog/568778/) адреса подсети `2a06:98c0::/29` ( AS132892 - Cloudflare, Inc) для отправки уведомлений. Это значит, что любые IPV4 адреса **не подходят**. Вы не сможете получать уведомления если попытаетесь сделать это по прямому IPV4. Это включает в себя, например, ваши пк и IPV4 выданные вашим провайдером для доступа в Интернет, а также, облачные сервера поставляемые с IPV4. Если у вас есть облачный сервер, значит у вас скорее всего есть домен или возможность подключения к брокеру туннелей, и если вы используете Cloudflare для своего домена, просто создайте поддомен или transform rule или выделите отдельный endpoint в вашем API, если оно есть.
-2. Вам необходимо создать сервер, который сможет принимать наши POST запросы и работать 24/7. Также ваш сервер должен отвечать со статусом 200, если всё прошло хорошо. Ваш сервер не должен быть слишком медленным, иначе уведомление не дойдёт. Попытка отправки любого конкретного уведомления с нашей стороны производится ровно 1 раз. Если ваш сервер не смог получить уведомление, оно уйдёт в небытие (только если вы не используете получение уведомлений по WebSocket параллельно, уведомления дублируются и там и там).
-3. Мы добавили настройки дополнительных хеадеров для добавления в наши POST запросы к вашим серверам. Вы можете использовать их, например, чтобы авторизовать наш сервер в [Cloudflare Access](https://www.cloudflare.com/products/zero-trust/access/). Вы можете также установить специальные хеадеры с уникальными значениями, чтобы проверять, что запрос пришёл от нас. По-умолчанию мы рассчитываем, что вы будете проверять правильность запроса по токену, который мы передаём вместе с запросом в хеадере `X-Boticord-Token`.
-4. **Мы не рекомендуем использовать HTTP вместо HTTPS для сервера, который принимает уведомления.** Если вы используете Cloudflare, пожалуйста, убедитесь что соединение между Cloudflare и вашим сервером защищено и проходит через 443 HTTPS. ***Мы передаём токен из настроек бота на BotiCord хеадере `X-Boticord-Token` в качестве подтверждения, что запрос пришёл от нас. ***Этот токен используется не только для уведомлений, но также для изменений вашего бота на BotiCord.****** Отнеситесь серьёзно к обеспечению безопасности.
-5. Необходимо открыть порт 80 для http или 443 для https, для подсети `2a06:98c0::/29`. Вы можете проверять, проходят ли запросы от нас, используя специальную кнопку в настройках. Она будет отсылать POST запрос на указанный адрес с тестовым уведомлением.
-6. Принимайте запросы и проверяйте их правильность с помощью токена из настроек бота на BotiCord, он приходит вместе с уведомлением: хеадеры:
+1. BotiCord uses [IPV6](https://habr.com/ru/company/droider/blog/568778/) addresses of subnet `2a06:98c0::/29` (AS132892 - Cloudflare, Inc) for sending notifications. This means that any IPV4 addresses **do not work**. You will not be able to receive notifications if you try to do so via direct IPV4. This includes, for example, your PC's and IPV4 issued by your ISP, as well the cloud servers provided with IPV4. If you have a cloud server, then you most likely have a domain or the ability to connect to a tunnel broker. In case you use Cloudflare for your domain, just create a subdomain or a transform rule or create an endpoint in your API, if you have it.
+2. You have to create a server which will be able to receive our POST requests and work 24/7. Also, your server must respond with the 200 status code, if the request was processed successfully. Your server must not be slow or the notification will not reach your server. An attempt to send a notification is only made once. If your server was unable to receive a notification, it will not be sent again. Notifications are sent to both WebSocket and webhook.
+3. We have added the ability to add additional headers to our POST requests to your servers. You can use it, for example, to authorize our server in [Cloudflare Access](https://www.cloudflare.com/products/zero-trust/access/). You can also add special headers with unique values to verify that the request was administered by us. By default, we expect you to check the validity of the request, using the token we pass along with the request in `X-Boticord-Token` header.
+4. **We don't recommend using HTTP instead of HTTPS for server, that will receive the notifications.** If you use Cloudflare make sure that the connections between Cloudflare and your server is secure and goes through the 443 port. ***We pass the bot's token in the `X-Boticord-Token` header as a confirmation that the request was administered by us. ***Not only is the token used for receiving notifications, it is also used for changing your bot's settings in BotiCord.****** Take the security of your token seriously.
+5. You must open port 80 for HTTP or 443 for HTTPS, for subnet `2a06:98c0::/29` in order to receive notifications. You can check that whether requests are coming through using the button in the settings. It will send a POST request to the specified address with a test notification.
+6. Receive requests and check their validity with token from bot's settings on BotiCord which comes with the notification:
 
 ```txt
 Content-Type: application/json
-X-Boticord-Token: токен из настроек бота
-X-Boticord-Affected: айди ресурса, о котором происходит событие, например, айди комментария
-...ваши хеадеры
+X-Boticord-Token: bot's token
+X-Boticord-Affected: the identifier of the affected resource
+... your headers
 ```
 
-тело запроса:
+request body:
 
 ```json
 {
-  "type": число, один из типов событий, см. NotifyTypes,
-  "payload": любые дополнительные данные в JSON (например, содержание комментария), или null, или поле отсутствует,
-  "affected": строка, айди ресурса, о котором происходит слбытие, например, айди комментария,
-  "user": строка, айди пользователя, что спровоцировал это уведомление,
-  "happened": число, метка времени UNIX в миллисекундах, когда произошло событие
+  "type": integer, one of events type, see NotifyTypes,
+  "payload": any extra params in JSON (for example, comment content), or null, or property is empty,
+  "affected": string, id of the resource that the event is about, for example, id of comment,
+  "user": id, id of user that triggered the notification,
+  "happened": integer, UNIX timestamp in milliseconds when the event occured
 }
 ```
 
 ## NotifyTypes
 
-Будет добавлено позже.
+TBA
