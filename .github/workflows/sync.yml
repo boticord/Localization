@@ -17,13 +17,10 @@ jobs:
       - name: Sync
         uses: crowdin/github-action@v1
         with:
-         upload_sources: false
-         upload_translations: false
+         upload_sources: true
+         upload_translations: true
          download_translations: true
-#         export_only_approved: true
-
-         download_translations_args: --export-only-approved
-
+         export_only_approved: true
 
          localization_branch_name: crowdin-stage
          commit_message: 'New Crowdin translations'
