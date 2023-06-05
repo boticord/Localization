@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.BOTICORDAC_TOKEN }}
 
       - name: Crowdin sync
         uses: crowdin/github-action@v1
