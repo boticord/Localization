@@ -17,7 +17,7 @@ jobs:
       - name: Sync
         uses: crowdin/github-action@v1
         with:
-         upload_sources: true
+         upload_sources: false
          upload_translations: false
          download_translations: true
          export_only_approved: true

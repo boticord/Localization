@@ -1,12 +1,18 @@
+preserve_hierarchy: true
+
 files:
-  - source: /src/docs/ru/*
+  - source: /src/docs/*
     translation: /docs/%two_letters_code%/%original_file_name%
-  - source: /src/docs/ru/api/*
+    export_only_approved: true
+  - source: /src/docs/api/*
     translation: /docs/%two_letters_code%/api/%original_file_name%
-  - source: /src/docs/ru/sdk/*
+    export_only_approved: true
+  - source: /src/docs/sdk/*
     translation: /docs/%two_letters_code%/sdk/%original_file_name%
+    export_only_approved: true
   - source: /src/website/lang.json
     translation: /website/%two_letters_code%.json
+    export_only_approved: true
 
 project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
