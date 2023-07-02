@@ -1,0 +1,52 @@
+---
+title: botikotlin
+description: Основная документация по библиотеке botikotlin
+slug: /sdk/botikotlin
+---
+
+Простая для использования библиотека, созданная для упрощения взаимодействия с BotiCord API v3
+
+[Репозиторий](https://github.com/MagM1go/botikotlin/)
+[Документация](https://magmigo2.gitbook.io/boticord-kotlin/)
+
+
+# Установка библиотеки
+
+Добавьте в свой build.gradle (или build.gradle.kts, пример под build.gradle.kts)
+
+```gradle
+repositories {
+    maven(url = uri("https://jitpack.io"))
+}
+
+dependencies {
+    implementation("com.github.MagM1go:botikotlin:1.0-beta")
+}
+```
+
+# Использование
+Пример отправки статистики бота:
+
+```kotlin
+fun main(args: Array<String>) {
+    val botID: Long = 0000000000000000
+    val client = BotiCordClient("BOTICORD_TOKEN_HERE")
+
+    client.updateBotStats(botID, BotStats(
+        members = 10000,
+        guilds = 5000,
+        shards = 3
+    ))
+}
+```
+
+Пример получения информации о сервере
+
+```kotlin
+fun main(args: Array<String>) {
+    val serverID: Long = 0000000000000000
+    val client = BotiCordClient("BOTICORD_TOKEN_HERE")
+
+    println(client.getServer(serverID))
+}
+```

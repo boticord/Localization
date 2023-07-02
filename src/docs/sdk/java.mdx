@@ -1,0 +1,69 @@
+---
+title: boticordjava
+description: Основная документация по библиотеке boticordjava
+slug: /sdk/boticordjava
+---
+
+Простая для использования библиотека, созданная для упрощения взаимодействия с BotiCord API v3
+
+[Репозиторий](https://github.com/boticord/boticordjava)
+
+# Установка библиотеки {#install}
+
+Последняя версия: [jitpack.io](https://jitpack.io/#megoRU/boticordjava)
+
+Добавьте в свой pom.xml
+
+```maven
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+  <groupId>com.github.megoRU</groupId>
+  <artifactId>boticordjava</artifactId>
+  <version>v5.2.1</version>
+</dependency>
+```
+
+# Использование {#usage}
+Пример отправки статистики бота:
+
+```java
+    public class Main {
+        public static void main(String[] args) {
+            BotiCordAPI api = new BotiCordAPI.Builder()
+                    .token("eyJhbGciOiJIUzI1NiIsInR5cCI****.")
+                    .build();
+
+            try {
+                BotStats botStats = new BotStats(200, 4, 1);
+                api.setBotStats("974297735559806986", botStats);
+            } catch (UnsuccessfulHttpException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+```
+
+Пример получения информации о сервере
+
+```java
+    public class Main {
+        public static void main(String[] args) {
+            BotiCordAPI api = new BotiCordAPI.Builder()
+                    .token("eyJhbGciOiJIUzI1NiIsInR5cCI****.")
+                    .build();
+
+            try {
+                ServerInfo serverInfo = api.getServerInfo("722424773233213460");
+                System.out.println(serverInfo.getDescription());
+            } catch (UnsuccessfulHttpException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+```

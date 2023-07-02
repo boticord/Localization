@@ -1,5 +1,68 @@
 ---
-title: boticord.py
-description: Основная документация по библиотеке BotiCord.py
-slug: /sdk/boticord.py
+title: boticordpy
+description: Основная документация по библиотеке boticordpy
+slug: /sdk/boticordpy
 ---
+
+Простая для использования библиотека, созданная для упрощения взаимодействия с BotiCord API.
+
+[Репозиторий](https://github.com/boticord/boticordpy)
+[Документация](https://py.boticord.top)
+[PyPi](https://pypi.org/project/boticordpy/)
+
+
+## Установка
+
+Используйте одну из этих команд для установки библиотеки:
+
+```
+pip install boticordpy
+```
+
+```
+python3 -m pip install boticordpy
+```
+
+```
+pip install git+https://github.com/boticord/boticordpy
+```
+
+# Использование
+Автоматическая публикация статистики (discord.py):
+
+```python
+from discord.ext import commands
+from boticordpy import BoticordClient
+
+bot = commands.Bot(command_prefix="!")
+
+
+# Функция, возвращающая статистику бота.
+async def get_stats():
+    return {"guilds": len(bot.guilds), "shards": 0, "members": len(bot.users)}
+
+
+# Функция, вызываемае в случае успешной публикации статистики.
+async def on_success_posting():
+    print("wow stats posting works")
+
+
+boticord_client = BoticordClient(
+    "your_boticord_api_token", version=3
+)  # <--- BotiCord API token
+autopost = (
+    boticord_client.autopost()
+    .init_stats(get_stats)
+    .on_success(on_success_posting)
+    .start("id_of_your_bot")  # <--- ID бота
+)
+
+bot.run("bot token")  # <--- Токен бота
+```
+
+## Нужна помощь?
+
+Если Вам нужна какая-либо помощь, то мы рекомендуем еще раз прочитать [документацию библиотеки](https://py.boticord.top/).
+
+Вы можете найти нас на [сервере поддержки сервиса](https://boticord.top/discord).
+Разработчик библиотеки: [`@Marakarka#0575`](https://boticord.top/profile/585766846268047370)
