@@ -6,15 +6,15 @@ slug: /api
 
 # Построение запросов {#build-req}
 :::info Базовый URL-API:
-https://api.boticord.top
+https://api.boticord.top/
 :::
 
 # Версии API {#versions}
-| Версия   | URL                                                 | Статус         |
-|----------|-----------------------------|---------------|
-| 3         | https://api.boticord.top/v3 | В разработке  |
-| 2               | https://api.boticord.top/v2 | Активно       |
-| 1               | https://api.boticord.top/v1 | Устарело             |
+| Версия | URL                         | Статус   |
+|--------|-----------------------------|----------|
+| 3      | https://api.boticord.top/v3 | Активно  |
+| 2      | https://api.boticord.top/v2 | Устарело |
+| 1      | https://api.boticord.top/v1 | Устарело |
 
 # Авторизация {#auth}
 Большинство API-методов требуют указания API-токена авторизации. Он передаётся в заголовке `Authorization`.
@@ -23,6 +23,10 @@ https://api.boticord.top
 Authorization: Token
 ```
 Где вместо `Token` ваш ключ.
+
+# Обязательные параметры {#required-params}
+В любых POST запросах обязательно должен присутствовать заголовок (header) `Content-Type` со значением `application/json`.
+В ином случае вы получите ошибку 500 UnknownError.
 
 ## Получение API ключа {#key}
 Чтобы получить API ключ:
@@ -36,17 +40,17 @@ Authorization: Token
 :::caution Внимание
 При превышении лимитов, ваши запросы будут временно заблокированы. При злоупотреблении вы можете получить перманентную блокировку к ресурсу.
 :::
-Глобальный лимит: 15 запросов за 10 секунд. Блокировка 10 секунд.
+Глобальный лимит: 25 запросов за 10 секунд. Блокировка 10 секунд.
 
 # Статус коды {#status-code}
-| Код | Описание                                    |
+| Код | Описание                  |
 |-----|---------------------------|
-| 500 | Ошибка сервера (>500)        |
-| 429 | Слишком быстрые запросы    |
-| 404 | Не найдено                                |
-| 403 | Ошибка доступа                        |
+| 500 | Ошибка сервера (>500)     |
+| 429 | Слишком быстрые запросы   |
+| 404 | Не найдено                |
+| 403 | Ошибка доступа            |
 | 401 | Необходимо авторизоваться |
-| 400 | Плохой запрос                            |
+| 400 | Плохой запрос             |
 
 # Виды ответов {#response}
 
@@ -90,40 +94,65 @@ import CodeBlock from '@theme/CodeBlock';
 
 
 ## Таблица ошибок {#errors}
-|    Код    | Имя                                                | Описание                                                                                |
-|-----|-----------------------------|-------------------------------------------------|
-|    0        | UnknownError                            | Неизвестная ошибка                                                            |
-|    1        | InternalServerError            | Ошибка сервера (>500)                                                        |
-|    2        | RateLimited                            | Слишком быстрые запросы                                                    |
-|    3        | NotFound                                    | Не найдено                                                                            |
-|    4        | Forbidden                                | Ошибка доступа                                                                    |
-|    5        | BadRequest                                | Плохой запрос                                                                        |
-|    6        | Unauthorized                            | Необходимо авторизоваться                                                |
-|    7        | RpcError                                    | Ошибка сервера (RPC)                                                        |
-|    8        | WsError                                    | Ошибка сервера (WS)                                                            |
-|    9        | ThirdPartyFail                        | Ошибка стороннего сервиса                                                |
-|    10    | UnknownUser                            | Неизвестный пользователь                                                |
-|    11    | ShortDomainTaken                    | Короткая ссылка уже занята                                            |
-|    12    | UnknownShortDomain                | Неизвестная короткая ссылка                                            |
-|    13    | UnknownLibrary                        | Неизвестная библиотека                                                    |
-|    14    | TokenInvalid                            | Токен недействителен                                                        |
-|    15    | UnknownResource                    | Неизвестный ресурс                                                            |
-|    16    | UnknownTag                                | Неизвестный тег                                                                    |
-|    17    | PermissionDenied                    | Недостаточно прав                                                                |
-|    18    | UnknownComment                        | Неизвестный комментарий                                                    |
-|    19    | UnknownBot                                | Неизвестный бот                                                                    |
-|    20    | UnknownServer                        | Неизвестный сервер                                                            |
-|    21    | UnknownBadge                            | Неизвестный значок                                                            |
-|    22    | UserAlreadyHasABadge            | Пользователь уже имеет значок                                        |
-|    23    | InvalidInviteCode                | Неверный код приглашения                                                |
-|    24    | ServerAlreadyExists            | Сервер уже существует                                                        |
-|    25    | BotNotPresentOnQueueServer  | Бот отсутствует на служебном сервере                        |
-|    26    | UnknownUp                            | Неизвестный ап                                                                    |
-|    27    | TooManyUps                                | Слишком много апов                                                            |
-|    28    | InvalidStatus                        | Неверный статус ресурса                                                    |
-|    29    | UnknownReport                        | Неизвестный репорт                                                            |
-|    30    | UnsupportedMediaType            | Неверный формат файла, должен быть один из            |
-|   31  | UnknownApplication                | Неизвестное приложение                                                    |
-|    32    | AutomatedRequestsNotAllowed | Система приняла вас за робота    |
+| Код | Имя                             | Описание                                                                            |
+|-----|---------------------------------|-------------------------------------------------------------------------------------|
+| 0   | UnknownError                    | Неизвестная ошибка                                                                  |
+| 1   | InternalServerError             | Ошибка сервера (>500)                                                               |
+| 2   | RateLimited                     | Слишком быстрые запросы                                                             |
+| 3   | NotFound                        | Не найдено                                                                          |
+| 4   | Forbidden                       | Ошибка доступа                                                                      |
+| 5   | BadRequest                      | Плохой запрос                                                                       |
+| 6   | Unauthorized                    | Необходимо авторизоваться                                                           |
+| 7   | RpcError                        | Ошибка сервера (RPC)                                                                |
+| 8   | WsError                         | Ошибка сервера (WS)                                                                 |
+| 9   | ThirdPartyFail                  | Ошибка стороннего сервиса                                                           |
+| 10  | UnknownUser                     | Неизвестный пользователь                                                            |
+| 11  | ShortDomainTaken                | Короткая ссылка уже занята                                                          |
+| 12  | UnknownShortDomain              | Неизвестная короткая ссылка                                                         |
+| 13  | UnknownLibrary                  | Неизвестная библиотека                                                              |
+| 14  | TokenInvalid                    | Токен недействителен                                                                |
+| 15  | UnknownResource                 | Неизвестный ресурс                                                                  |
+| 16  | UnknownTag                      | Неизвестный тег                                                                     |
+| 17  | PermissionDenied                | Недостаточно прав                                                                   |
+| 18  | UnknownComment                  | Неизвестный комментарий                                                             |
+| 19  | UnknownBot                      | Неизвестный бот                                                                     |
+| 20  | UnknownServer                   | Неизвестный сервер                                                                  |
+| 21  | UnknownBadge                    | Неизвестный значок                                                                  |
+| 22  | UserAlreadyHasABadge            | Пользователь уже имеет значок                                                       |
+| 23  | InvalidInviteCode               | Неверный код приглашения                                                            |
+| 24  | ServerAlreadyExists             | Сервер уже существует                                                               |
+| 25  | BotNotPresentOnQueueServer      | Бот отсутствует на служебном сервере                                                |
+| 26  | UnknownUp                       | Неизвестный ап                                                                      |
+| 27  | TooManyUps                      | Слишком много апов                                                                  |
+| 28  | InvalidStatus                   | Неверный статус ресурса                                                             |
+| 29  | UnknownReport                   | Неизвестный репорт                                                                  |
+| 30  | UnsupportedMediaType            | Неверный формат файла, должен быть один из                                          |
+| 31  | UnknownApplication              | Неизвестное приложение                                                              |
+| 32  | AutomatedRequestsNotAllowed     | Система приняла вас за робота                                                       |
+| 33  | InvalidRating                   | Неверный рейтинг                                                                    |
+| 34  | DuplicateBot                    | Бот уже существует                                                                  |
+| 35  | CannotDetectIp                  | Не удалось определить ваш IP                                                        |
+| 36  | ThirdPartyMonitoringFail        | Ошибка стороннего мониторинга                                                       |
+| 37  | ThirdPartyMonitoringNotApproved | Сторонний мониторинг не подтвердил ваше приложение                                  |
+| 38  | TurnstileError                  | Ошибка капчи                                                                        |
+| 39  | ServiceConfiguredIncorrectly    | Сервис настроен неправильно. Обратитесь в поддержку                                 |
+| 40  | UnknownBoost                    | Неизвестный буст                                                                    |
+| 41  | BoostExpired                    | Буст истёк                                                                          |
+| 42  | AlreadyCommented                | Нельзя оставить отзыв дважды                                                        |
+| 43  | ReviewRatingsConflict           | Конфликт сервера с сервером в расчёте рейтинга. Слишком высокий рейтинг отзыва в бд |
+| 44  | TooManyConsecutiveMessages      | Слишком много сообщений подряд                                                      |
+| 45  | NoServiceBot                    | Сервисный бот не приглашён                                                          |
+| 46  | AlreadyReported                 | Вы уже отправили репорт                                                             |
+| 47  | CannotDeleteOwner               | Нельзя удалить владельца                                                            |
+| 48  | BlockedBot                      | Бот заблокирован                                                                    |
+| 49  | UnknownAutomation               | Неизвестный токен автоматизации                                                     |
+| 50  | OnlyOwnerCanAddServer           | Временно только владелец может добавить сервер                                      |
+| 51  | ReviewReported                  | Неразрешённая жалоба на отзыв                                                       |
+| 52  | LowPremiumLevel                 | Низкий уровень бустов                                                               |
+| 53  | CaptchaServiceUnavailable       | Сервис капчи недоступен                                                             |
+| 54  | InvalidCaptchaAnswer            | Неверный ответ на капчу                                                             |
+| 55  | ResourceNotOwned                | Ресурс не принадлежит владельцу токена                                              |
+| 56  | ResourceFetchTimeout            | КД обновления кеша для ресурса                                                      |
+| 57  | CannotFetchOwner                | Не удалось получить владельца                                                       |
 
 
