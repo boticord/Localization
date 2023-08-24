@@ -4,23 +4,3439 @@
       "success": {
         "message": "Вы успешно вошли в аккаунт!",
         "crowdinContext": "Уведомление в попапе при успешном входе"
+      }
+    }
+  },
+  "app": {
+    "heading": {
+      "message": "Ничего не видно",
+      "crowdinContext": "TODO"
+    },
+    "caption": {
+      "message": "Что-то пошло не так. Давайте попробуем обновить страницу.<br>Если это не помогает, обратитесь на сервер поддержки.",
+      "crowdinContext": "TODO"
+    },
+    "buttons": {
+      "refresh": {
+        "message": "Обновить",
+        "crowdinContext": "TODO"
       },
-      "error": {
-        "message": "Ошибка входа: {error}",
-        "crowdinContext": "TODO",
-        "default": {
-          "message": "Попробуйте ещё раз.",
+      "support-server": {
+        "message": "Сервер поддержки",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "filters": {
+    "popular": {
+      "message": "Популярные",
+      "crowdinContext": "TODO"
+    },
+    "rating": {
+      "message": "Оценки",
+      "crowdinContext": "TODO"
+    },
+    "new": {
+      "message": "Новые",
+      "crowdinContext": "TODO"
+    },
+    "big": {
+      "message": "Крупные",
+      "crowdinContext": "TODO"
+    }
+  },
+  "tabs": {
+    "bots": {
+      "message": "Боты",
+      "crowdinContext": "TODO"
+    },
+    "servers": {
+      "message": "Сервера",
+      "crowdinContext": "TODO"
+    }
+  },
+  "tags": {
+    "bots": {
+      "moderation": {
+        "message": "Модерация",
+        "crowdinContext": "TODO"
+      },
+      "combine": {
+        "message": "Комбайн",
+        "crowdinContext": "TODO"
+      },
+      "utils": {
+        "message": "Утилиты",
+        "crowdinContext": "TODO"
+      },
+      "fun": {
+        "message": "Фан",
+        "crowdinContext": "TODO"
+      },
+      "music": {
+        "message": "Музыка",
+        "crowdinContext": "TODO"
+      },
+      "economy": {
+        "message": "Экономика",
+        "crowdinContext": "TODO"
+      },
+      "logs": {
+        "message": "Логи",
+        "crowdinContext": "TODO"
+      },
+      "levels": {
+        "message": "Уровни",
+        "crowdinContext": "TODO"
+      },
+      "nsfw": {
+        "message": "18+",
+        "crowdinContext": "TODO"
+      },
+      "setting": {
+        "message": "Настройка",
+        "crowdinContext": "TODO"
+      },
+      "role-play": {
+        "message": "Role-Play",
+        "crowdinContext": "TODO"
+      },
+      "memes": {
+        "message": "Мемы",
+        "crowdinContext": "TODO"
+      },
+      "games": {
+        "message": "Игры",
+        "crowdinContext": "TODO"
+      },
+      "ai": {
+        "message": "AI",
+        "crowdinContext": "TODO"
+      }
+    },
+    "servers": {
+      "communication": {
+        "message": "Общение",
+        "crowdinContext": "TODO"
+      },
+      "fun": {
+        "message": "Фан",
+        "crowdinContext": "TODO"
+      },
+      "games": {
+        "message": "Игры",
+        "crowdinContext": "TODO"
+      },
+      "movie": {
+        "message": "Кино",
+        "crowdinContext": "TODO"
+      },
+      "anime": {
+        "message": "Аниме",
+        "crowdinContext": "TODO"
+      },
+      "art": {
+        "message": "Искусство",
+        "crowdinContext": "TODO"
+      },
+      "coding": {
+        "message": "Кодинг",
+        "crowdinContext": "TODO"
+      },
+      "music": {
+        "message": "Музыка",
+        "crowdinContext": "TODO"
+      },
+      "nsfw": {
+        "message": "18+",
+        "crowdinContext": "TODO"
+      },
+      "role-play": {
+        "message": "Role-Play",
+        "crowdinContext": "TODO"
+      },
+      "humor": {
+        "message": "Юмор",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "admin": {
+    "headline": {
+      "title": {
+        "message": "Админка",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Инструменты персонала для управления сайтом",
+        "crowdinContext": "TODO"
+      }
+    },
+    "tabs": {
+      "queue": {
+        "message": "Очередь ботов",
+        "crowdinContext": "TODO"
+      },
+      "reports": {
+        "message": "Репорты",
+        "crowdinContext": "TODO"
+      },
+      "billing": {
+        "message": "Биллинг",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "profile": {
+    "original": {
+      "message": "Профиль",
+      "crowdinContext": "TODO"
+    },
+    "settings": {
+      "title": {
+        "message": "Настройки профиля",
+        "crowdinContext": "TODO"
+      },
+      "notify": {
+        "success": {
+          "message": "Успешно!",
+          "crowdinContext": "TODO",
+          "save": {
+            "message": "Профиль успешно сохранён",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "preview": {
+      "message": "Так профиль будут видеть другие пользователи",
+      "crowdinContext": "TODO"
+    },
+    "buttons": {
+      "save": {
+        "message": "Сохранить",
+        "crowdinContext": "TODO"
+      },
+      "back": {
+        "message": "Назад",
+        "crowdinContext": "TODO"
+      },
+      "accessibility-label": {
+        "vk": {
+          "message": "ВКонтакте",
+          "crowdinContext": "TODO"
+        },
+        "telegram": {
+          "message": "Telegram",
+          "crowdinContext": "TODO"
+        },
+        "git": {
+          "message": "Git-сервис",
+          "crowdinContext": "TODO"
+        },
+        "donate": {
+          "message": "Донат",
+          "crowdinContext": "TODO"
+        },
+        "website": {
+          "message": "Личный сайт",
+          "crowdinContext": "TODO"
+        },
+        "edit": {
+          "message": "Редактировать",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "status": {
+      "message": "Классный статус",
+      "crowdinContext": "TODO"
+    },
+    "about-me": {
+      "heading": {
+        "message": "О себе",
+        "crowdinContext": "TODO"
+      },
+      "empty": {
+        "message": "Пользователь ещё ничего не написал о себе",
+        "crowdinContext": "TODO"
+      }
+    },
+    "projects": {
+      "heading": {
+        "message": "Проекты",
+        "crowdinContext": "TODO"
+      },
+      "empty": {
+        "message": "У пользователя пока нет проектов на сайте",
+        "crowdinContext": "TODO"
+      },
+      "bots": {
+        "heading": {
+          "message": "Боты",
+          "crowdinContext": "TODO"
+        },
+        "on-review": {
+          "message": "Боты на проверке",
+          "crowdinContext": "TODO"
+        }
+      },
+      "servers": {
+        "heading": {
+          "message": "Серверы",
           "crowdinContext": "TODO"
         }
       }
     }
   },
+  "header": {
+    "dropdown": {
+      "profile": {
+        "message": "Профиль",
+        "crowdinContext": "TODO"
+      },
+      "admin": {
+        "message": "Админка",
+        "crowdinContext": "TODO"
+      },
+      "exit": {
+        "message": "Выход",
+        "crowdinContext": "TODO"
+      }
+    },
+    "add": {
+      "message": "Добавить",
+      "crowdinContext": "TODO",
+      "bot": {
+        "message": "Добавить бота",
+        "crowdinContext": "TODO"
+      },
+      "server": {
+        "message": "Добавить сервер",
+        "crowdinContext": "TODO"
+      }
+    },
+    "partners": {
+      "message": "Партнёры",
+      "crowdinContext": "TODO"
+    },
+    "support": {
+      "message": "Поддержка",
+      "crowdinContext": "TODO"
+    },
+    "boosts": {
+      "message": "Бусты",
+      "crowdinContext": "TODO"
+    },
+    "login": {
+      "message": "Войти",
+      "crowdinContext": "TODO",
+      "unavailable": {
+        "message": "Вход недоступен",
+        "crowdinContext": "TODO"
+      }
+    },
+    "admin": {
+      "message": "Админка",
+      "crowdinContext": "TODO"
+    },
+    "exit": {
+      "message": "Выход",
+      "crowdinContext": "TODO"
+    },
+    "menu": {
+      "aria-label": {
+        "message": "Меню",
+        "crowdinContext": "TODO"
+      },
+      "bar": {
+        "aria-label": {
+          "message": "Выход",
+          "crowdinContext": "TODO"
+        },
+        "profile": {
+          "aria-label": {
+            "message": "Меню профиля",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    }
+  },
+  "bot": {
+    "adding": {
+      "headline": {
+        "title": {
+          "message": "Добавить бота",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Добавление нового бота на мониторинг",
+          "crowdinContext": "TODO"
+        },
+        "unlogged": {
+          "message": "Для добавления бота на мониторинг вам необходимо войти в аккаунт",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "pending-controls": {
+      "name": {
+        "message": "Бот",
+        "crowdinContext": "TODO"
+      },
+      "new-message": {
+        "message": "Ожидает ответа",
+        "crowdinContext": "TODO"
+      }
+    },
+    "buttons": {
+      "boost": {
+        "message": "Буст",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "server": {
+    "adding": {
+      "headline": {
+        "title": {
+          "message": "Добавить сервер",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Добавление нового сервера на мониторинг",
+          "crowdinContext": "TODO"
+        },
+        "unlogged": {
+          "message": "Для добавления сервера на мониторинг вам необходимо войти в аккаунт",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "buttons": {
+      "boost": {
+        "message": "Буст",
+        "crowdinContext": "TODO"
+      }
+    },
+    "boost": {
+      "info-label": {
+        "one": {
+          "message": "Буст:",
+          "crowdinContext": "TODO"
+        },
+        "two": {
+          "message": "уровень",
+          "crowdinContext": "TODO"
+        }
+      }
+    }
+  },
+  "components": {
+    "loader": {
+      "skeleton": {
+        "message": "Загрузка...",
+        "crowdinContext": "TODO"
+      }
+    },
+    "interface": {
+      "media-uploader": {
+        "title": {
+          "message": "Перетащите или <label :for=\"identify\" class=\"media-uploader__system\">выберите изображение</label>",
+          "crowdinContext": "TODO"
+        }
+      },
+      "image-viewer": {
+        "original": {
+          "message": "Открыть оригинал",
+          "crowdinContext": "TODO"
+        }
+      },
+      "disclosure": {
+       "buttons": {
+         "aria-label": {
+           "message": "Закрыть/открыть",
+           "crowdinContext": "TODO"
+         }
+       }
+      }
+    },
+    "settings": {
+      "personalization": {
+        "custom-invite": {
+          "title": {
+            "message": "Кастомный инвайт",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "message": "Инвайт, использующий ваш сайт, например для аналитики. Будет расположен в кнопке \"пригласить\"",
+            "crowdinContext": "TODO"
+          }
+        },
+        "media": {
+          "selected": {
+            "message": "Выбрано: ",
+            "crowdinContext": "TODO"
+          },
+          "size": {
+            "message": "Размер: ",
+            "crowdinContext": "TODO"
+          },
+          "unsupported": {
+            "message": "(неподдерживаемый формат)",
+            "crowdinContext": "TODO"
+          },
+          "big": {
+            "message": "(слишком большой)",
+            "crowdinContext": "TODO"
+          },
+          "big-and-unsupported": {
+            "message": "(слишком большой и неподдерживаемый формат)",
+            "crowdinContext": "TODO"
+          }
+        },
+        "unique-invite": {
+          "title": {
+            "message": "Уникальная ссылка",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "message": "Читабельная ссылка на профиль бота",
+            "crowdinContext": "TODO"
+          }
+        },
+        "server": {
+          "tab": {
+            "standard-banner": {
+              "title": {
+                "message": "Приоритизировать стандартный баннер",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Показывать стандартный баннер вместо баннера из Discord. Полезно, когда баннер в Discord часто обновляется",
+                "crowdinContext": "TODO"
+              }
+            },
+            "custom-invite": {
+              "title": {
+                "message": "Кастомный инвайт",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Инвайт, использующий ваш сайт, например для аналитики. Будет расположен в кнопке \"вступить\"",
+                "crowdinContext": "TODO"
+              }
+            },
+            "personal-banner": {
+              "title": {
+                "message": "Персональный баннер",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Баннер для карточки сервера на главной странице",
+                "crowdinContext": "TODO"
+              }
+            },
+            "custom-background": {
+              "title": {
+                "message": "Пользовательский фон",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Фон для страницы профиля сервера",
+                "crowdinContext": "TODO"
+              }
+            },
+            "unique-link": {
+              "title": {
+                "message": "Уникальная ссылка",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Читабельная ссылка на профиль сервера",
+                "crowdinContext": "TODO"
+              }
+            }
+          }
+        }
+      },
+      "profile": {
+        "tab": {
+          "general": {
+            "heading": {
+              "message": "Основные",
+              "crowdinContext": "TODO"
+            },
+            "links": {
+              "title": {
+                "message": "Ссылки",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Здесь можно указать ваши социальные сети",
+                "crowdinContext": "TODO"
+              },
+              "accessibility-label": {
+                "vk": {
+                  "message": "Ссылка на ВКонтакте",
+                  "crowdinContext": "TODO"
+                },
+                "telegram": {
+                  "message": "Ссылка на Telegram",
+                  "crowdinContext": "TODO"
+                },
+                "git": {
+                  "message": "Ссылка на Git",
+                  "crowdinContext": "TODO"
+                },
+                "donate": {
+                  "message": "Ссылка на донат",
+                  "crowdinContext": "TODO"
+                },
+                "website": {
+                  "message": "Ссылка на личный сайт",
+                  "crowdinContext": "TODO"
+                }
+              }
+            },
+            "website": {
+              "placeholder": {
+                "message": "Личный сайт",
+                "crowdinContext": "TODO"
+              }
+            },
+            "status": {
+              "title": {
+                "message": "Статус",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Короткая фраза, значащая многое для вас",
+                "crowdinContext": "TODO"
+              },
+              "placeholder": {
+                "message": "Мега крутой пользователь \uD83D\uDE0E",
+                "crowdinContext": "TODO"
+              }
+            },
+            "about-me": {
+              "title": {
+                "message": "О себе",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Описание вашего профиля",
+                "crowdinContext": "TODO"
+              },
+              "placeholder": {
+                "message": "Напишите что-нибудь о себе... (Поддерживаются Markdown и HTML)",
+                "crowdinContext": "TODO"
+              }
+            }
+          },
+          "api": {
+            "heading": {
+              "message": "Настройки API",
+              "crowdinContext": "TODO"
+            },
+            "title": {
+              "message": "API-токен",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Чтобы получать уведомления делать запросы к API, необходимо создать токен",
+              "crowdinContext": "TODO"
+            },
+            "buttons": {
+              "reset": {
+                "message": "Сбросить",
+                "crowdinContext": "TODO"
+              },
+              "create": {
+                "message": "Создать",
+                "crowdinContext": "TODO"
+              },
+              "remove": {
+                "accessibility-label": {
+                  "message": "Удалить",
+                  "crowdinContext": "TODO"
+                }
+              }
+            },
+            "token": {
+              "heading": {
+                "message": "Сброс токена",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Вы действительно хотите сбросить токен?",
+                "crowdinContext": "TODO"
+              },
+              "generate": {
+                "message": "Токен не создан. Для создания нового токена нажмите на кнопку «Создать».",
+                "crowdinContext": "TODO"
+              },
+              "notify": {
+                "success": {
+                  "copy": {
+                    "message": "Токен успешно скопирован!",
+                    "crowdinContext": "TODO"
+                  },
+                  "generate": {
+                    "message": "Токен успешно создан",
+                    "crowdinContext": "TODO"
+                  },
+                  "delete": {
+                    "message": "Токен успешно удалён",
+                    "crowdinContext": "TODO"
+                  }
+                }
+              },
+              "buttons": {
+                "aria-label": {
+                  "message": "Закрыть окно",
+                  "crowdinContext": "TODO"
+                },
+                "cancel": {
+                  "message": "Отменить",
+                  "crowdinContext": "TODO"
+                },
+                "reset": {
+                  "message": "Сбросить",
+                  "crowdinContext": "TODO"
+                }
+              }
+            },
+            "alerts": {
+              "title": {
+                "message": "Включить отправку уведомлений по HTTP",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Если выключено, уведомления можно будет получать по WebSocket",
+                "crowdinContext": "TODO"
+              }
+            },
+            "webhook": {
+              "title": {
+                "message": "Введите ссылку на Webhook",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "На указанный URL будут приходить уведомления",
+                "crowdinContext": "TODO"
+              },
+              "placeholder": {
+                "message": "Введите URL",
+                "crowdinContext": "TODO"
+              }
+            },
+            "headings": {
+              "title": {
+                "message": "Заголовки",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Заголовки запроса, которые вы можете установить для подтверждения уведомлений",
+                "crowdinContext": "TODO"
+              },
+              "key": {
+                "accessibility-label": {
+                  "message": "Ключ заголовка",
+                  "crowdinContext": "TODO"
+                },
+                "placeholder": {
+                  "message": "Ключ",
+                  "crowdinContext": "TODO"
+                }
+              },
+              "value": {
+                "accessibility-label": {
+                  "message": "Значение заголовка",
+                  "crowdinContext": "TODO"
+                },
+                "placeholder": {
+                  "message": "Значение",
+                  "crowdinContext": "TODO"
+                }
+              },
+              "announcement": {
+                "caption": {
+                  "one": {
+                    "message": "Нажмите на",
+                    "crowdinContext": "TODO"
+                  },
+                  "two": {
+                    "message": "чтобы добавить",
+                    "crowdinContext": "TODO"
+                  },
+                  "three": {
+                    "message": "ещё один",
+                    "crowdinContext": "TODO"
+                  },
+                  "four": {
+                    "message": "заголовок",
+                    "crowdinContext": "TODO"
+                  },
+                  "five": {
+                    "message": "Нельзя добавить больше 10 заголовков",
+                    "crowdinContext": "TODO"
+                  }
+                }
+              }
+            },
+            "test": {
+              "title": {
+                "message": "Тестовое сообщение",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Какое-то сообщение",
+                "crowdinContext": "TODO"
+              },
+              "buttons": {
+                "send": {
+                  "message": "Отправить",
+                  "crowdinContext": "TODO"
+                }
+              }
+            }
+          },
+          "billing": {
+            "heading": {
+              "message": "Бусты",
+              "crowdinContext": "TODO"
+            },
+            "title": {
+              "message": "Бустов: {max} <span class=\"boost-activated__muted\">(Не использовано: {unused})</span>",
+              "crowdinContext": "TODO"
+            },
+            "write-off": {
+              "message": "Следующее списание",
+              "crowdinContext": "TODO"
+            },
+            "valid-until": {
+              "message": "Действует до:",
+              "crowdinContext": "TODO"
+            },
+            "resource": {
+              "list": {
+                "title": {
+                  "message": "Список ресурсов с бустом",
+                  "crowdinContext": "TODO"
+                },
+                "description": {
+                  "one": {
+                    "message": "Список серверов и ботов, которым вы дали буст",
+                    "crowdinContext": "TODO"
+                  },
+                  "two": {
+                    "message": "Здесь будет список ботов и серверов, которым вы дали буст. Чтобы выдать буст, перейдите на страничку нужного бота/сервера",
+                    "crowdinContext": "TODO"
+                  },
+                  "three": {
+                    "message": "активно",
+                    "crowdinContext": "TODO"
+                  }
+                }
+              }
+            },
+            "buttons": {
+              "go": {
+                "message": "Перейти",
+                "crowdinContext": "TODO"
+              }
+            },
+            "notify": {
+              "success": {
+                "renewed": {
+                  "message": "Подписка возобновлена!",
+                  "crowdinContext": "TODO"
+                },
+                "canceled": {
+                  "message": "Подписка отменена!",
+                  "crowdinContext": "TODO"
+                },
+                "add": {
+                  "card": {
+                    "message": "Успешно привязано!",
+                    "crowdinContext": "TODO"
+                  }
+                },
+                "remove": {
+                  "card": {
+                    "message": "Способ оплаты успешно удален",
+                    "crowdinContext": "TODO"
+                  }
+                }
+              },
+              "remove": {
+                "card": {
+                  "message": "Удаляем привязанный способ оплаты...",
+                  "crowdinContext": "TODO"
+                }
+              }
+            },
+            "pay-window": {
+              "description": {
+                "one": {
+                  "message": "Привязка платёжного средства",
+                  "crowdinContext": "TODO"
+                },
+                "two": {
+                  "message": "для",
+                  "crowdinContext": "TODO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "dialog": {
+        "deleting": {
+          "heading": {
+            "message": "Вы уверены?",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "one": {
+              "message": "Данное действие необратимо удалит {msg} оценки и апы.",
+              "crowdinContext": "TODO"
+            },
+            "two": {
+              "message": "Напишите ",
+              "crowdinContext": "TODO"
+            },
+            "three": {
+              "message": "для подтверждения",
+              "crowdinContext": "TODO"
+            }
+          },
+          "bot": {
+            "message": "вашего бота",
+            "crowdinContext": "TODO"
+          },
+          "server": {
+            "message": "ваш сервер",
+            "crowdinContext": "TODO"
+          },
+          "text-input": {
+            "accessibility-label": {
+              "message": "Напишите название ",
+              "crowdinContext": "TODO"
+            }
+          },
+          "buttons": {
+            "delete": {
+              "message": "Удалить",
+              "crowdinContext": "TODO"
+            },
+            "cancel": {
+              "message": "Отменить",
+              "crowdinContext": "TODO"
+            },
+            "aria-label": {
+              "message": "Закрыть окно",
+              "crowdinContext": "TODO"
+            }
+          },
+          "notify": {
+            "success": {
+              "bot": {
+                "delete": {
+                  "message": "Бот успешно удалён",
+                  "crowdinContext": "TODO"
+                }
+              },
+              "server": {
+                "delete": {
+                  "message": "Сервер успешно удалён",
+                  "crowdinContext": "TODO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "main": {
+      "card": {
+        "tags": {
+          "message": "+ещё",
+          "crowdinContext": "TODO",
+          "unknown": {
+            "message": "Неизвестный тег",
+            "crowdinContext": "TODO"
+          }
+        },
+        "action-label": {
+          "join": {
+            "message": "Вступить",
+            "crowdinContext": "TODO"
+          },
+          "invite": {
+            "message": "Пригласить",
+            "crowdinContext": "TODO"
+          }
+        },
+        "bot": {
+          "message": "Робот",
+          "crowdinContext": "TODO"
+        },
+        "server": {
+          "message": "Сервер",
+          "crowdinContext": "TODO"
+        }
+      },
+      "filters": {
+        "list-label": {
+          "message": "Сортировать по",
+          "crowdinContext": "TODO"
+        }
+      },
+      "need-update-dialog": {
+        "heading": {
+          "message": "Доступно обновление!",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Для корректной работы сайта необходимо обновиться до последней версии",
+          "crowdinContext": "TODO"
+        },
+        "buttons": {
+          "cancel": {
+            "message": "Отменить",
+            "crowdinContext": "TODO"
+          },
+          "refresh": {
+            "message": "Обновить",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "search": {
+        "entry": {
+          "placeholder": {
+            "servers": {
+              "message": "Поиск серверов...",
+              "crowdinContext": "TODO"
+            },
+            "bots": {
+              "message": "Поиск ботов...",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "result": {
+          "not-found": {
+            "message": "Не удалось найти ни одного результата для",
+            "crowdinContext": "TODO"
+          },
+          "recommendation": {
+            "message": "Рекомендации:",
+            "crowdinContext": "TODO"
+          },
+          "list": {
+            "one": {
+              "message": "Если у вас есть применённые фильтры, попробуйте сбросить их.",
+              "crowdinContext": "TODO"
+            },
+            "two": {
+              "message": "Если вы искали {msg} переключитесь на другую вкладку.",
+              "crowdinContext": "TODO"
+            },
+            "three": {
+              "message": "Попробуйте задать другой запрос.",
+              "crowdinContext": "TODO"
+            },
+            "four": {
+              "message": "Попробуйте обновить страницу и выполнить поиск ещё раз.",
+              "crowdinContext": "TODO"
+            },
+            "five": {
+              "message": "Проверьте подключение к интернету.",
+              "crowdinContext": "TODO"
+            },
+            "six": {
+              "message": "Если проблема повторяется, обратитесь на <a href=\"https://discord.com/invite/hkHjW8a\">сервер поддержки</a>.",
+              "crowdinContext": "TODO"
+            }
+          },
+          "pagination": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "forward": {
+              "message": "Вперёд",
+              "crowdinContext": "TODO"
+            }
+          },
+          "bots": {
+            "message": "Если вы искали ботов, переключитесь на другую вкладку",
+            "crowdinContext": "TODO"
+          },
+          "servers": {
+            "message": "Если вы искали сервера, переключитесь на другую вкладку",
+            "crowdinContext": "TODO"
+          }
+        },
+        "tags": {
+          "less": {
+            "message": "Меньше тегов",
+            "crowdinContext": "TODO"
+          },
+          "more": {
+            "message": "Больше тегов",
+            "crowdinContext": "TODO"
+          },
+          "clear": {
+            "message": "Очистить",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "boost": {
+      "add": {
+        "dropdown": {
+          "title": {
+            "message": "Добавление бустов",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "message": "Какое количество бустов вы хотите добавить?",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "add": {
+              "message": "Добавить",
+              "crowdinContext": "TODO"
+            }
+          }
+        }
+      },
+      "remove": {
+        "dropdown": {
+          "title": {
+            "message": "Снятие бустов",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "message": "Какое количество бустов вы хотите снять?",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "remove": {
+              "message": "Снять",
+              "crowdinContext": "TODO"
+            }
+          }
+        }
+      },
+      "lock": {
+        "message": "Необходим буст {lvl} уровня",
+        "crowdinContext": "TODO"
+      },
+      "dialog": {
+        "heading": {
+          "message": "Покупка бустов",
+          "crowdinContext": "TODO"
+        },
+        "purchase-head": {
+          "message": "Выберите количество бустов для покупки. Один буст равен одному уровню. Вы можете дать буст любому боту/серверу на мониторинге",
+          "crowdinContext": "TODO"
+        },
+        "dialog": {
+          "heading": {
+            "message": "Покупка бустов",
+            "crowdinContext": "TODO"
+          },
+          "purchase-head": {
+            "message": "Выберите количество бустов для покупки. Один буст равен одному уровню. Вы можете дать буст любому боту/серверу на мониторинге",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "cancel": {
+              "message": "Отменить",
+              "crowdinContext": "TODO"
+            },
+            "continue": {
+              "message": "Продолжить",
+              "crowdinContext": "TODO"
+            },
+            "aria-label": {
+              "message": "Закрыть окно",
+              "crowdinContext": "TODO"
+            }
+          },
+          "period": {
+            "message": "мес",
+            "crowdinContext": "TODO"
+          },
+          "plural": {
+            "message": "Нет бустов | буст | буста | бустов",
+            "crowdinContext": "TODO"
+          },
+          "pay-window": {
+            "description": {
+              "message": "для",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "buttons": {
+          "cancel": {
+            "message": "Отменить",
+            "crowdinContext": "TODO"
+          },
+          "continue": {
+            "message": "Продолжить",
+            "crowdinContext": "TODO"
+          },
+          "aria-label": {
+            "message": "Закрыть окно",
+            "crowdinContext": "TODO"
+          }
+        },
+        "period": {
+          "message": "мес",
+          "crowdinContext": "TODO"
+        },
+        "plural": {
+          "message": "бустов | буст | буста | бустов",
+          "crowdinContext": "TODO"
+        },
+        "pay-window": {
+          "description": {
+            "message": "для",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "buttons": {
+        "decrease": {
+          "message": "Уменьшить количество",
+          "crowdinContext": "TODO"
+        },
+        "increase": {
+          "message": "Увеличить количество",
+          "crowdinContext": "TODO"
+        },
+        "buy": {
+          "message": "Приобрести",
+          "crowdinContext": "TODO"
+        }
+      },
+      "input": {
+        "aria-label": {
+          "message": "Количество бустов",
+          "crowdinContext": "TODO"
+        }
+      },
+      "notify": {
+        "buy": {
+          "success": {
+            "message": "Бусты успешно приобретены",
+            "crowdinContext": "TODO"
+          }
+        },
+        "add": {
+          "success": {
+            "message": "Бусты успешно добавлены",
+            "crowdinContext": "TODO"
+          }
+        },
+        "remove": {
+          "success": {
+            "message": "Бусты успешно убраны",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "layout": {
+      "footer": {
+        "header": {
+          "sections": {
+            "message": "Разделы",
+            "crowdinContext": "TODO"
+          },
+          "information": {
+            "message": "Информация",
+            "crowdinContext": "TODO"
+          }
+        },
+        "announcement": {
+          "message": "Мы не являемся аффилированным<br>лицом компании Discord Inc.",
+          "crowdinContext": "TODO"
+        },
+        "support": {
+          "message": "Помощь",
+          "crowdinContext": "TODO"
+        },
+        "partners": {
+          "message": "Партнеры проекта",
+          "crowdinContext": "TODO"
+        },
+        "contacts": {
+          "message": "Обратная связь",
+          "crowdinContext": "TODO"
+        },
+        "support-server": {
+          "message": "Сервер поддержки",
+          "crowdinContext": "TODO"
+        },
+        "documentation": {
+          "message": "Документация по API",
+          "crowdinContext": "TODO"
+        },
+        "tos": {
+          "message": "Политика использования",
+          "crowdinContext": "TODO"
+        },
+        "privacy": {
+          "message": "Политика конфиденциальности",
+          "crowdinContext": "TODO"
+        },
+        "aria-label": {
+          "message": "На главную",
+          "crowdinContext": "TODO"
+        },
+        "donate": {
+          "message": "Поддержать разработку",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "adding": {
+      "bot": {
+        "step-one": {
+          "breadcrumb": {
+            "message": "Шаг 1",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Укажите ID вашего Discord бота",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Так мы сможем понять, какого бота вы хотите добавить",
+            "crowdinContext": "TODO"
+          },
+          "id": {
+            "title": {
+              "message": "Discord ID бота",
+              "crowdinContext": "TODO"
+            },
+            "find": {
+              "description": {
+                "one": {
+                  "message": "Его можно найти на",
+                  "crowdinContext": "TODO"
+                },
+                "two": {
+                  "message": "портале разработчиков Discord",
+                  "crowdinContext": "TODO"
+                }
+              }
+            }
+          },
+          "buttons": {
+            "next": {
+              "message": "Дальше",
+              "crowdinContext": "TODO"
+            },
+            "find": {
+              "message": "Найти",
+              "crowdinContext": "TODO"
+            },
+            "label": {
+              "message": "Найти бота",
+              "crowdinContext": "TODO"
+            },
+            "accessibility-label": {
+              "message": "Отмена",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-two": {
+          "breadcrumb": {
+            "message": "Шаг 2",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Немного о {username} <span class=\"discriminator\">{discriminator}</span>",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Добавьте чуточку сведений о вашем боте",
+            "crowdinContext": "TODO"
+          },
+          "short-description": {
+            "title": {
+              "message": "Краткое описание",
+              "crowdinContext": "TODO"
+            },
+            "caption": {
+              "message": "Кратко опишите вашего бота — что он делает? Для чего полезен? Заинтересуйте изучить именно его!",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "Бот умеет всё, даже показывать поней и делать сайты!",
+              "crowdinContext": "TODO"
+            }
+          },
+          "full-description": {
+            "title": {
+              "message": "Подробное описание",
+              "crowdinContext": "TODO"
+            },
+            "caption": {
+              "message": "Расскажите нам всё о своем боте! Что умеет ваш бот? Что выделяет его среди других? Можете добавить капельку Markdown, HTML и CSS. Только не перебарщивайте, иначе только оттолкнёте пользователей",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "{username} поможет вам в различных ситуациях! Например, он может сделать сайт-визитку, показать поней всему серверу, помочь управлять вашим сервером, и многое другое! Из особенностей: сайты получаются ну очень красивыми.",
+              "crowdinContext": "TODO"
+            }
+          },
+          "prefix": {
+            "title": {
+              "message": "Префикс",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "На какой символ или фразу реагирует ваш бот?",
+              "crowdinContext": "TODO"
+            }
+          },
+          "invite-url": {
+            "title": {
+              "message": "Ссылка-приглашение",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "one": {
+                "message": "Ссылка на добавление вашего бота. Её можно сгенерировать на",
+                "crowdinContext": "TODO"
+              },
+              "two": {
+                "message": "портале разработчиков Discord",
+                "crowdinContext": "TODO"
+              }
+            }
+          },
+          "library": {
+            "title": {
+              "message": "Библиотека бота",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Библиотека для взаимодействия с Discord API",
+              "crowdinContext": "TODO"
+            },
+            "list-label": {
+              "message": "Доступные библиотеки",
+              "crowdinContext": "TODO"
+            }
+          },
+          "tags": {
+            "title": {
+              "message": "Теги",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Выберите теги, которые лучше всего описывают вашего бота. Это поможет людям проще найти бота в поиске",
+              "crowdinContext": "TODO"
+            },
+            "clear": {
+              "message": "Очистить",
+              "crowdinContext": "TODO"
+            }
+          },
+          "support-server": {
+            "title": {
+              "message": "Сервер поддержки бота",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ссылка-приглашение на сервер, где могут помочь с вашим ботом",
+              "crowdinContext": "TODO"
+            }
+          },
+          "website": {
+            "title": {
+              "message": "Сайт бота",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ссылка на сайт-визитку или настройки через веб",
+              "crowdinContext": "TODO"
+            },
+            "url": {
+              "message": "Ссылка на сайт бота",
+              "crowdinContext": "TODO"
+            }
+          },
+          "developer": {
+            "title": {
+              "message": "Разработчики бота",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Если вы не одни разрабатывали бота, можно указать других разработчиков здесь. Они смогут управлять профилем бота, добавлять и удалять разработчиков. Владельца удалить нельзя, а лимит — макс. {limit} разработчиков",
+              "crowdinContext": "TODO"
+            },
+            "id": {
+              "message": "ID разработчика",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "ID разработчика, например 232348485398036481",
+              "crowdinContext": "TODO"
+            },
+            "find": {
+              "title": {
+                "message": "Найти разработчика",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Найти",
+                "crowdinContext": "TODO"
+              }
+            },
+            "delete": {
+              "message": "Удалить",
+              "crowdinContext": "TODO"
+            }
+          },
+          "buttons": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "next": {
+              "message": "Дальше",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-three": {
+          "breadcrumb": {
+            "message": "Шаг 3",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Персонализация",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Настройте внешний вид карточки и страницы бота",
+            "crowdinContext": "TODO"
+          },
+          "non-premium": {
+            "banner": {
+              "title": {
+                "message": "Стандартный баннер",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "message": "Выберите стандартный баннер — он будет отображаться, если у бота нет персонального баннера",
+                "crowdinContext": "TODO"
+              },
+              "color": {
+                "message": "Выбранный цвет:",
+                "crowdinContext": "TODO"
+              }
+            }
+          },
+          "buttons": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "next": {
+              "message": "Дальше",
+              "crowdinContext": "TODO"
+            }
+          },
+          "notify": {
+            "in-development": {
+              "message": "В разработке",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-four": {
+          "notify": {
+            "success": {
+              "message": "Получилось!",
+              "crowdinContext": "TODO"
+            }
+          },
+          "breadcrumb": {
+            "message": "Шаг 4",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Почти закончили!",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Осталось проверить: владелец ли вы, качество бота",
+            "crowdinContext": "TODO"
+          },
+          "owner-validation": {
+            "title": {
+              "message": "Проверка на владение",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Укажите, в какой команде бота написан его владелец. Также можете добавить и другие комментарии — модератор их прочтёт и примет к сведению",
+              "crowdinContext": "TODO"
+            },
+            "label": {
+              "message": "Проверка на владение ботом",
+              "crowdinContext": "TODO"
+            }
+          },
+          "quality-validation": {
+            "title": {
+              "message": "Проверка на качество",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ваш бот будет принят автоматически, сразу после проверки на владение, если он уже был проверен модераторами представленных мониторингов — выберите нужный и нажмите «Завершить»",
+              "crowdinContext": "TODO"
+            }
+          },
+          "buttons": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "complete": {
+              "message": "Завершить",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-progress": {
+          "heading": {
+            "message": "Как добавить?",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Выполните эти 4 простых шага",
+            "crowdinContext": "TODO"
+          },
+          "id": {
+            "message": "Discord ID бота",
+            "crowdinContext": "TODO"
+          },
+          "information": {
+            "message": "Сведения о боте",
+            "crowdinContext": "TODO"
+          },
+          "personalization": {
+            "message": "Персонализация",
+            "crowdinContext": "TODO"
+          },
+          "verification": {
+            "message": "Верификация",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "server": {
+        "selector-dialog": {
+          "heading": {
+            "message": "Выберите сервер",
+            "crowdinContext": "TODO"
+          },
+          "empty": {
+            "message": "У вас нет серверов, которыми вы управляете",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "close": {
+              "aria-label": {
+                "message": "Закрыть окно",
+                "crowdinContext": "TODO"
+              }
+            },
+            "name": {
+              "aria-label": {
+                "message": "Имя сервера",
+                "crowdinContext": "TODO"
+              }
+            }
+          },
+          "annotation": {
+            "message": "Добавить",
+            "crowdinContext": "TODO"
+          }
+        },
+        "step-one": {
+          "breadcrumb": {
+            "message": "Шаг 1",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Выбор сервера",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Выберите сервер, который вы хотите добавить на сайт!",
+            "crowdinContext": "TODO"
+          },
+          "title": {
+            "message": "Сервер",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "one": {
+              "message": "Выберите сервер из списка. Если его нет, проверьте что у Вас есть право",
+              "crowdinContext": "TODO"
+            },
+            "two": {
+              "message": "Управление сервером",
+              "crowdinContext": "TODO"
+            }
+          },
+          "selector": {
+            "message": "Выберите сервер",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "select": {
+              "aria-label": {
+                "message": "Выбрать сервер",
+                "crowdinContext": "TODO"
+              }
+            },
+            "next": {
+              "message": "Дальше",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-two": {
+          "breadcrumb": {
+            "message": "Шаг 2",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Добавьте сервисного бота",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Вам нужно добавить сервисного бота для взаимодействия сервера с сайтом.",
+            "crowdinContext": "TODO"
+          },
+          "service-bot": {
+            "message": "Официальный бот проекта",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "invite": {
+              "message": "Пригласить",
+              "crowdinContext": "TODO"
+            },
+            "next": {
+              "message": "Дальше",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-three": {
+          "breadcrumb": {
+            "message": "Шаг 3",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Немного о",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Добавьте чуточку сведений о вашем сервере",
+            "crowdinContext": "TODO"
+          },
+          "short-description": {
+            "title": {
+              "message": "Краткое описание",
+              "crowdinContext": "TODO"
+            },
+            "caption": {
+              "message": "Кратко опишите вашего сервер — чем он отличается от других? Заинтересуйте гостей зайти именно к вам!",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "На сервере есть всё, от поней до рецепта счастья!",
+              "crowdinContext": "TODO"
+            }
+          },
+          "long-description": {
+            "title": {
+              "message": "Подробное описание",
+              "crowdinContext": "TODO"
+            },
+            "caption": {
+              "message": "Расскажите нам всё о своем сервере! Что выделяет его среди других? Можете добавить капельку Markdown,\n          HTML и CSS. Только не перебарщивайте, иначе только оттолкнёте пользователей",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "{server} — лучший сервер в мире! Тут есть всё, что нужно, чтобы весело провести время с друзьями! А ещё тут есть пони! \uD83E\uDD84",
+              "crowdinContext": "TODO"
+            }
+          },
+          "invite": {
+            "title": {
+              "message": "Ссылка-приглашение",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ссылка-приглашение на ваш сервер",
+              "crowdinContext": "TODO"
+            }
+          },
+          "tags": {
+            "title": {
+              "message": "Теги",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Выберите теги, которые лучше всего описывают ваш сервер. Это поможет людям проще найти сервер в поиске",
+              "crowdinContext": "TODO"
+            },
+            "clear": {
+              "message": "Очистить",
+              "crowdinContext": "TODO"
+            }
+          },
+          "website": {
+            "title": {
+              "message": "Сайт сервера",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ссылка на сайт-визитку",
+              "crowdinContext": "TODO"
+            },
+            "text-input": {
+              "accessibility-label": {
+                "message": "Ссылка на сайт сервера",
+                "crowdinContext": "TODO"
+              }
+            }
+          },
+          "moderators": {
+            "title": {
+              "message": "Модераторы сервера",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Если вы не одни модерируете сервер, можно указать других модераторов здесь. Они смогут управлять  профилем сервера, добавлять и удалять модераторов. Владельца удалить нельзя, а лимит —; макс. 10 модераторов",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "ID модератора, например 232348485398036481",
+              "crowdinContext": "TODO"
+            },
+            "text-input": {
+              "accessibility-label": {
+                "message": "ID модератора",
+                "crowdinContext": "TODO"
+              }
+            },
+            "buttons": {
+              "accessibility-label": {
+                "one": {
+                  "message": "Найти модератора",
+                  "crowdinContext": "TODO"
+                },
+                "two": {
+                  "message": "Удалить",
+                  "crowdinContext": "TODO"
+                }
+              },
+              "find": {
+                "message": "Найти",
+                "crowdinContext": "TODO"
+              }
+            }
+          },
+          "buttons": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "next": {
+              "message": "Дальше",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-four": {
+          "notify": {
+            "success": {
+              "message": "Получилось!",
+              "crowdinContext": "TODO"
+            },
+            "in-development": {
+              "message": "В разработке",
+              "crowdinContext": "TODO"
+            }
+          },
+          "breadcrumb": {
+            "message": "Шаг 4",
+            "crowdinContext": "TODO"
+          },
+          "heading": {
+            "message": "Персонализация",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Настройте внешний вид карточки и страницы сервера",
+            "crowdinContext": "TODO"
+          },
+          "non-premium": {
+            "banner": {
+              "title": {
+                "message": "Стандартный баннер",
+                "crowdinContext": "TODO"
+              },
+              "description": {
+                "one": {
+                  "message": "Выберите стандартный баннер — он будет отображаться, если у бота нет персонального баннера",
+                  "crowdinContext": "TODO"
+                },
+                "two": {
+                  "message": "Выбранный цвет:",
+                  "crowdinContext": "TODO"
+                }
+              }
+            }
+          },
+          "buttons": {
+            "back": {
+              "message": "Назад",
+              "crowdinContext": "TODO"
+            },
+            "add": {
+              "message": "Добавить",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "step-progress": {
+          "heading": {
+            "message": "Как добавить?",
+            "crowdinContext": "TODO"
+          },
+          "caption": {
+            "message": "Выполните эти 4 простых шага",
+            "crowdinContext": "TODO"
+          },
+          "select-server": {
+            "message": "Выбор сервера",
+            "crowdinContext": "TODO"
+          },
+          "service-bot": {
+            "message": "Сервисный бот",
+            "crowdinContext": "TODO"
+          },
+          "server-information": {
+            "message": "Сведения о сервере",
+            "crowdinContext": "TODO"
+          },
+          "personalization": {
+            "message": "Персонализация",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "admin": {
+      "chat": {
+        "headline": {
+          "title": {
+            "message": "Чат с модераторами",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "message": "Здесь модераторы будут просить вас исправить найденные ошибки. Обратите внимание, вы можете написать только 2 сообщения подряд.",
+            "crowdinContext": "TODO"
+          }
+        },
+        "avatar": {
+          "support": {
+            "message": "Чат с модераторами",
+            "crowdinContext": "TODO"
+          }
+        },
+        "buttons": {
+          "accept": {
+            "message": "Принять",
+            "crowdinContext": "TODO"
+          },
+          "block": {
+            "message": "Заблокировать",
+            "crowdinContext": "TODO"
+          },
+          "label": {
+            "aria": {
+              "message": "Закрыть окно",
+              "crowdinContext": "TODO"
+            },
+            "refresh": {
+              "message": "Обновить",
+              "crowdinContext": "TODO"
+            },
+            "send": {
+              "message": "Отправить",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "empty": {
+          "message": "Пока здесь пусто. Напишите первое сообщение!",
+          "crowdinContext": "TODO"
+        },
+        "text-input": {
+          "label": {
+            "message": "Напишите сообщение...",
+            "crowdinContext": "TODO"
+          },
+          "placeholder": {
+            "message": "Напишите сообщение...",
+            "crowdinContext": "TODO"
+          }
+        },
+        "notify": {
+          "success": {
+            "send": {
+              "message": "Сообщение отправлено!",
+              "crowdinContext": "TODO"
+            },
+            "approve": {
+              "message": "Бот успешно принят",
+              "crowdinContext": "TODO"
+            },
+            "block": {
+              "message": "Бот успешно заблокирован",
+              "crowdinContext": "TODO"
+            }
+          }
+        }
+      },
+      "queue": {
+        "empty": {
+          "message": "Очередь пустая",
+          "crowdinContext": "TODO"
+        },
+        "sidebar": {
+          "on-review": {
+            "message": "На проверке",
+            "crowdinContext": "TODO"
+          },
+          "rejected": {
+            "message": "Отклонены",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "reports": {
+        "empty": {
+          "message": "Репортов нет",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "на",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "комментарий",
+            "crowdinContext": "TODO"
+          }
+        },
+        "bot": {
+          "message": "в боте",
+          "crowdinContext": "TODO"
+        },
+        "server": {
+          "message": "на сервере",
+          "crowdinContext": "TODO"
+        },
+        "buttons": {
+          "accept": {
+            "message": "Принять",
+            "crowdinContext": "TODO"
+          },
+          "reject": {
+            "message": "Отклонить",
+            "crowdinContext": "TODO"
+          }
+        },
+        "status": {
+          "unresolved": {
+            "message": "Не решён",
+            "crowdinContext": "TODO"
+          },
+          "accepted": {
+            "message": "Принят",
+            "crowdinContext": "TODO"
+          },
+          "rejected": {
+            "message": "Отклонён",
+            "crowdinContext": "TODO"
+          }
+        },
+        "notify": {
+          "success": {
+            "message": "Статус репорта успешно изменён",
+            "crowdinContext": "TODO"
+          }
+        },
+        "sidebar": {
+          "resolved": {
+            "message": "Решённые",
+            "crowdinContext": "TODO"
+          },
+          "unresolved": {
+            "message": "Не решённые",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "review-viewer": {
+        "heading": {
+          "message": "Отзыв",
+          "crowdinContext": "TODO"
+        },
+        "buttons": {
+          "aria-label": {
+            "message": "Закрыть окно",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "admin": {
+      "title": {
+        "message": "Админка",
+        "crowdinContext": "TODO"
+      },
+      "restricted": {
+        "message": "Доступ запрещён",
+        "crowdinContext": "TODO"
+      }
+    },
+    "boosts": {
+      "title": {
+        "message": "Бусты",
+        "crowdinContext": "TODO"
+      }
+    },
+    "main": {
+      "title": {
+        "message": "Поиск Discord {path}",
+        "crowdinContext": "TODO"
+      }
+    },
+    "partners": {
+      "title": {
+        "message": "Партнёры",
+        "crowdinContext": "TODO"
+        },
+      "description": {
+        "message": "Наши лучшие друзья",
+        "crowdinContext": "TODO"
+      }
+    },
+    "profile": {
+      "title": {
+        "message": "Профиль",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Профиль пользователя {username} на",
+        "crowdinContext": "TODO"
+      },
+      "settings": {
+        "header": {
+          "message": "Настройки профиля",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "server": {
+      "name": {
+        "message": "Сервер",
+        "crowdinContext": "TODO"
+      },
+      "settings": {
+        "header": {
+          "message": "Настройки сервера",
+          "crowdinContext": "TODO"
+        }
+      },
+      "add": {
+        "title": {
+          "message": "Добавление сервера",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Добавление нового сервера на мониторинг",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "bot": {
+      "name": {
+        "message": "Бот",
+        "crowdinContext": "TODO"
+      },
+      "settings": {
+        "header": {
+          "message": "Настройки бота",
+          "crowdinContext": "TODO"
+        }
+      },
+      "add": {
+        "title": {
+          "message": "Добавление бота",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Добавление нового бота на мониторинг",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "faq": {
+      "message": "FAQ",
+      "crowdinContext": "TODO",
+      "about": {
+        "title": {
+          "message": "Основное",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Часто задаваемые вопросы про ",
+          "crowdinContext": "TODO"
+        }
+      },
+      "rating": {
+        "title": {
+          "message": "Система оценок",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Просто про оценки и как они работают",
+          "crowdinContext": "TODO"
+        }
+      },
+      "resources": {
+        "title": {
+          "message": "Боты и Сервера",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Подробно про странички ботов и серверов",
+          "crowdinContext": "TODO"
+        }
+      },
+      "rules": {
+        "title": {
+          "message": "Правила проекта",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Правила размещения на проекте",
+          "crowdinContext": "TODO"
+        }
+      },
+      "support": {
+        "title": {
+          "message": "Поддержка",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Связь с представителями проекта",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "legal": {
+      "contacts": {
+        "title": {
+          "message": "Связь с нами",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Связаться с законными представителями Сервиса",
+          "crowdinContext": "TODO"
+        }
+      },
+      "privacy": {
+        "title": {
+          "message": "Конфиденциальность",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Политика конфиденциальности Сервиса",
+          "crowdinContext": "TODO"
+        }
+      },
+      "sales": {
+        "title": {
+          "message": "Политика продаж",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Политика предоставления услуг продаж",
+          "crowdinContext": "TODO"
+        }
+      },
+      "terms": {
+        "title": {
+          "message": "Условия использования",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Условия использования Сервиса",
+          "crowdinContext": "TODO"
+        }
+      }
+    }
+  },
+  "errors": {
+    "meili-key": {
+      "message": "Не удалось получить ключ поиска",
+      "crowdinContext": "TODO"
+    },
+    "loader": {
+      "message": "Ошибка",
+      "crowdinContext": "TODO"
+    },
+    "entry": {
+      "message": "Произошла ошибка",
+      "crowdinContext": "TODO"
+    },
+    "default": {
+      "message": "Ошибки: {errors}",
+      "crowdinContext": "TODO"
+    },
+    "search": {
+      "message": "Произошла ошибка.",
+      "crowdinContext": "TODO"
+    },
+    "main-counter": {
+      "bots": {
+        "message": "многих",
+        "crowdinContext": "TODO"
+      },
+      "servers": {
+        "message": "огромного количества",
+        "crowdinContext": "TODO"
+      }
+    },
+    "notify": {
+      "meili-key": {
+        "message": "Не удалось получить ключ поиска. Поиск не будет работать.",
+        "crowdinContext": "TODO"
+      },
+      "discord": {
+        "message": "Кажется, Discord в данный момент недоступен. Попробуйте обновить страницу.",
+        "crowdinContext": "TODO"
+      },
+      "profile": {
+        "settings": {
+          "message": "Произошла ошибка.",
+          "crowdinContext": "TODO"
+        },
+        "save": {
+          "message": "Не удалось сохранить профиль",
+          "crowdinContext": "TODO"
+        }
+      },
+      "refresh": {
+        "message": "Ошибка сессии. Войдите в свой аккаунт повторно.",
+        "crowdinContext": "TODO"
+      },
+      "api": {
+        "token": {
+          "copy": {
+            "message": "Не удалось скопировать токен",
+            "crowdinContext": "TODO"
+          },
+          "generate": {
+            "message": "Не удалось создать токен",
+            "crowdinContext": "TODO"
+          },
+          "delete": {
+            "message": "Не удалось удалить токен: ",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "billing": {
+        "message": "Произошла ошибка ",
+        "crowdinContext": "TODO"
+      },
+      "boost": {
+        "auth": {
+          "message": "Для покупки бустов необходимо авторизоваться",
+          "crowdinContext": "TODO"
+        },
+        "fatal": {
+          "message": "Критическая неизвестная ошибка запроса.",
+          "crowdinContext": "TODO"
+        },
+        "buy": {
+          "message": "Произошла ошибка при покупке бустов",
+          "crowdinContext": "TODO"
+        },
+        "add": {
+          "message": "Не удалось добавить бусты",
+          "crowdinContext": "TODO"
+        },
+        "remove": {
+          "message": "Не удалось убрать бусты",
+          "crowdinContext": "TODO"
+        }
+      },
+      "boundary": {
+        "message": "Ошибка: ",
+        "crowdinContext": "TODO",
+        "unknown": {
+          "message": "Неизвестная ошибка",
+          "crowdinContext": "TODO"
+        }
+      },
+      "reviews": {
+        "view": {
+          "message": "Просмотр отзывов недоступен",
+          "crowdinContext": "TODO"
+        },
+        "send": {
+          "message": "Ошибка при отправлении отзыва: {error}",
+          "crowdinContext": "TODO"
+        }
+      },
+      "cache": {
+        "message": "Не удалось обновить кеш: {error}",
+        "crowdinContext": "Error notify update resource cache (name, avatar)"
+      },
+      "captcha": {
+        "message": "Ошибка при проверке капчи",
+        "crowdinContext": "TODO"
+      },
+      "vote": {
+        "bot": {
+          "message": "Не удалось поднять бота: {error}",
+          "crowdinContext": "TODO"
+        },
+        "server": {
+          "message": "Не удалось поднять сервер: {error}",
+          "crowdinContext": "TODO"
+        }
+      },
+      "delete": {
+        "review": {
+          "message": "Произошла ошибка при удалении отзыва: {error}",
+          "crowdinContext": "TODO"
+        },
+        "dialog": {
+          "message": "Произошла ошибка при удалении: ",
+          "crowdinContext": "TODO"
+        }
+      },
+      "reply": {
+        "message": "Произошла ошибка при отправке ответа: {error}",
+        "crowdinContext": "TODO"
+      },
+      "edit": {
+        "message": "Произошла ошибка при обновлении отзыва: {error}",
+        "crowdinContext": "TODO"
+      },
+      "report": {
+        "send": {
+          "message": "Не удалось отправить жалобу: {error}",
+          "crowdinContext": "TODO"
+        },
+        "load": {
+          "message": "Произошла ошибка при загрузке репортов",
+          "crowdinContext": "TODO"
+        },
+        "status": {
+          "message": "Произошла ошибка при изменении статуса репорта",
+          "crowdinContext": "TODO"
+        }
+      },
+      "bot": {
+        "status": {
+          "message": "Не удалось изменить статус бота: {error}",
+          "crowdinContext": "TODO"
+        },
+        "create": {
+          "message": "Не удалось добавить бота:",
+          "crowdinContext": "TODO"
+        }
+      },
+      "server": {
+       "status": {
+         "message": "Не удалось изменить статус серверу",
+         "crowdinContext": "TODO"
+       },
+        "get": {
+          "list": {
+            "message": "Произошла ошибка при получении списка серверов, попробуйте перезайти в аккаунт",
+            "crowdinContext": "TODO"
+          }
+        },
+        "create": {
+          "message": "Не удалось добавить сервер:",
+          "crowdinContext": "TODO"
+        }
+      },
+      "captcha": {
+        "failed": {
+          "message": "Ошибка при проверке капчи",
+          "crowdinContext": "TODO"
+        }
+      },
+      "save": {
+        "message": "Ошибка сохранения: {error}",
+        "crowdinContext": "TODO"
+      },
+      "chat": {
+        "fetch": {
+          "message": "Произошла ошибка при получении сообщений",
+          "crowdinContext": "TODO"
+        },
+        "send": {
+          "message": "Произошла ошибка при отправке сообщения: ",
+          "crowdinContext": "TODO"
+        },
+        "bot": {
+          "approve": {
+            "message": "Произошла ошибка при принятии бота: ",
+            "crowdinContext": "TODO"
+          },
+          "block": {
+            "message": "Произошла ошибка при блокировке бота: ",
+            "crowdinContext": "TODO"
+          },
+          "data": {
+            "response": {
+              "message": "Не получилось.",
+              "crowdinContext": "TODO"
+            }
+          }
+        }
+      },
+      "queue": {
+        "message": "Произошла ошибка при загрузке очереди",
+        "crowdinContext": "TODO"
+      }
+    },
+    "auth": {
+      "failed-login": {
+        "message": "Ошибка входа: {error}",
+        "crowdinContext": "TODO"
+      },
+      "default": {
+        "message": "Попробуйте ещё раз.",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "boosts": {
+    "tier-one": {
+      "title": {
+        "message": "Уровень 1",
+        "crowdinContext": "TODO"
+      },
+      "features": {
+        "up-points": {
+          "message": "В 1.5 раза больше очков апа",
+          "crowdinContext": "TODO"
+        },
+        "auto-refresh": {
+          "message": "Автоматическое обновление статистики",
+          "crowdinContext": "TODO"
+        },
+        "unique-invite": {
+          "message": "Уникальный инвайт",
+          "crowdinContext": "TODO"
+        },
+        "supporter": {
+          "message": "Роль саппортера",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "tier-two": {
+      "title": {
+        "message": "Уровень 2",
+        "crowdinContext": "TODO"
+      },
+      "features": {
+        "previous": {
+          "message": "Все преимущества уровня 1",
+          "crowdinContext": "TODO"
+        },
+        "up-points": {
+          "message": "В 2 раза больше очков апа",
+          "crowdinContext": "TODO"
+        },
+        "banner": {
+          "message": "Уникальный баннер на карточку бота",
+          "crowdinContext": "TODO"
+        },
+        "background": {
+          "message": "Уникальный фон на страничку",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "tier-three": {
+      "title": {
+        "message": "Уровень 3",
+        "crowdinContext": "TODO"
+      },
+      "features": {
+        "previous": {
+          "message": "Все преимущества уровней 1 и 2",
+          "crowdinContext": "TODO"
+        },
+        "up-points": {
+          "message": "В 2.5 раза больше очков апа",
+          "crowdinContext": "TODO"
+        },
+        "short-link": {
+          "message": "Уникальная короткая ссылка",
+          "crowdinContext": "TODO"
+        },
+        "up-bot": {
+          "message": "Возможность подключить /up бота",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "headline": {
+      "title": {
+        "message": "Бусты",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Поддержите нас и получите хорошее преимущество",
+        "crowdinContext": "TODO"
+      }
+    },
+    "questions" : {
+      "title": {
+        "message": "Остались вопросы?",
+        "crowdinContext": "TODO"
+      },
+      "subtitle": {
+        "message": "Сейчас ответим!",
+        "crowdinContext": "TODO"
+      },
+      "about-boosts": {
+        "title" : {
+          "message": "Как работают бусты?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "1 буст - 1 уровень премиума. Давая бусты сервера и ботов, вы получаете преимущества, которые даёт премиум-уровень.",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "pricing-period": {
+      "message": "мес",
+      "crowdinContext": "TODO"
+    }
+  },
+  "faq": {
+    "links": {
+      "rating":{
+        "message": "Оценки",
+        "crowdinContext": "TODO"
+      },
+      "resources": {
+        "message": "Боты и Сервера",
+        "crowdinContext": "TODO"
+      },
+      "rules": {
+        "message": "Правила",
+        "crowdinContext": "TODO"
+      },
+      "support": {
+        "message": "Поддержка",
+        "crowdinContext": "TODO"
+      }
+    },
+    "about": {
+      "title": {
+        "message": "Про BotiCord",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Часто задаваемые вопросы про BotiCord",
+        "crowdinContext": "TODO"
+      },
+      "where-i-am": {
+        "title": {
+          "message": "Где это я?",
+          "crowdinContext": "TODO"
+        },
+        "welcome": {
+          "message": "Добро пожаловать на BotiCord!",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Это вебсайт для поиска ботов и серверов в Discord.",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Здесь вы можете найти ботов и сервера по разным категориям, оставить отзыв о них и посмотреть отзывы других людей.",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Так же как Google Play помогает искать приложения для Android, BotiCord помогает найти нужного бота или сервер в Discord.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "discovery": {
+        "title": {
+          "message": "Чем это отличается от Discovery?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": " В Discord есть собственные поисковики для ботов и серверов — Bot Discovery и Server Discovery.",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "BotiCord кардинально отличается от этих сервисов. В отличие от Discovery, BotiCord даёт возможность оставлять отзывы, имеет более удобный и продуманный интерфейс, более удобный поиск, отлично индексируется в Google и Яндекс, а так же позволяет получить продвижение не только крупным ботам/серверам.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "main": {
+        "title": {
+          "message": "Как устроена выдача на главной?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Первое, что видят пользователи, заходя на сайт — это главная страница. На ней отображаются боты и сервера, которые имеют больше всего ап-очков.",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Система ап-очков схожа с лайками в VK и ап-очками на Reddit.",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Чем больше ап-очков у бота/сервера, тем выше он в поиске на главной, и тем чаще будет попадаться на глаза пользователям.",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "rating": {
+      "title": {
+        "message": "Про систему оценок",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Просто про оценки и как они работают",
+        "crowdinContext": "TODO"
+      },
+      "leave-review/raise": {
+        "title": {
+          "message": "Как оставить отзыв/поднять в выдаче?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Нужно войти в аккаунт Discord через кнопку «Войти» в правом верхнем углу сайта или в выпадающем меню, а после этого написать отзыв и выбрать оценку или же нажать «поднять» на странице бота/сервера.",
+          "crowdinContext": "TODO"
+        }
+      },
+      "up-points": {
+        "title": {
+          "message": "Как работают ап-очки?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Ап-очки — это счётчик, который показывает, сколько раз какой-то пользователь поднял бота/сервер.",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Он увеличивается на 1 каждый раз, когда пользователь поднимает бота/сервер, и через 14 дней после этого уменьшается на 1.",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Таким образом, если 1 пользователь поднимает бота/сервер каждый день, то у бота/сервера будет 14 ап-очков, но если это будет делать 2 пользователя, то это число увеличится до 28 ап-очков, и так далее. Если же они будут поднимать бота/сервер 2 раза в день, то сможет набрать максимум 56 ап-очков, и так до бесконечности.",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "Время истечения каждой подобной оценки рассчитывается индивидуально.",
+            "crowdinContext": "TODO"
+          },
+          "five": {
+            "message": "Ап-очки нужны для того, чтобы показать, насколько активно пользователи рекомендуют конкретного бота/сервер.",
+            "crowdinContext": "TODO"
+          },
+          "six": {
+            "message": "Больше ап-очков = больше рекомендаций = лучше продвижение = больше людей узнают о чьём-либо проекте.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "difference": {
+        "title": {
+          "message": "Чем отзывы отличаются от ап-очков?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Отзывы — это то, что пользователи пишут о боте/сервере.",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Отзывы могут быть как положительными, так и отрицательными, и они лишь отчасти влияют на выдачу в поиске.",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Отзывы нужны для того, чтобы пользователи могли оставить своё мнение о проекте, и чтобы другие пользователи могли его прочитать.",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "Отзыв можно оставить только 1 раз, а ап-очки можно поднимать каждый день.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "work": {
+        "title": {
+          "message": "Как работает рейтинг?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Рейтинг — это средняя оценка, которую пользователи поставили боту/серверу в отзывах.",
+          "crowdinContext": "TODO"
+        }
+      },
+      "truthfulness": {
+        "title": {
+          "message": "Ап-очки и отзывы правдивые?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Мы следим за качеством оставляемых отзывов и ап-очков, и если мы заметим какую-либо подозрительную активность/манипуляции с рейтингами, и если подтвердится нечестность, то мы удалим все ап-очки и отзывы, которые были получены нечестным путём, и можем применить к проекту более серьёзные меры.",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "resources": {
+      "title": {
+        "message": "Про ботов и сервера",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Подробно про странички ботов и серверов",
+        "crowdinContext": "TODO"
+      },
+      "adding": {
+        "who-can": {
+          "title": {
+            "message": "Кто может добавлять сервера в поиск?",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "one": {
+              "message": "Добавить сервер в поиск может человек, имеющий право",
+              "crowdinContext": "TODO"
+            },
+            "two": {
+              "message": "Управление сервером",
+              "crowdinContext": "TODO"
+            },
+            "three": {
+              "message": "на сервере или его владелец.",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "how": {
+          "title": {
+            "message": "Как добавить бота/сервер в поиск?",
+            "crowdinContext": "TODO"
+          },
+          "description": {
+            "one": {
+              "message": "Нужно войти в аккаунт Discord через кнопку «Войти» в правом верхнем углу сайта или в выпадающем меню, а после этого нажать на кнопку «Добавить» в левом верхнем углу сайта или в выпадающем меню.",
+              "crowdinContext": "TODO"
+            },
+            "two": {
+              "message": "Если вы добавляли бота, то после прохождения процесса добавления он будет отправлен на проверку нашим модераторам. Вы можете отслеживать статус проверки в личных сообщениях Discord или на страничке бота в разделе «опции», там расположен чат с модераторами. Бот не будет принят, пока у модерации есть вопросы к нему, поэтому следите за чатом.",
+              "crowdinContext": "TODO"
+            },
+            "three": {
+              "message": "Если вы добавляли сервер, то он сразу же появится в нашем поиске (индексация в поисковиках Google/Яндекс может занять некоторое время).",
+              "crowdinContext": "TODO"
+            },
+            "four": {
+              "message": "Учтите, что несмотря на отсутствие этапа проверки при добавлении, мы следим за всеми серверами и можем удалить ваш сервер, если вы нарушаете наши правила.",
+              "crowdinContext": "TODO"
+            }
+          }
+        }
+      },
+      "change-resource": {
+        "title": {
+          "message": "Как скрыть/удалить/изменить бота/сервер из поиска?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Зайдите на страничку вашего бота/сервера и нажмите на карандашик возле кнопки «поднять».",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Если вы хотите скрыть бота/сервер из поиска, то измените статус на «скрыт».",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Если вы хотите удалить бота/сервер из поиска, то нажмите на кнопку «удалить» в самом\n низу страницы основных настроек.",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": " Если вы хотите изменить информацию о боте/сервере, то измените её и нажмите на кнопку\n «сохранить» в самом низу любой страницы настроек.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "beautiful-description": {
+        "title": {
+          "message": "Как сделать красивое описание боту/серверу?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "В описании ботов, серверов и профилей поддерживается ограниченная разметка",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "а также изображения с",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "а также изображения с",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "а также изображения с",
+            "crowdinContext": "TODO"
+          },
+          "five": {
+            "message": "Например, вы можете сделать текст <b>жирным</b>, используя <code><b>текст</b></code> или <code>**текст**</code>.",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "rules": {
+      "title": {
+        "message": "Правила проекта",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Правила размещения на проекте",
+        "crowdinContext": "TODO"
+      },
+      "terms": {
+        "title": {
+          "message": "Соблюдение условий",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Боты, чьи авторы нарушили что-либо из:",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "условий использования Discord;",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "политики конфиденциальности Discord;",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "условий использования для разработчиков в Discord;",
+            "crowdinContext": "TODO"
+          },
+          "five": {
+            "message": "политики конфиденциальности BotiCord;",
+            "crowdinContext": "TODO"
+          },
+          "six": {
+            "message": "условий использования BotiCord;",
+            "crowdinContext": "TODO"
+          },
+          "seven": {
+            "message": "правил добавления на BotiCord;",
+            "crowdinContext": "TODO"
+          },
+          "eight": {
+            "message": "не будут добавлены в общий список (поиск). Если же правила были нарушены после добавления - бот будет принудительно скрыт.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "constructors": {
+        "title": {
+          "message": "Конструкторы для создания ботов",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Для создания бота нельзя использовать конструкторы, например: Discord Bot Maker, Discord Bot Designer, aoi.js или другие похожие инструменты.",
+          "crowdinContext": "TODO"
+        }
+      },
+      "api-basis": {
+        "title": {
+          "message": "Простейшие боты на основе API",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Боты с основной функциональной возможностью в виде использования чужих API, например:",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "функционал Chat GPT;",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "случайные картинки/gif;",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "искажение изображений;",
+            "crowdinContext": "TODO"
+          },
+          "five": {
+            "message": "поиск в Google/Яндекс и других поисковиках;",
+            "crowdinContext": "TODO"
+          },
+          "six": {
+            "message": "не пройдут проверку. Это правило не относится к ботам, в чьей структуре только часть функционала основана на подобных API.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "forbidden-functionality": {
+        "title": {
+          "message": "Запрещённый функционал",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Боты, созданные для защиты серверов от краша (Анти-Краш боты: защита от полного или частичного уничтожения сервера) или для продвижения конкурентов, не пройдут отбор.",
+          "crowdinContext": "TODO"
+        }
+      },
+      "quality-and-originality": {
+        "title": {
+          "message": "Качество и оригинальность бота",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Проверка будет пройдена при соблюдении всех критериев оценки:",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "бот должен быть понятен пользователю (например, не должно быть <a href=\"/faq/error.png\">неоформленных ошибок</a>);",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "бот не должен отвечать на несуществующие команды (<a href=\"/faq/unknown-commands.png\">пример</a>);",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "бот не должен быть создан на основе других ботов с открытым исходным кодом;",
+            "crowdinContext": "TODO"
+          },
+          "five": {
+            "message": "не должно быть очевидных ошибок (например, удаление -1 сообщения);",
+            "crowdinContext": "TODO"
+          },
+          "six": {
+            "message": "у бота должен быть весь заявленный функционал в рабочем состоянии;",
+            "crowdinContext": "TODO"
+          },
+          "seven": {
+            "message": "части бота (в том числе внешние, например сайт) не должны быть скопированы с других ботов, в том числе особенности форматирования (<a href=\"/faq/copying.png\">пример</a>);",
+            "crowdinContext": "TODO"
+          },
+          "eight": {
+            "message": "время простоя в месяц не должно превышать 20%, за этим следит автоматическая система после прохождения проверки;",
+            "crowdinContext": "TODO"
+          },
+          "nine": {
+            "message": "бот не должен иметь сильно ограниченный функционал (недостаточно функционала).",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    },
+    "support": {
+      "title": {
+        "message": "Поддержка",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Связь с представителями проекта",
+        "crowdinContext": "TODO"
+      },
+      "question": {
+        "title": {
+          "message": "У меня есть вопрос!",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "Зайдите на наш сервер поддержки",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "и создайте тикет. Мы постараемся ответить вам как можно быстрее.",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "project-officials": {
+        "title": {
+          "message": "Как связаться с официальными представителями проекта?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "По вопросам коммерческого сотрудничества:",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "По вопросам, связанным с законодательством (включая GDPR/DMCA):",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Запрос полной копии своих данных:",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "Технические вопросы и сообщения о багах:",
+            "crowdinContext": "TODO"
+          }
+        }
+      },
+      "project-developers": {
+        "title": {
+          "message": "Как связаться с разработчиками?",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "one": {
+            "message": "София, Team Leader + BizDevOps: ",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Егор, Design + Layout: ",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Егор, Back-End: ",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "Никита, Front-End: ",
+            "crowdinContext": "TODO"
+          }
+        }
+      }
+    }
+  },
+  "main": {
+    "headline": {
+      "title": {
+        "message": "Магия Discord в одном месте",
+        "crowdinContext": "TODO"
+      },
+      "description-one": {
+        "message": "Список из",
+        "crowdinContext": "TODO"
+      },
+      "description-two": {
+        "message": "ботов и",
+        "crowdinContext": "TODO"
+      },
+      "description-three": {
+        "message": "серверов, только для тебя.",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "partners" : {
+    "headline": {
+      "title" : {
+        "message":"Партнёры проекта",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Наши лучшие друзья",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "main": {
+    "headline": {
+      "title": {
+        "message": "Магия Discord в одном месте",
+        "crowdinContext": "TODO"
+      },
+      "description-one": {
+        "message": "Список из",
+        "crowdinContext": "TODO"
+      },
+      "description-two": {
+        "message": "ботов и",
+        "crowdinContext": "TODO"
+      },
+      "description-three": {
+        "message": "серверов, только для тебя.",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
+  "partners" : {
+    "headline": {
+      "title" : {
+        "message":"Партнёры проекта",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Наши лучшие друзья",
+        "crowdinContext": "TODO"
+      }
+    }
+  },
   "common": {
+    "available-monitorings": {
+      "check-manual": {
+        "name": {
+          "message": "Ручная проверка",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Проверка производится вручную",
+          "crowdinContext": "TODO"
+        }
+      },
+      "via": {
+        "message": "Через",
+        "crowdinContext": "TODO"
+      }
+    },
+    "available-libs": {
+      "nothing": {
+        "message": "Не указано",
+        "crowdinContext": "TODO"
+      },
+      "another": {
+        "message": "Другая",
+        "crowdinContext": "TODO"
+      }
+    },
+    "legal-links": {
+      "tos": {
+        "message": "Правила использования",
+        "crowdinContext": "TODO"
+      },
+      "privacy": {
+        "message": "Конфиденциальность",
+        "crowdinContext": "TODO"
+      },
+      "sales": {
+        "message": "Продажи",
+        "crowdinContext": "TODO"
+      },
+      "contacts": {
+        "message": "Связь с нами",
+        "crowdinContext": "TODO"
+      }
+    },
+    "convert-time": {
+      "years": {
+        "message": "лет назад | год назад | года назад | лет назад",
+        "crowdinContext": "TODO"
+      },
+      "months": {
+        "message": "месяцев назад | месяц назад | месяца назад | месяцев назад",
+        "crowdinContext": "TODO"
+      },
+      "days": {
+        "message": "дней назад | день назад | дня назад | дней назад",
+        "crowdinContext": "TODO"
+      },
+      "hours": {
+        "message": "часов назад | час назад | часа назад | часов назад",
+        "crowdinContext": "TODO"
+      },
+      "minutes": {
+        "message": "минут назад | минуту назад | минуты назад | минут назад",
+        "crowdinContext": "TODO"
+      },
+      "seconds": {
+        "message": "секунд назад | секунду назад | секунды назад | секунд назад",
+        "crowdinContext": "TODO"
+      },
+      "now": {
+        "message": "Прямо сейчас",
+        "crowdinContext": "TODO"
+      }
+    },
+    "img": {
+      "alt": {
+        "error-entry": {
+          "message": "Произошла ошибка",
+          "crowdinContext": "TODO"
+        },
+        "admin": {
+          "message": "нельзя",
+          "crowdinContext": "TODO"
+        },
+        "background-banner": {
+          "message": "Фоновый баннер",
+          "crowdinContext": "TODO"
+        },
+        "app": {
+          "message": "Ничего не видно",
+          "crowdinContext": "TODO"
+        },
+        "search-result": {
+          "message": "Ничего не найдено",
+          "crowdinContext": "TODO"
+        }
+      },
+      "description": {
+        "chat": {
+          "message": "Приложение",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "captcha": {
+      "verify": {
+        "message": "Секундочку... Нужно проверить не робот ли вы",
+        "crowdinContext": "TODO"
+      },
+      "expired": {
+        "message": "Время ожидания капчи истекло",
+        "crowdinContext": "TODO"
+      }
+    },
+    "brand": {
+      "name": {
+        "message": "BotiCord",
+        "crowdinContext": "TODO"
+      },
+      "link": {
+        "message": "BotiCord.top",
+        "crowdinContext": "TODO"
+      }
+    },
+    "website-version": {
+      "message": "Версия сайта:",
+      "crowdinContext": "TODO"
+    },
+    "banner": {
+      "colors": {
+        "blue": {
+          "message": "Синий",
+          "crowdinContext": "TODO"
+        },
+        "red": {
+          "message": "Красный",
+          "crowdinContext": "TODO"
+        },
+        "orange": {
+          "message": "Оранжевый",
+          "crowdinContext": "TODO"
+        },
+        "yellow": {
+          "message": "Жёлтый",
+          "crowdinContext": "TODO"
+        },
+        "green": {
+          "message": "Зелёный",
+          "crowdinContext": "TODO"
+        },
+        "indigo": {
+          "message": "Индиго",
+          "crowdinContext": "TODO"
+        },
+        "purple": {
+          "message": "Фиолетовый",
+          "crowdinContext": "TODO"
+        },
+        "white": {
+          "message": "Белый",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
+    "not-found": {
+      "title": {
+        "message": "Страница не найдена",
+        "crowdinContext": "TODO"
+      },
+      "description": {
+        "message": "Кажется, вы попали на несуществующую страницу.",
+        "crowdinContext": "TODO"
+      }
+    },
     "support": {
       "server": {
         "message": "сервер поддержки",
         "crowdinContext": "TODO"
       }
+    },
+    "recommendation" : {
+      "message": "Рекомендуем",
+      "crowdinContext": "TODO"
+    },
+    "purchase" : {
+      "message": "Приобрести",
+      "crowdinContext": "TODO"
     },
     "action": {
       "cancel": {
@@ -66,7 +3482,43 @@
     }
   },
   "resource": {
+    "loading": {
+      "banner": {
+        "message": "Загружаем баннер...",
+        "crowdinContext": "TODO"
+      },
+      "background": {
+        "message": "Загружаем фон...",
+        "crowdinContext": "TODO"
+      }
+    },
+    "validation": {
+      "length": {
+        "message": "Мин. {limit} символов",
+        "crowdinContext": "TODO"
+      },
+      "url": {
+        "message": "Должно быть ссылкой",
+        "crowdinContext": "TODO"
+      },
+      "msg": {
+        "length": {
+          "message": "Минимальная длина сообщения {limit} символ",
+          "crowdinContext": "TODO"
+        }
+      }
+    },
     "activity": {
+      "boost": {
+        "description": {
+          "message": "Буст:",
+          "crowdinContext": "TODO"
+        },
+        "level": {
+          "message": "{lvl} уровень",
+          "crowdinContext": "TODO"
+        }
+      },
       "invite": {
         "message": "Пригласить",
         "crowdinContext": "TODO"
@@ -83,12 +3535,16 @@
         "message": "Редактировать",
         "crowdinContext": "TODO"
       },
+      "fetch": {
+        "message": "Обновить",
+        "crowdinContext": "Fetch avatar and name"
+      },
       "information": {
         "message": "Информация",
         "crowdinContext": "TODO"
       },
       "users": {
-        "message": "Пользователей",
+        "message": "Пользователей:",
         "crowdinContext": "TODO"
       },
       "tags": {
@@ -107,7 +3563,7 @@
         "message": "Оценки и отзывы",
         "crowdinContext": "TODO",
         "checked": {
-          "message": "Оценки и отзывы проверены",
+          "message": "@:resource.activity.reviews.message проверены",
           "crowdinContext": "TODO"
         },
         "nothing": {
@@ -124,12 +3580,6 @@
         }
       },
       "notify": {
-        "reviews": {
-          "error": {
-            "message": "Просмотр отзывов недоступен",
-            "crowdinContext": "TODO"
-          }
-        },
         "vote": {
           "captcha": {
             "message": "Секундочку... Нужно проверить не робот ли вы",
@@ -137,15 +3587,17 @@
             "timeout": {
               "message": "Время ожидания капчи истекло",
               "crowdinContext": "TODO"
-            },
-            "error": {
-              "message": "Ошибка при проверке капчи",
-              "crowdinContext": "TODO"
             }
           },
           "success": {
             "message": "Успешный ап!",
             "crowdinContext": "TODO"
+          }
+        },
+        "cache": {
+          "success": {
+            "message": "Кеш успешно обновлён!",
+            "crowdinContext": "Notify message of success update resource cache (name, avatar)"
           }
         }
       }
@@ -175,36 +3627,28 @@
           "crowdinContext": "TODO"
         }
       },
-      "name": {
-        "message": "Бот",
-        "crowdinContext": "TODO"
-      },
       "prefix": {
-        "message": "Префикс",
+        "message": "Префикс:",
         "crowdinContext": "TODO"
       },
       "shards": {
-        "message": "Шардов",
+        "message": "Шардов:",
         "crowdinContext": "TODO"
       },
       "library": {
-        "message": "Библиотека бота",
+        "message": "Библиотека бота:",
         "crowdinContext": "TODO"
       },
       "website": {
-        "message": "Сайт бота",
+        "message": "Сайт бота:",
         "crowdinContext": "TODO"
       },
       "developers": {
-        "message": "Разработчики",
+        "message": "Разработчики:",
         "crowdinContext": "TODO"
       },
       "notify": {
         "vote": {
-          "error": {
-            "message": "Не удалось поднять бота: {error}",
-            "crowdinContext": "TODO"
-          },
           "hidden": {
             "message": "Нельзя апнуть бота который скрыт из общего списка!",
             "crowdinContext": "TODO"
@@ -217,20 +3661,12 @@
         "message": "Персонал",
         "crowdinContext": "TODO"
       },
-      "name": {
-        "message": "Сервер",
-        "crowdinContext": "TODO"
-      },
       "website": {
         "message": "Сайт сервера",
         "crowdinContext": "TODO"
       },
       "notify": {
         "vote": {
-          "error": {
-            "message": "Не удалось поднять сервер: {error}",
-            "crowdinContext": "TODO"
-          },
           "hidden": {
             "message": "Нельзя апнуть сервер который скрыт из общего списка!",
             "crowdinContext": "TODO"
@@ -272,19 +3708,11 @@
       "notify": {
         "delete": {
           "message": "Отзыв успешно удалён!",
-          "crowdinContext": "TODO",
-          "error": {
-            "message": "Произошла ошибка при удалении отзыва: {error}",
-            "crowdinContext": "TODO"
-          }
+          "crowdinContext": "TODO"
         },
         "reply": {
           "message": "Ответ успешно отправлен!",
           "crowdinContext": "TODO",
-          "error": {
-            "message": "Произошла ошибка при отправке ответа: {error}",
-            "crowdinContext": "TODO"
-          },
           "length": {
             "message": "Минимальная длина ответа {length} символ",
             "crowdinContext": "TODO"
@@ -292,11 +3720,7 @@
         },
         "edit": {
           "message": "Отзыв успешно обновлен!",
-          "crowdinContext": "TODO",
-          "error": {
-            "message": "Произошла ошибка при обновлении отзыва: {error}",
-            "crowdinContext": "TODO"
-          }
+          "crowdinContext": "TODO"
         },
         "comment": {
           "length": {
@@ -344,10 +3768,6 @@
           "success": {
             "message": "Жалоба успешно отправлена!",
             "crowdinContext": "TODO"
-          },
-          "error": {
-            "message": "Не удалось отправить жалобу: {error}",
-            "crowdinContext": "TODO"
           }
         }
       },
@@ -359,10 +3779,6 @@
         "notify": {
           "success": {
             "message": "Успешно отправлено!",
-            "crowdinContext": "TODO"
-          },
-          "error": {
-            "message": "Ошибка при отправлении отзыва: {error}",
             "crowdinContext": "TODO"
           },
           "length": {
@@ -380,24 +3796,25 @@
         }
       },
       "bot": {
-        "header": {
-          "title": {
-            "message": "Настройки бота",
-            "crowdinContext": "TODO"
-          }
-        },
         "notify": {
           "success": {
             "message": "Бот успешно сохранён",
             "crowdinContext": "TODO"
-          },
-          "error": {
-            "message": "Ошибка сохранения: {error}",
-            "crowdinContext": "TODO"
+          }
+        },
+        "header": {
+          "title": {
+            "message": "Настройки бота"
           }
         }
       },
       "server": {
+        "notify": {
+          "success": {
+            "message": "Сервер успешно сохранён",
+            "crowdinContext": "TODO"
+          }
+        },
         "header": {
           "title": {
             "message": "Настройки сервера",
@@ -407,6 +3824,10 @@
       },
       "general": {
         "message": "Основные",
+        "crowdinContext": "TODO"
+      },
+      "boosts": {
+        "message": "Бусты",
         "crowdinContext": "TODO"
       },
       "personalization": {
@@ -534,7 +3955,7 @@
               "message": "Ссылка на сайт-визитку или настройки через веб",
               "crowdinContext": "TODO"
             },
-            "label": {
+            "aria": {
               "message": "Ссылка на сайт бота",
               "crowdinContext": "TODO"
             }
@@ -550,6 +3971,10 @@
             },
             "placeholder": {
               "message": "ID разработчика, например 232348485398036481",
+              "crowdinContext": "TODO"
+            },
+            "aria": {
+              "message": "ID разрботчика",
               "crowdinContext": "TODO"
             },
             "find": {
@@ -570,10 +3995,6 @@
           "notify": {
             "success": {
               "message": "Статус бота изменён",
-              "crowdinContext": "TODO"
-            },
-            "error": {
-              "message": "Не удалось изменить статус бота: {error}",
               "crowdinContext": "TODO"
             }
           }
@@ -604,7 +4025,7 @@
                 "crowdinContext": "TODO"
               },
               "description": {
-                "message": "Позаботимся об актуальности статистики вместо вас (может не работать, если ваш бот работает без скоупа bot)",
+                "message": "Количество серверов будет обновляться автоматически при поднятии бота",
                 "crowdinContext": "TODO"
               }
             },
@@ -620,7 +4041,7 @@
                 "crowdinContext": "TODO"
               },
               "auto-servers": {
-                "message": "Позволит не заботиться об обновлении статистики через наше API, количество серверов будет обновляться автоматически",
+                "message": "Количество серверов будет обновляться автоматически при поднятии бота",
                 "crowdinContext": "TODO"
               }
             }
@@ -681,7 +4102,7 @@
               "crowdinContext": "TODO"
             },
             "requirement2": {
-              "message": "Картинка должна быть размером не менее 128&times;128",
+              "message": "Картинка должна быть размером не менее 128x128",
               "crowdinContext": "TODO"
             },
             "requirement3": {
@@ -689,13 +4110,125 @@
               "crowdinContext": "TODO"
             },
             "requirement4": {
-              "message": "Рекомендованный размер баннера 460&times;128",
+              "message": "Рекомендованный размер: 460x128",
               "crowdinContext": "TODO"
             }
           }
         }
       },
       "server": {
+        "general": {
+          "status": {
+            "title": {
+              "message": "Статус сервера",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Здесь можно скрыть сервер из публичного доступа",
+              "crowdinContext": "TODO"
+            }
+          },
+          "short-description": {
+            "title": {
+              "message": "Краткое описание",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Кратко опишите вашего сервер — чем он отличается от других? Заинтересуйте гостей зайти именно к вам!",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "На сервере есть всё, от поней до рецепта счастья!",
+              "crowdinContext": "TODO"
+            }
+          },
+          "long-description": {
+            "title": {
+              "message": "Подробное описание",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Расскажите нам всё о своем сервере! Что выделяет его среди других? Можете добавить капельку Markdown, HTML и CSS. Только не перебарщивайте, иначе только оттолкнёте пользователей",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "{server} — лучший сервер в мире! Тут есть всё, что нужно, чтобы весело провести время с друзьями! А ещё тут есть пони! \uD83E\uDD84",
+              "crowdinContext": "TODO"
+            }
+          },
+          "link": {
+            "title": {
+              "message": "Ссылка-приглашение",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ссылка-приглашение на ваш сервер",
+              "crowdinContext": "TODO"
+            }
+          },
+          "tags": {
+            "title": {
+              "message": "Теги",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Выберите теги, которые лучше всего описывают ваш сервер. Это поможет людям проще найти сервер в поиске",
+              "crowdinContext": "TODO"
+            }
+          },
+          "site": {
+            "title": {
+              "message": "Сайт сервера",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Ссылка на сайт-визитку",
+              "crowdinContext": "TODO"
+            },
+            "aria": {
+              "message": "Ссылка на сайт бота",
+              "crowdinContext": "TODO"
+            }
+          },
+          "moderators": {
+            "title": {
+              "message": "Модераторы сервера",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Если вы не одни модерируете сервер, можно указать других модераторов здесь. Они смогут управлять профилем сервер, добавлять и удалять модераторов. Владельца удалить нельзя, лимит — макс. 10 модераторов",
+              "crowdinContext": "TODO"
+            },
+            "placeholder": {
+              "message": "ID модератора, например 232348485398036481",
+              "crowdinContext": "TODO"
+            },
+            "aria": {
+              "message": "ID модератора",
+              "crowdinContext": "TODO"
+            },
+            "find": {
+              "message": "Найти модератора",
+              "crowdinContext": "TODO"
+            }
+          },
+          "delete": {
+            "title": {
+              "message": "Удаление сервера",
+              "crowdinContext": "TODO"
+            },
+            "description": {
+              "message": "Данное действие необратимо удалит ваш сервер, оценки и апы",
+              "crowdinContext": "TODO"
+            }
+          },
+          "notify": {
+            "success": {
+              "message": "Статус сервера изменён",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
         "personalization": {
           "banner": {
             "description": {
