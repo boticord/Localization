@@ -33,7 +33,7 @@ jobs:
          pull_request_base_branch_name: 'main'
 
          github_user_name: BoticordAC
-         github_user_email: boticordac@users.noreply.github.com
+         github_user_email: bc@livixx.me
 
         env:
           GITHUB_TOKEN: ${{ secrets.BoticordAC_TOKEN }}
