@@ -39,7 +39,7 @@ bot = commands.Bot(command_prefix="!")
 
 # Функция, возвращающая статистику бота.
 async def get_stats():
-    return {"guilds": len(bot.guilds), "shards": 0, "members": len(bot.users)}
+    return {"servers": len(bot.guilds), "shards": None, "members": len(bot.users)}
 
 
 # Функция, вызываемае в случае успешной публикации статистики.
