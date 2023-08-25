@@ -188,6 +188,10 @@
     }
   },
   "profile": {
+    "original": {
+      "message": "Профиль",
+      "crowdinContext": "TODO"
+    },
     "settings": {
       "title": {
         "message": "Настройки профиля",
@@ -379,6 +383,10 @@
     "pending-controls": {
       "name": {
         "message": "Бот",
+        "crowdinContext": "TODO"
+      },
+      "new-message": {
+        "message": "Ожидает ответа",
         "crowdinContext": "TODO"
       }
     },
@@ -1066,11 +1074,11 @@
             }
           },
           "bots": {
-            "message": "Если вы искали ботов, переключитесь на другую вкладку.",
+            "message": "Если вы искали ботов, переключитесь на другую вкладку",
             "crowdinContext": "TODO"
           },
           "servers": {
-            "message": "Если вы искали сервера, переключитесь на другую вкладку.",
+            "message": "Если вы искали сервера, переключитесь на другую вкладку",
             "crowdinContext": "TODO"
           }
         },
@@ -1132,9 +1140,79 @@
         "crowdinContext": "TODO"
       },
       "dialog": {
-        "buttons": {
-          "message": "Закрыть окно",
+        "heading": {
+          "message": "Покупка бустов",
           "crowdinContext": "TODO"
+        },
+        "purchase-head": {
+          "message": "Выберите количество бустов для покупки. Один буст равен одному уровню. Вы можете дать буст любому боту/серверу на мониторинге",
+          "crowdinContext": "TODO"
+        },
+        "dialog": {
+          "heading": {
+            "message": "Покупка бустов",
+            "crowdinContext": "TODO"
+          },
+          "purchase-head": {
+            "message": "Выберите количество бустов для покупки. Один буст равен одному уровню. Вы можете дать буст любому боту/серверу на мониторинге",
+            "crowdinContext": "TODO"
+          },
+          "buttons": {
+            "cancel": {
+              "message": "Отменить",
+              "crowdinContext": "TODO"
+            },
+            "continue": {
+              "message": "Продолжить",
+              "crowdinContext": "TODO"
+            },
+            "aria-label": {
+              "message": "Закрыть окно",
+              "crowdinContext": "TODO"
+            }
+          },
+          "period": {
+            "message": "мес",
+            "crowdinContext": "TODO"
+          },
+          "plural": {
+            "message": "Нет бустов | буст | буста | бустов",
+            "crowdinContext": "TODO"
+          },
+          "pay-window": {
+            "description": {
+              "message": "для",
+              "crowdinContext": "TODO"
+            }
+          }
+        },
+        "buttons": {
+          "cancel": {
+            "message": "Отменить",
+            "crowdinContext": "TODO"
+          },
+          "continue": {
+            "message": "Продолжить",
+            "crowdinContext": "TODO"
+          },
+          "aria-label": {
+            "message": "Закрыть окно",
+            "crowdinContext": "TODO"
+          }
+        },
+        "period": {
+          "message": "мес",
+          "crowdinContext": "TODO"
+        },
+        "plural": {
+          "message": "бустов | буст | буста | бустов",
+          "crowdinContext": "TODO"
+        },
+        "pay-window": {
+          "description": {
+            "message": "для",
+            "crowdinContext": "TODO"
+          }
         }
       },
       "buttons": {
@@ -2147,6 +2225,8 @@
       }
     },
     "faq": {
+      "message": "FAQ",
+      "crowdinContext": "TODO",
       "about": {
         "title": {
           "message": "Основное",
@@ -3041,8 +3121,14 @@
           "crowdinContext": "TODO"
         },
         "description": {
-          "message": "Зайдите на наш сервер поддержки <a href=\"https://discord.gg/hkHjW8a\"rel=\"noopener noreferrer\"target=\"_blank\">https://discord.gg/hkHjW8a</a> и создайте тикет. Мы постараемся ответить вам как можно быстрее.",
-          "crowdinContext": "TODO"
+          "one": {
+            "message": "Зайдите на наш сервер поддержки",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "и создайте тикет. Мы постараемся ответить вам как можно быстрее.",
+            "crowdinContext": "TODO"
+          }
         }
       },
       "project-officials": {
@@ -3051,8 +3137,22 @@
           "crowdinContext": "TODO"
         },
         "description": {
-          "message": "По вопросам коммерческого сотрудничества: <a href=\"mailto:sales@bcord.cc\"target=\"_blank\">sales@bcord.cc</a> <br> По вопросам, связанным с законодательством (включая GDPR/DMCA): <a href=\"mailto:law@bcord.cc\"target=\"_blank\">law@bcord.cc</a> <br> Запрос полной копии своих данных: <a href=\"mailto:privacy@bcord.cc\" target=\"_blank\">privacy@bcord.cc</a> <br> Технические вопросы и сообщения о багах: <a href=\"mailto:help@bcord.cc\" target=\"_blank\">help@bcord.cc</a>",
-          "crowdinContext": "TODO"
+          "one": {
+            "message": "По вопросам коммерческого сотрудничества:",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "По вопросам, связанным с законодательством (включая GDPR/DMCA):",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Запрос полной копии своих данных:",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "Технические вопросы и сообщения о багах:",
+            "crowdinContext": "TODO"
+          }
         }
       },
       "project-developers": {
@@ -3061,8 +3161,22 @@
           "crowdinContext": "TODO"
         },
         "description": {
-          "message": "<span>София, Team Leader + BizDevOps: </span><a href=\"mailto:sofia@mird.uk\" rel=\"noopener noreferrer\" target=\"_blank\">sofia@mird.uk</a> <br> <span>Егор, Design + Layout: </span><a href=\"https://qegor_m.t.me\" rel=\"noopener noreferrer\" target=\"_blank\">qegor_m.t.me</a> <br> <span>Егор, Back-End: </span><a href=\"https://kislball.t.me\" rel=\"noopener noreferrer\" target=\"_blank\">kislball.t.me</a> <br> <span>Никита, Front-End: </span><a href=\"https://livixx.me\" rel=\"noopener noreferrer\" target=\"_blank\">livixx.me</a>",
-          "crowdinContext": "TODO"
+          "one": {
+            "message": "София, Team Leader + BizDevOps: ",
+            "crowdinContext": "TODO"
+          },
+          "two": {
+            "message": "Егор, Design + Layout: ",
+            "crowdinContext": "TODO"
+          },
+          "three": {
+            "message": "Егор, Back-End: ",
+            "crowdinContext": "TODO"
+          },
+          "four": {
+            "message": "Никита, Front-End: ",
+            "crowdinContext": "TODO"
+          }
         }
       }
     }
@@ -3100,6 +3214,80 @@
     }
   },
   "common": {
+    "available-monitorings": {
+      "check-manual": {
+        "name": {
+          "message": "Ручная проверка",
+          "crowdinContext": "TODO"
+        },
+        "description": {
+          "message": "Проверка производится вручную",
+          "crowdinContext": "TODO"
+        }
+      },
+      "via": {
+        "message": "Через",
+        "crowdinContext": "TODO"
+      }
+    },
+    "available-libs": {
+      "nothing": {
+        "message": "Не указано",
+        "crowdinContext": "TODO"
+      },
+      "another": {
+        "message": "Другая",
+        "crowdinContext": "TODO"
+      }
+    },
+    "legal-links": {
+      "tos": {
+        "message": "Правила использования",
+        "crowdinContext": "TODO"
+      },
+      "privacy": {
+        "message": "Конфиденциальность",
+        "crowdinContext": "TODO"
+      },
+      "sales": {
+        "message": "Продажи",
+        "crowdinContext": "TODO"
+      },
+      "contacts": {
+        "message": "Связь с нами",
+        "crowdinContext": "TODO"
+      }
+    },
+    "convert-time": {
+      "years": {
+        "message": "лет назад | год назад | года назад | лет назад",
+        "crowdinContext": "TODO"
+      },
+      "months": {
+        "message": "месяцев назад | месяц назад | месяца назад | месяцев назад",
+        "crowdinContext": "TODO"
+      },
+      "days": {
+        "message": "дней назад | день назад | дня назад | дней назад",
+        "crowdinContext": "TODO"
+      },
+      "hours": {
+        "message": "часов назад | час назад | часа назад | часов назад",
+        "crowdinContext": "TODO"
+      },
+      "minutes": {
+        "message": "минут назад | минуту назад | минуты назад | минут назад",
+        "crowdinContext": "TODO"
+      },
+      "seconds": {
+        "message": "секунд назад | секунду назад | секунды назад | секунд назад",
+        "crowdinContext": "TODO"
+      },
+      "now": {
+        "message": "Прямо сейчас",
+        "crowdinContext": "TODO"
+      }
+    },
     "img": {
       "alt": {
         "error-entry": {
@@ -3577,12 +3765,23 @@
             "message": "Бот успешно сохранён",
             "crowdinContext": "TODO"
           }
+        },
+        "header": {
+          "title": {
+            "message": "Настройки бота"
+          }
         }
       },
       "server": {
         "notify": {
           "success": {
             "message": "Сервер успешно сохранён",
+            "crowdinContext": "TODO"
+          }
+        },
+        "header": {
+          "title": {
+            "message": "Настройки сервера",
             "crowdinContext": "TODO"
           }
         }
