@@ -1,3783 +1,3783 @@
 {
   "auth.login.success": {
     "message": "Вы успешно вошли в аккаунт!",
-    "description": "Уведомление в попапе при успешном входе"
+    "crowdinContext": "Уведомление в попапе при успешном входе"
   },
   "app.heading": {
     "message": "Ничего не видно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "app.caption": {
     "message": "Что-то пошло не так. Давайте попробуем обновить страницу.<br>Если это не помогает, обратитесь на сервер поддержки.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "app.buttons.refresh": {
     "message": "Обновить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "app.buttons.support-server": {
     "message": "Сервер поддержки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "filters.popular": {
     "message": "Популярные",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "filters.rating": {
     "message": "Оценки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "filters.new": {
     "message": "Новые",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "filters.big": {
     "message": "Крупные",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tabs.bots": {
     "message": "Боты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tabs.servers": {
     "message": "Сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.moderation": {
     "message": "Модерация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.combine": {
     "message": "Комбайн",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.utils": {
     "message": "Утилиты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.fun": {
     "message": "Фан",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.music": {
     "message": "Музыка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.economy": {
     "message": "Экономика",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.logs": {
     "message": "Логи",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.levels": {
     "message": "Уровни",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.nsfw": {
     "message": "18+",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.setting": {
     "message": "Настройка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.role-play": {
     "message": "Role-Play",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.memes": {
     "message": "Мемы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.games": {
     "message": "Игры",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.bots.ai": {
     "message": "AI",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.communication": {
     "message": "Общение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.fun": {
     "message": "Фан",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.games": {
     "message": "Игры",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.movie": {
     "message": "Кино",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.anime": {
     "message": "Аниме",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.art": {
     "message": "Искусство",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.coding": {
     "message": "Кодинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.music": {
     "message": "Музыка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.nsfw": {
     "message": "18+",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.role-play": {
     "message": "Role-Play",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "tags.servers.humor": {
     "message": "Юмор",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "admin.headline.title": {
     "message": "Админка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "admin.headline.description": {
+  "admin.headline.crowdinContext": {
     "message": "Инструменты персонала для управления сайтом",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "admin.tabs.queue": {
     "message": "Очередь ботов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "admin.tabs.reports": {
     "message": "Репорты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "admin.tabs.billing": {
     "message": "Биллинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.original": {
     "message": "Профиль",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.settings.title": {
     "message": "Настройки профиля",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.settings.notify.success": {
     "message": "Успешно!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.settings.notify.success.save": {
     "message": "Профиль успешно сохранён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.preview": {
     "message": "Так профиль будут видеть другие пользователи",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.save": {
     "message": "Сохранить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.accessibility-label.vk": {
     "message": "ВКонтакте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.accessibility-label.telegram": {
     "message": "Telegram",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.accessibility-label.git": {
     "message": "Git-сервис",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.accessibility-label.donate": {
     "message": "Донат",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.accessibility-label.website": {
     "message": "Личный сайт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.buttons.accessibility-label.edit": {
     "message": "Редактировать",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.status": {
     "message": "Классный статус",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.about-me.heading": {
     "message": "О себе",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.about-me.empty": {
     "message": "Пользователь ещё ничего не написал о себе",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.projects.heading": {
     "message": "Проекты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.projects.empty": {
     "message": "У пользователя пока нет проектов на сайте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.projects.bots.heading": {
     "message": "Боты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.projects.bots.on-review": {
     "message": "Боты на проверке",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "profile.projects.servers.heading": {
     "message": "Серверы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.dropdown.profile": {
     "message": "Профиль",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.dropdown.admin": {
     "message": "Админка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.dropdown.exit": {
     "message": "Выход",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.add": {
     "message": "Добавить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.add.bot": {
     "message": "Добавить бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.add.server": {
     "message": "Добавить сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.partners": {
     "message": "Партнёры",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.support": {
     "message": "Поддержка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.boosts": {
     "message": "Бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.login": {
     "message": "Войти",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.login.unavailable": {
     "message": "Вход недоступен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.admin": {
     "message": "Админка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.exit": {
     "message": "Выход",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.menu.aria-label": {
     "message": "Меню",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.menu.bar.aria-label": {
     "message": "Выход",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "header.menu.bar.profile.aria-label": {
     "message": "Меню профиля",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "bot.adding.headline.title": {
     "message": "Добавить бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "bot.adding.headline.description": {
+  "bot.adding.headline.crowdinContext": {
     "message": "Добавление нового бота на мониторинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "bot.adding.headline.unlogged": {
     "message": "Для добавления бота на мониторинг вам необходимо войти в аккаунт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "bot.pending-controls.name": {
     "message": "Бот",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "bot.pending-controls.new-message": {
     "message": "Ожидает ответа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "bot.buttons.boost": {
     "message": "Буст",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "server.adding.headline.title": {
     "message": "Добавить сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "server.adding.headline.description": {
+  "server.adding.headline.crowdinContext": {
     "message": "Добавление нового сервера на мониторинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "server.adding.headline.unlogged": {
     "message": "Для добавления сервера на мониторинг вам необходимо войти в аккаунт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "server.buttons.boost": {
     "message": "Буст",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "server.boost.info-label.one": {
     "message": "Буст:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "server.boost.info-label.two": {
     "message": "уровень",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.loader.skeleton": {
     "message": "Загрузка...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.interface.media-uploader.title.one": {
     "message": "Перетащите или",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.interface.media-uploader.title.two": {
     "message": "выберите изображение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.interface.image-viewer.original": {
     "message": "Открыть оригинал",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.interface.disclosure.buttons.aria-label": {
     "message": "Закрыть/открыть",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.custom-invite.title": {
     "message": "Кастомный инвайт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.custom-invite.description": {
+  "components.settings.personalization.custom-invite.crowdinContext": {
     "message": "Инвайт, использующий ваш сайт, например для аналитики. Будет расположен в кнопке \"Пригласить\"",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.media.selected": {
     "message": "Выбрано: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.media.size": {
     "message": "Размер: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.media.unsupported": {
     "message": "(неподдерживаемый формат)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.media.big": {
     "message": "(слишком большой)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.media.big-and-unsupported": {
     "message": "(слишком большой и неподдерживаемый формат)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.unique-invite.title": {
     "message": "Уникальная ссылка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.unique-invite.description": {
+  "components.settings.personalization.unique-invite.crowdinContext": {
     "message": "Читабельная ссылка на профиль бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.server.tab.standard-banner.title": {
     "message": "Приоритизировать стандартный баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.server.tab.standard-banner.description": {
+  "components.settings.personalization.server.tab.standard-banner.crowdinContext": {
     "message": "Показывать стандартный баннер вместо баннера из Discord. Полезно, когда баннер в Discord часто обновляется",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.server.tab.custom-invite.title": {
     "message": "Кастомный инвайт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.server.tab.custom-invite.description": {
+  "components.settings.personalization.server.tab.custom-invite.crowdinContext": {
     "message": "Инвайт, использующий ваш сайт, например для аналитики. Будет расположен в кнопке \"Вступить\"",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.server.tab.personal-banner.title": {
     "message": "Персональный баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.server.tab.personal-banner.description": {
+  "components.settings.personalization.server.tab.personal-banner.crowdinContext": {
     "message": "Баннер для карточки сервера на главной странице",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.server.tab.custom-background.title": {
     "message": "Пользовательский фон",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.server.tab.custom-background.description": {
+  "components.settings.personalization.server.tab.custom-background.crowdinContext": {
     "message": "Фон для страницы профиля сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.personalization.server.tab.unique-link.title": {
     "message": "Уникальная ссылка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.personalization.server.tab.unique-link.description": {
+  "components.settings.personalization.server.tab.unique-link.crowdinContext": {
     "message": "Читабельная ссылка на профиль сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.heading": {
     "message": "Основные",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.links.title": {
     "message": "Ссылки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.general.links.description": {
+  "components.settings.profile.tab.general.links.crowdinContext": {
     "message": "Здесь можно указать ваши социальные сети",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.links.accessibility-label.vk": {
     "message": "Ссылка на ВКонтакте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.links.accessibility-label.telegram": {
     "message": "Ссылка на Telegram",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.links.accessibility-label.git": {
     "message": "Ссылка на Git",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.links.accessibility-label.donate": {
     "message": "Ссылка на донат",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.links.accessibility-label.website": {
     "message": "Ссылка на личный сайт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.website.placeholder": {
     "message": "Личный сайт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.status.title": {
     "message": "Статус",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.general.status.description": {
+  "components.settings.profile.tab.general.status.crowdinContext": {
     "message": "Короткая фраза, значащая многое для вас",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.status.placeholder": {
     "message": "Мега крутой пользователь 😎",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.about-me.title": {
     "message": "О себе",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.general.about-me.description": {
+  "components.settings.profile.tab.general.about-me.crowdinContext": {
     "message": "Описание вашего профиля",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.general.about-me.placeholder": {
     "message": "Напишите что-нибудь о себе... (Поддерживаются Markdown и HTML)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.heading": {
     "message": "Настройки API",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.title": {
     "message": "API-токен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.api.description": {
+  "components.settings.profile.tab.api.crowdinContext": {
     "message": "Чтобы получать уведомления делать запросы к API, необходимо создать токен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.buttons.reset": {
     "message": "Сбросить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.buttons.create": {
     "message": "Создать",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.buttons.remove.accessibility-label": {
     "message": "Удалить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.heading": {
     "message": "Сброс токена",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.api.token.description": {
+  "components.settings.profile.tab.api.token.crowdinContext": {
     "message": "Вы действительно хотите сбросить токен?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.generate": {
     "message": "Токен не создан. Для создания нового токена нажмите на кнопку «Создать».",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.notify.success.copy": {
     "message": "Токен успешно скопирован!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.notify.success.generate": {
     "message": "Токен успешно создан",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.notify.success.delete": {
     "message": "Токен успешно удалён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.buttons.aria-label": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.buttons.cancel": {
     "message": "Отменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.token.buttons.reset": {
     "message": "Сбросить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.alerts.title": {
     "message": "Включить отправку уведомлений по HTTP",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.api.alerts.description": {
+  "components.settings.profile.tab.api.alerts.crowdinContext": {
     "message": "Если выключено, уведомления можно будет получать по WebSocket",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.webhook.title": {
     "message": "Введите ссылку на Webhook",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.api.webhook.description": {
+  "components.settings.profile.tab.api.webhook.crowdinContext": {
     "message": "На указанный URL будут приходить уведомления",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.webhook.placeholder": {
     "message": "Введите URL",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.title": {
     "message": "Заголовки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.api.headings.description": {
+  "components.settings.profile.tab.api.headings.crowdinContext": {
     "message": "Заголовки запроса, которые вы можете установить для подтверждения уведомлений",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.key.accessibility-label": {
     "message": "Ключ заголовка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.key.placeholder": {
     "message": "Ключ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.value.accessibility-label": {
     "message": "Значение заголовка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.value.placeholder": {
     "message": "Значение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.announcement.caption.one": {
     "message": "Нажмите на",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.announcement.caption.two": {
     "message": "чтобы добавить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.announcement.caption.three": {
     "message": "ещё один",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.announcement.caption.four": {
     "message": "заголовок",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.headings.announcement.caption.five": {
     "message": "Нельзя добавить больше 10 заголовков",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.test.title": {
     "message": "Тестовое сообщение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.api.test.description": {
+  "components.settings.profile.tab.api.test.crowdinContext": {
     "message": "Какое-то сообщение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.api.test.buttons.send": {
     "message": "Отправить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.heading": {
     "message": "Бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.title": {
     "message": "Бустов: {max} <span class=\"boost-activated__muted\">(Не использовано: {unused})</span>",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.write-off": {
     "message": "Следующее списание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.valid-until": {
     "message": "Действует до:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.resource.list.title": {
     "message": "Список ресурсов с бустом",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.billing.resource.list.description.one": {
+  "components.settings.profile.tab.billing.resource.list.crowdinContext.one": {
     "message": "Список серверов и ботов, которым вы дали буст",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.billing.resource.list.description.two": {
+  "components.settings.profile.tab.billing.resource.list.crowdinContext.two": {
     "message": "Здесь будет список ботов и серверов, которым вы дали буст. Чтобы выдать буст, перейдите на страничку нужного бота/сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.billing.resource.list.description.three": {
+  "components.settings.profile.tab.billing.resource.list.crowdinContext.three": {
     "message": "активно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.buttons.go": {
     "message": "Перейти",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.notify.success.renewed": {
     "message": "Подписка возобновлена!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.notify.success.canceled": {
     "message": "Подписка отменена!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.notify.success.add.card": {
     "message": "Успешно привязано!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.notify.success.remove.card": {
     "message": "Способ оплаты успешно удален",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.profile.tab.billing.notify.remove.card": {
     "message": "Удаляем привязанный способ оплаты...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.billing.pay-window.description.one": {
+  "components.settings.profile.tab.billing.pay-window.crowdinContext.one": {
     "message": "Привязка платёжного средства",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.profile.tab.billing.pay-window.description.two": {
+  "components.settings.profile.tab.billing.pay-window.crowdinContext.two": {
     "message": "для",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.heading": {
     "message": "Вы уверены?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.dialog.deleting.description.one": {
+  "components.settings.dialog.deleting.crowdinContext.one": {
     "message": "Данное действие необратимо удалит {msg} оценки и апы.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.dialog.deleting.description.two": {
+  "components.settings.dialog.deleting.crowdinContext.two": {
     "message": "Напишите ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.settings.dialog.deleting.description.three": {
+  "components.settings.dialog.deleting.crowdinContext.three": {
     "message": "для подтверждения",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.bot": {
     "message": "вашего бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.server": {
     "message": "ваш сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.text-input.accessibility-label": {
     "message": "Напишите название ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.buttons.delete": {
     "message": "Удалить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.buttons.cancel": {
     "message": "Отменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.buttons.aria-label": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.notify.success.bot.delete": {
     "message": "Бот успешно удалён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.settings.dialog.deleting.notify.success.server.delete": {
     "message": "Сервер успешно удалён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.card.tags": {
     "message": "+ещё",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.card.tags.unknown": {
     "message": "Неизвестный тег",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.card.action-label.join": {
     "message": "Вступить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.card.action-label.invite": {
     "message": "Пригласить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.card.bot": {
     "message": "Робот",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.card.server": {
     "message": "Сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.filters.list-label": {
     "message": "Сортировать по",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.need-update-dialog.heading": {
     "message": "Доступно обновление!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.main.need-update-dialog.description": {
+  "components.main.need-update-dialog.crowdinContext": {
     "message": "Для корректной работы сайта необходимо обновиться до последней версии",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.need-update-dialog.buttons.cancel": {
     "message": "Отменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.need-update-dialog.buttons.refresh": {
     "message": "Обновить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.entry.placeholder.servers": {
     "message": "Поиск серверов...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.entry.placeholder.bots": {
     "message": "Поиск ботов...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.not-found": {
     "message": "Ничего не найдено",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.recommendation": {
     "message": "Рекомендации:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.list.one": {
     "message": "Если у вас есть применённые фильтры, попробуйте сбросить их.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.list.two": {
     "message": "Если вы искали {msg} переключитесь на другую вкладку.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.list.three": {
     "message": "Попробуйте задать другой запрос.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.list.four": {
     "message": "Попробуйте обновить страницу и выполнить поиск ещё раз.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.list.five": {
     "message": "Проверьте подключение к интернету.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.list.six": {
     "message": "Если проблема повторяется, обратитесь на <a href=\"https://discord.com/invite/hkHjW8a\">сервер поддержки</a>.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.pagination.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.pagination.forward": {
     "message": "Вперёд",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.bots": {
     "message": "Если вы искали ботов, переключитесь на другую вкладку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.result.servers": {
     "message": "Если вы искали сервера, переключитесь на другую вкладку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.tags.less": {
     "message": "Меньше тегов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.tags.more": {
     "message": "Больше тегов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.main.search.tags.clear": {
     "message": "Очистить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.add.dropdown.title": {
     "message": "Добавление бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.boost.add.dropdown.description": {
+  "components.boost.add.dropdown.crowdinContext": {
     "message": "Какое количество бустов вы хотите добавить?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.add.dropdown.buttons.add": {
     "message": "Добавить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.remove.dropdown.title": {
     "message": "Снятие бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.boost.remove.dropdown.description": {
+  "components.boost.remove.dropdown.crowdinContext": {
     "message": "Какое количество бустов вы хотите снять?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.remove.dropdown.buttons.remove": {
     "message": "Снять",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.lock": {
     "message": "Необходим буст {lvl} уровня",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.heading": {
     "message": "Покупка бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.purchase-head": {
     "message": "Выберите количество бустов для покупки. Один буст равен одному уровню. Вы можете дать буст любому боту/серверу на мониторинге",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.heading": {
     "message": "Покупка бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.purchase-head": {
     "message": "Выберите количество бустов для покупки. Один буст равен одному уровню. Вы можете дать буст любому боту/серверу на мониторинге",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.buttons.cancel": {
     "message": "Отменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.buttons.continue": {
     "message": "Продолжить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.buttons.aria-label": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.period": {
     "message": "мес",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.dialog.plural": {
     "message": "Нет бустов | буст | буста | бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.boost.dialog.dialog.pay-window.description": {
+  "components.boost.dialog.dialog.pay-window.crowdinContext": {
     "message": "для",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.buttons.cancel": {
     "message": "Отменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.buttons.continue": {
     "message": "Продолжить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.buttons.aria-label": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.period": {
     "message": "мес",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.dialog.plural": {
     "message": "бустов | буст | буста | бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.boost.dialog.pay-window.description": {
+  "components.boost.dialog.pay-window.crowdinContext": {
     "message": "для",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.buttons.decrease": {
     "message": "Уменьшить количество",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.buttons.increase": {
     "message": "Увеличить количество",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.buttons.buy": {
     "message": "Приобрести",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.input.aria-label": {
     "message": "Количество бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.notify.buy.success": {
     "message": "Бусты успешно приобретены",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.notify.add.success": {
     "message": "Бусты успешно добавлены",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.boost.notify.remove.success": {
     "message": "Бусты успешно убраны",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.header.sections": {
     "message": "Разделы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.header.information": {
     "message": "Информация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.announcement": {
     "message": "Мы не являемся аффилированным<br>лицом компании Discord Inc.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.support": {
     "message": "Помощь",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.partners": {
     "message": "Партнеры проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.contacts": {
     "message": "Обратная связь",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.support-server": {
     "message": "Сервер поддержки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.documentation": {
     "message": "Документация по API",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.tos": {
     "message": "Политика использования",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.privacy": {
     "message": "Политика конфиденциальности",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.aria-label": {
     "message": "На главную",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.layout.footer.donate": {
     "message": "Поддержать разработку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.breadcrumb": {
     "message": "Шаг 1",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.heading": {
     "message": "Укажите ID вашего Discord бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.caption": {
     "message": "Так мы сможем понять, какого бота вы хотите добавить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.id.title": {
     "message": "Discord ID бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-one.id.find.description.one": {
+  "components.adding.bot.step-one.id.find.crowdinContext.one": {
     "message": "Его можно найти на",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-one.id.find.description.two": {
+  "components.adding.bot.step-one.id.find.crowdinContext.two": {
     "message": "портале разработчиков Discord",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.buttons.next": {
     "message": "Дальше",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.buttons.find": {
     "message": "Найти",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.buttons.label": {
     "message": "Найти бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-one.buttons.accessibility-label": {
     "message": "Отмена",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.breadcrumb": {
     "message": "Шаг 2",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.heading": {
     "message": "Немного о {username} <span class=\"discriminator\">{discriminator}</span>",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.caption": {
     "message": "Добавьте чуточку сведений о вашем боте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.short-description.title": {
+  "components.adding.bot.step-two.short-crowdinContext.title": {
     "message": "Краткое описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.short-description.caption": {
+  "components.adding.bot.step-two.short-crowdinContext.caption": {
     "message": "Кратко опишите вашего бота — что он делает? Для чего полезен? Заинтересуйте изучить именно его!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.short-description.placeholder": {
+  "components.adding.bot.step-two.short-crowdinContext.placeholder": {
     "message": "Бот умеет всё, даже показывать поней и делать сайты!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.full-description.title": {
+  "components.adding.bot.step-two.full-crowdinContext.title": {
     "message": "Подробное описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.full-description.caption": {
+  "components.adding.bot.step-two.full-crowdinContext.caption": {
     "message": "Расскажите нам всё о своем боте! Что умеет ваш бот? Что выделяет его среди других? Можете добавить капельку Markdown, HTML и CSS. Только не перебарщивайте, иначе только оттолкнёте пользователей",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.full-description.placeholder": {
+  "components.adding.bot.step-two.full-crowdinContext.placeholder": {
     "message": "{username} поможет вам в различных ситуациях! Например, он может сделать сайт-визитку, показать поней всему серверу, помочь управлять вашим сервером, и многое другое! Из особенностей: сайты получаются ну очень красивыми.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.prefix.title": {
     "message": "Префикс",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.prefix.description": {
+  "components.adding.bot.step-two.prefix.crowdinContext": {
     "message": "На какой символ или фразу реагирует ваш бот?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.invite-url.title": {
     "message": "Ссылка-приглашение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.invite-url.description.one": {
+  "components.adding.bot.step-two.invite-url.crowdinContext.one": {
     "message": "Ссылка на добавление вашего бота. Её можно сгенерировать на",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.invite-url.description.two": {
+  "components.adding.bot.step-two.invite-url.crowdinContext.two": {
     "message": "портале разработчиков Discord",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.library.title": {
     "message": "Библиотека бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.library.description": {
+  "components.adding.bot.step-two.library.crowdinContext": {
     "message": "Библиотека для взаимодействия с Discord API",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.library.list-label": {
     "message": "Доступные библиотеки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.tags.title": {
     "message": "Теги",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.tags.description": {
+  "components.adding.bot.step-two.tags.crowdinContext": {
     "message": "Выберите теги, которые лучше всего описывают вашего бота. Это поможет людям проще найти бота в поиске",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.tags.clear": {
     "message": "Очистить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.support-server.title": {
     "message": "Сервер поддержки бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.support-server.description": {
+  "components.adding.bot.step-two.support-server.crowdinContext": {
     "message": "Ссылка-приглашение на сервер, где могут помочь с вашим ботом",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.website.title": {
     "message": "Сайт бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.website.description": {
+  "components.adding.bot.step-two.website.crowdinContext": {
     "message": "Ссылка на сайт-визитку или настройки через веб",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.website.url": {
     "message": "Ссылка на сайт бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.developer.title": {
     "message": "Разработчики бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.developer.description": {
+  "components.adding.bot.step-two.developer.crowdinContext": {
     "message": "Если вы не одни разрабатывали бота, можно указать других разработчиков здесь. Они смогут управлять профилем бота, добавлять и удалять разработчиков. Владельца удалить нельзя, а лимит — макс. {limit} разработчиков",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.developer.id": {
     "message": "ID разработчика",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.developer.placeholder": {
     "message": "ID разработчика, например 232348485398036481",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.developer.find.title": {
     "message": "Найти разработчика",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-two.developer.find.description": {
+  "components.adding.bot.step-two.developer.find.crowdinContext": {
     "message": "Найти",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.developer.delete": {
     "message": "Удалить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-two.buttons.next": {
     "message": "Дальше",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.breadcrumb": {
     "message": "Шаг 3",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.heading": {
     "message": "Персонализация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.caption": {
     "message": "Настройте внешний вид карточки и страницы бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.non-premium.banner.title": {
     "message": "Стандартный баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-three.non-premium.banner.description": {
+  "components.adding.bot.step-three.non-premium.banner.crowdinContext": {
     "message": "Выберите стандартный баннер — он будет отображаться, если у бота нет персонального баннера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.non-premium.banner.color": {
     "message": "Выбранный цвет:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.buttons.next": {
     "message": "Дальше",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-three.notify.in-development": {
     "message": "В разработке",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.notify.success": {
     "message": "Получилось!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.breadcrumb": {
     "message": "Шаг 4",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.heading": {
     "message": "Почти закончили!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.caption": {
     "message": "Осталось проверить: владелец ли вы, качество бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.owner-validation.title": {
     "message": "Проверка на владение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-four.owner-validation.description": {
+  "components.adding.bot.step-four.owner-validation.crowdinContext": {
     "message": "Укажите, в какой команде бота написан его владелец. Также можете добавить и другие комментарии — модератор их прочтёт и примет к сведению",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.owner-validation.label": {
     "message": "Проверка на владение ботом",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.quality-validation.title": {
     "message": "Проверка на качество",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.bot.step-four.quality-validation.description": {
+  "components.adding.bot.step-four.quality-validation.crowdinContext": {
     "message": "Ваш бот будет принят автоматически, сразу после проверки на владение, если он уже был проверен модераторами представленных мониторингов — выберите нужный и нажмите «Завершить»",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-four.buttons.complete": {
     "message": "Завершить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-progress.heading": {
     "message": "Как добавить?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-progress.caption": {
     "message": "Выполните эти 4 простых шага",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-progress.id": {
     "message": "Discord ID бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-progress.information": {
     "message": "Сведения о боте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-progress.personalization": {
     "message": "Персонализация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.bot.step-progress.verification": {
     "message": "Верификация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.selector-dialog.heading": {
     "message": "Выберите сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.selector-dialog.empty": {
     "message": "У вас нет серверов, которыми вы управляете",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.selector-dialog.buttons.close.aria-label": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.selector-dialog.buttons.name.aria-label": {
     "message": "Имя сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.selector-dialog.annotation": {
     "message": "Добавить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.breadcrumb": {
     "message": "Шаг 1",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.heading": {
     "message": "Выбор сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.caption": {
     "message": "Выберите сервер, который вы хотите добавить на сайт!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.title": {
     "message": "Сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-one.description.one": {
+  "components.adding.server.step-one.crowdinContext.one": {
     "message": "Выберите сервер из списка. Если его нет, проверьте что у Вас есть право",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-one.description.two": {
+  "components.adding.server.step-one.crowdinContext.two": {
     "message": "Управление сервером",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.selector": {
     "message": "Выберите сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.buttons.select.aria-label": {
     "message": "Выбрать сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-one.buttons.next": {
     "message": "Дальше",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.breadcrumb": {
     "message": "Шаг 2",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.heading": {
     "message": "Добавьте сервисного бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.caption": {
     "message": "Вам нужно добавить сервисного бота для взаимодействия сервера с сайтом.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.service-bot": {
     "message": "Официальный бот проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.buttons.invite": {
     "message": "Пригласить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-two.buttons.next": {
     "message": "Дальше",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.breadcrumb": {
     "message": "Шаг 3",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.heading": {
     "message": "Немного о",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.caption": {
     "message": "Добавьте чуточку сведений о вашем сервере",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.short-description.title": {
+  "components.adding.server.step-three.short-crowdinContext.title": {
     "message": "Краткое описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.short-description.caption": {
+  "components.adding.server.step-three.short-crowdinContext.caption": {
     "message": "Кратко опишите вашего сервер — чем он отличается от других? Заинтересуйте гостей зайти именно к вам!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.short-description.placeholder": {
+  "components.adding.server.step-three.short-crowdinContext.placeholder": {
     "message": "На сервере есть всё, от поней до рецепта счастья!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.long-description.title": {
+  "components.adding.server.step-three.long-crowdinContext.title": {
     "message": "Подробное описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.long-description.caption": {
+  "components.adding.server.step-three.long-crowdinContext.caption": {
     "message": "Расскажите нам всё о своем сервере! Что выделяет его среди других? Можете добавить капельку Markdown,\n          HTML и CSS. Только не перебарщивайте, иначе только оттолкнёте пользователей",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.long-description.placeholder": {
+  "components.adding.server.step-three.long-crowdinContext.placeholder": {
     "message": "{server} — лучший сервер в мире! Тут есть всё, что нужно, чтобы весело провести время с друзьями! А ещё тут есть пони! 🦄",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.invite.title": {
     "message": "Ссылка-приглашение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.invite.description": {
+  "components.adding.server.step-three.invite.crowdinContext": {
     "message": "Ссылка-приглашение на ваш сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.tags.title": {
     "message": "Теги",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.tags.description": {
+  "components.adding.server.step-three.tags.crowdinContext": {
     "message": "Выберите теги, которые лучше всего описывают ваш сервер. Это поможет людям проще найти сервер в поиске",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.tags.clear": {
     "message": "Очистить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.website.title": {
     "message": "Сайт сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.website.description": {
+  "components.adding.server.step-three.website.crowdinContext": {
     "message": "Ссылка на сайт-визитку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.website.text-input.accessibility-label": {
     "message": "Ссылка на сайт сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.moderators.title": {
     "message": "Модераторы сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-three.moderators.description": {
+  "components.adding.server.step-three.moderators.crowdinContext": {
     "message": "Если вы не одни модерируете сервер, можно указать других модераторов здесь. Они смогут управлять  профилем сервера, добавлять и удалять модераторов. Владельца удалить нельзя, а лимит —; макс. 10 модераторов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.moderators.placeholder": {
     "message": "ID модератора, например 232348485398036481",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.moderators.text-input.accessibility-label": {
     "message": "ID модератора",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.moderators.buttons.accessibility-label.one": {
     "message": "Найти модератора",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.moderators.buttons.accessibility-label.two": {
     "message": "Удалить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.moderators.buttons.find": {
     "message": "Найти",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-three.buttons.next": {
     "message": "Дальше",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.notify.success": {
     "message": "Получилось!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.notify.in-development": {
     "message": "В разработке",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.breadcrumb": {
     "message": "Шаг 4",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.heading": {
     "message": "Персонализация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.caption": {
     "message": "Настройте внешний вид карточки и страницы сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.non-premium.banner.title": {
     "message": "Стандартный баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-four.non-premium.banner.description.one": {
+  "components.adding.server.step-four.non-premium.banner.crowdinContext.one": {
     "message": "Выберите стандартный баннер — он будет отображаться, если у бота нет персонального баннера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.adding.server.step-four.non-premium.banner.description.two": {
+  "components.adding.server.step-four.non-premium.banner.crowdinContext.two": {
     "message": "Выбранный цвет:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.buttons.back": {
     "message": "Назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-four.buttons.add": {
     "message": "Добавить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-progress.heading": {
     "message": "Как добавить?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-progress.caption": {
     "message": "Выполните эти 4 простых шага",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-progress.select-server": {
     "message": "Выбор сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-progress.service-bot": {
     "message": "Сервисный бот",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-progress.server-information": {
     "message": "Сведения о сервере",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.adding.server.step-progress.personalization": {
     "message": "Персонализация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.headline.title": {
     "message": "Чат с модераторами",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.admin.chat.headline.description": {
+  "components.admin.chat.headline.crowdinContext": {
     "message": "Здесь модераторы будут просить вас исправить найденные ошибки. Обратите внимание, вы можете написать только 2 сообщения подряд.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.avatar.support": {
     "message": "Чат с модераторами",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.buttons.accept": {
     "message": "Принять",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.buttons.block": {
     "message": "Заблокировать",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.buttons.label.aria": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.buttons.label.refresh": {
     "message": "Обновить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.buttons.label.send": {
     "message": "Отправить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.empty": {
     "message": "Пока здесь пусто. Напишите первое сообщение!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.text-input.label": {
     "message": "Напишите сообщение...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.text-input.placeholder": {
     "message": "Напишите сообщение...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.notify.success.send": {
     "message": "Сообщение отправлено!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.notify.success.approve": {
     "message": "Бот успешно принят",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.chat.notify.success.block": {
     "message": "Бот успешно заблокирован",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.queue.empty": {
     "message": "Очередь пустая",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.queue.sidebar.on-review": {
     "message": "На проверке",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.queue.sidebar.rejected": {
     "message": "Отклонены",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.empty": {
     "message": "Репортов нет",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.admin.reports.description.one": {
+  "components.admin.reports.crowdinContext.one": {
     "message": "на",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "components.admin.reports.description.two": {
+  "components.admin.reports.crowdinContext.two": {
     "message": "комментарий",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.bot": {
     "message": "в боте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.server": {
     "message": "на сервере",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.buttons.accept": {
     "message": "Принять",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.buttons.reject": {
     "message": "Отклонить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.status.unresolved": {
     "message": "Не решён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.status.accepted": {
     "message": "Принят",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.status.rejected": {
     "message": "Отклонён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.notify.success": {
     "message": "Статус репорта успешно изменён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.sidebar.resolved": {
     "message": "Решённые",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.reports.sidebar.unresolved": {
     "message": "Не решённые",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.review-viewer.heading": {
     "message": "Отзыв",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "components.admin.review-viewer.buttons.aria-label": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.admin.title": {
     "message": "Админка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.admin.title.restricted": {
     "message": "Доступ запрещён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.boosts.title": {
     "message": "Бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.main.title": {
     "message": "Поиск Discord {path}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.partners.title": {
     "message": "Партнёры",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.partners.description": {
+  "meta.partners.crowdinContext": {
     "message": "Наши лучшие друзья",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.profile.title": {
     "message": "Профиль",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.profile.description": {
+  "meta.profile.crowdinContext": {
     "message": "Профиль пользователя {username} на",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.profile.settings.header": {
     "message": "Настройки профиля",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.server.name": {
     "message": "Сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.server.settings.header": {
     "message": "Настройки сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.server.add.title": {
     "message": "Добавление сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.server.add.description": {
+  "meta.server.add.crowdinContext": {
     "message": "Добавление нового сервера на мониторинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.bot.name": {
     "message": "Бот",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.bot.settings.header": {
     "message": "Настройки бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.bot.add.title": {
     "message": "Добавление бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.bot.add.description": {
+  "meta.bot.add.crowdinContext": {
     "message": "Добавление нового бота на мониторинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.faq.title": {
     "message": "FAQ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.faq.about.title": {
     "message": "Основное",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.faq.about.description": {
+  "meta.faq.about.crowdinContext": {
     "message": "Часто задаваемые вопросы про ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.faq.rating.title": {
     "message": "Система оценок",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.faq.rating.description": {
+  "meta.faq.rating.crowdinContext": {
     "message": "Просто про оценки и как они работают",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.faq.resources.title": {
     "message": "Боты и Сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.faq.resources.description": {
+  "meta.faq.resources.crowdinContext": {
     "message": "Подробно про странички ботов и серверов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.faq.rules.title": {
     "message": "Правила проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.faq.rules.description": {
+  "meta.faq.rules.crowdinContext": {
     "message": "Правила размещения на проекте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.faq.support.title": {
     "message": "Поддержка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.faq.support.description": {
+  "meta.faq.support.crowdinContext": {
     "message": "Связь с представителями проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.legal.contacts.title": {
     "message": "Связь с нами",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.legal.contacts.description": {
+  "meta.legal.contacts.crowdinContext": {
     "message": "Связаться с законными представителями Сервиса",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.legal.privacy.title": {
     "message": "Конфиденциальность",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.legal.privacy.description": {
+  "meta.legal.privacy.crowdinContext": {
     "message": "Политика конфиденциальности Сервиса",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.legal.sales.title": {
     "message": "Политика продаж",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.legal.sales.description": {
+  "meta.legal.sales.crowdinContext": {
     "message": "Политика предоставления услуг продаж",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "meta.legal.terms.title": {
     "message": "Условия использования",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "meta.legal.terms.description": {
+  "meta.legal.terms.crowdinContext": {
     "message": "Условия использования Сервиса",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.meili-key": {
     "message": "Не удалось получить ключ поиска",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.loader": {
     "message": "Ошибка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.entry": {
     "message": "Произошла ошибка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.default": {
     "message": "Ошибки: {errors}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.search": {
     "message": "Произошла ошибка.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.main-counter.bots": {
     "message": "многих",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.main-counter.servers": {
     "message": "огромного количества",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.fatal": {
     "message": "Критическая неизвестная ошибка запроса.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.meili-key": {
     "message": "Не удалось получить ключ поиска. Поиск не будет работать.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.discord": {
     "message": "Кажется, Discord в данный момент недоступен. Попробуйте обновить страницу.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.profile.settings": {
     "message": "Произошла ошибка.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.profile.save": {
     "message": "Не удалось сохранить профиль",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.refresh": {
     "message": "Ошибка сессии. Войдите в свой аккаунт повторно.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.api.token.copy": {
     "message": "Не удалось скопировать токен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.api.token.generate": {
     "message": "Не удалось создать токен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.api.token.delete": {
     "message": "Не удалось удалить токен: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.billing": {
     "message": "Произошла неизвестная ошибка.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.boost.auth": {
     "message": "Для покупки бустов необходимо авторизоваться",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.boost.buy": {
     "message": "Произошла ошибка при покупке бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.boost.add": {
     "message": "Не удалось добавить бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.boost.remove": {
     "message": "Не удалось убрать бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.boundary": {
     "message": "Ошибка: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.boundary.unknown": {
     "message": "Неизвестная ошибка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.reviews.view": {
     "message": "Просмотр отзывов недоступен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.reviews.send": {
     "message": "Ошибка при отправлении отзыва: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.cache": {
     "message": "Не удалось обновить кеш: {error}",
-    "description": "Error notify update resource cache (name, avatar)"
+    "crowdinContext": "Error notify update resource cache (name, avatar)"
   },
   "errors.notify.captcha.failed": {
     "message": "Ошибка при проверке капчи",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.vote.bot": {
     "message": "Не удалось поднять бота.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.vote.server": {
     "message": "Не удалось поднять сервер.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.delete.review": {
     "message": "Произошла ошибка при удалении отзыва: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.delete.dialog": {
     "message": "Произошла ошибка при удалении: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.reply": {
     "message": "Произошла ошибка при отправке ответа: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.edit": {
     "message": "Произошла ошибка при обновлении отзыва: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.report.send": {
     "message": "Не удалось отправить жалобу: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.report.load": {
     "message": "Произошла ошибка при загрузке репортов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.report.status": {
     "message": "Произошла ошибка при изменении статуса репорта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.bot.status": {
     "message": "Не удалось изменить статус бота: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.bot.create": {
     "message": "Не удалось добавить бота:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.server.status": {
     "message": "Не удалось изменить статус серверу",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.server.get.list": {
     "message": "Произошла ошибка при получении списка серверов, попробуйте перезайти в аккаунт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.server.create": {
     "message": "Не удалось добавить сервер:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.save": {
     "message": "Ошибка сохранения: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.chat.fetch": {
     "message": "Произошла ошибка при получении сообщений",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.chat.send": {
     "message": "Произошла ошибка при отправке сообщения: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.chat.bot.approve": {
     "message": "Произошла ошибка при принятии бота: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.chat.bot.block": {
     "message": "Произошла ошибка при блокировке бота: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.chat.bot.data.response": {
     "message": "Не получилось.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.notify.queue": {
     "message": "Произошла ошибка при загрузке очереди",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.auth.failed-login": {
     "message": "Ошибка входа: {error}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.auth.default": {
     "message": "Попробуйте ещё раз.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-one.title": {
     "message": "Уровень 1",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-one.features.up-points": {
     "message": "В 1.5 раза больше очков апа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-one.features.auto-refresh": {
     "message": "Автоматическое обновление статистики",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-one.features.unique-invite": {
     "message": "Уникальный инвайт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-one.features.supporter": {
     "message": "Роль саппортера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-two.title": {
     "message": "Уровень 2",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-two.features.previous": {
     "message": "Все преимущества уровня 1",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-two.features.up-points": {
     "message": "В 2 раза больше очков апа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-two.features.banner": {
     "message": "Уникальный баннер на карточку бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-two.features.background": {
     "message": "Уникальный фон на страничку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-three.title": {
     "message": "Уровень 3",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-three.features.previous": {
     "message": "Все преимущества уровней 1 и 2",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-three.features.up-points": {
     "message": "В 2.5 раза больше очков апа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-three.features.short-link": {
     "message": "Уникальная короткая ссылка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.tier-three.features.up-bot": {
     "message": "Возможность подключить /up бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.headline.title": {
     "message": "Бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "boosts.headline.description": {
+  "boosts.headline.crowdinContext": {
     "message": "Поддержите нас и получите хорошее преимущество",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.questions.title": {
     "message": "Остались вопросы?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.questions.subtitle": {
     "message": "Сейчас ответим!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.questions.about-boosts.title": {
     "message": "Как работают бусты?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "boosts.questions.about-boosts.description": {
+  "boosts.questions.about-boosts.crowdinContext": {
     "message": "1 буст - 1 уровень премиума. Давая бусты серверам и ботам, вы получаете преимущества, которые даёт премиум-уровень.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "boosts.pricing-period": {
     "message": "мес",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.links.rating": {
     "message": "Оценки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.links.resources": {
     "message": "Боты и Сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.links.rules": {
     "message": "Правила",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.links.support": {
     "message": "Поддержка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.about.title": {
     "message": "Про BotiCord",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.description": {
+  "faq.about.crowdinContext": {
     "message": "Часто задаваемые вопросы про BotiCord",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.about.where-i-am.title": {
     "message": "Где это я?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.about.where-i-am.welcome": {
     "message": "Добро пожаловать на BotiCord!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.where-i-am.description.one": {
+  "faq.about.where-i-am.crowdinContext.one": {
     "message": "Это вебсайт для поиска ботов и серверов в Discord.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.where-i-am.description.two": {
+  "faq.about.where-i-am.crowdinContext.two": {
     "message": "Здесь вы можете найти ботов и сервера по разным категориям, оставить отзыв о них и посмотреть отзывы других людей.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.where-i-am.description.three": {
+  "faq.about.where-i-am.crowdinContext.three": {
     "message": "Так же как Google Play помогает искать приложения для Android, BotiCord помогает найти нужного бота или сервер в Discord.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.about.discovery.title": {
     "message": "Чем это отличается от Discovery?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.discovery.description.one": {
+  "faq.about.discovery.crowdinContext.one": {
     "message": " В Discord есть собственные поисковики для ботов и серверов — Bot Discovery и Server Discovery.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.discovery.description.two": {
+  "faq.about.discovery.crowdinContext.two": {
     "message": "BotiCord кардинально отличается от этих сервисов. В отличие от Discovery, BotiCord даёт возможность оставлять отзывы, имеет более удобный и продуманный интерфейс, более удобный поиск, отлично индексируется в Google и Яндекс, а так же позволяет получить продвижение не только крупным ботам/серверам.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.about.main.title": {
     "message": "Как устроена выдача на главной?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.main.description.one": {
+  "faq.about.main.crowdinContext.one": {
     "message": "Первое, что видят пользователи, заходя на сайт — это главная страница. На ней отображаются боты и сервера, которые имеют больше всего ап-очков.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.main.description.two": {
+  "faq.about.main.crowdinContext.two": {
     "message": "Система ап-очков схожа с лайками в VK и ап-очками на Reddit.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.about.main.description.three": {
+  "faq.about.main.crowdinContext.three": {
     "message": "Чем больше ап-очков у бота/сервера, тем выше он в поиске на главной, и тем чаще будет попадаться на глаза пользователям.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rating.title": {
     "message": "Про систему оценок",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.description": {
+  "faq.rating.crowdinContext": {
     "message": "Просто про оценки и как они работают",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rating.leave-review/raise.title": {
     "message": "Как оставить отзыв/поднять в выдаче?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.leave-review/raise.description": {
+  "faq.rating.leave-review/raise.crowdinContext": {
     "message": "Нужно войти в аккаунт Discord через кнопку «Войти» в правом верхнем углу сайта или в выпадающем меню, а после этого написать отзыв и выбрать оценку или же нажать «поднять» на странице бота/сервера.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rating.up-points.title": {
     "message": "Как работают ап-очки?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.up-points.description.one": {
+  "faq.rating.up-points.crowdinContext.one": {
     "message": "Ап-очки — это счётчик, который показывает, сколько раз какой-то пользователь поднял бота/сервер.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.up-points.description.two": {
+  "faq.rating.up-points.crowdinContext.two": {
     "message": "Он увеличивается на 1 каждый раз, когда пользователь поднимает бота/сервер, и через 14 дней после этого уменьшается на 1.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.up-points.description.three": {
+  "faq.rating.up-points.crowdinContext.three": {
     "message": "Таким образом, если 1 пользователь поднимает бота/сервер каждый день, то у бота/сервера будет 14 ап-очков, но если это будет делать 2 пользователя, то это число увеличится до 28 ап-очков, и так далее. Если же они будут поднимать бота/сервер 2 раза в день, то сможет набрать максимум 56 ап-очков, и так до бесконечности.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.up-points.description.four": {
+  "faq.rating.up-points.crowdinContext.four": {
     "message": "Время истечения каждой подобной оценки рассчитывается индивидуально.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.up-points.description.five": {
+  "faq.rating.up-points.crowdinContext.five": {
     "message": "Ап-очки нужны для того, чтобы показать, насколько активно пользователи рекомендуют конкретного бота/сервер.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.up-points.description.six": {
+  "faq.rating.up-points.crowdinContext.six": {
     "message": "Больше ап-очков = больше рекомендаций = лучше продвижение = больше людей узнают о чьём-либо проекте.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rating.difference.title": {
     "message": "Чем отзывы отличаются от ап-очков?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.difference.description.one": {
+  "faq.rating.difference.crowdinContext.one": {
     "message": "Отзывы — это то, что пользователи пишут о боте/сервере.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.difference.description.two": {
+  "faq.rating.difference.crowdinContext.two": {
     "message": "Отзывы могут быть как положительными, так и отрицательными, и они лишь отчасти влияют на выдачу в поиске.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.difference.description.three": {
+  "faq.rating.difference.crowdinContext.three": {
     "message": "Отзывы нужны для того, чтобы пользователи могли оставить своё мнение о проекте, и чтобы другие пользователи могли его прочитать.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.difference.description.four": {
+  "faq.rating.difference.crowdinContext.four": {
     "message": "Отзыв можно оставить только 1 раз, а ап-очки можно поднимать каждый день.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rating.work.title": {
     "message": "Как работает рейтинг?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.work.description": {
+  "faq.rating.work.crowdinContext": {
     "message": "Рейтинг — это средняя оценка, которую пользователи поставили боту/серверу в отзывах.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rating.truthfulness.title": {
     "message": "Ап-очки и отзывы правдивые?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rating.truthfulness.description": {
+  "faq.rating.truthfulness.crowdinContext": {
     "message": "Мы следим за качеством оставляемых отзывов и ап-очков, и если мы заметим какую-либо подозрительную активность/манипуляции с рейтингами, и если подтвердится нечестность, то мы удалим все ап-очки и отзывы, которые были получены нечестным путём, и можем применить к проекту более серьёзные меры.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.resources.title": {
     "message": "Про ботов и сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.description": {
+  "faq.resources.crowdinContext": {
     "message": "Подробно про странички ботов и серверов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.resources.adding.who-can.title": {
     "message": "Кто может добавлять сервера в поиск?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.who-can.description.one": {
+  "faq.resources.adding.who-can.crowdinContext.one": {
     "message": "Добавить сервер в поиск может человек, имеющий право",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.who-can.description.two": {
+  "faq.resources.adding.who-can.crowdinContext.two": {
     "message": "Управление сервером",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.who-can.description.three": {
+  "faq.resources.adding.who-can.crowdinContext.three": {
     "message": "на сервере или его владелец.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.resources.adding.how.title": {
     "message": "Как добавить бота/сервер в поиск?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.how.description.one": {
+  "faq.resources.adding.how.crowdinContext.one": {
     "message": "Нужно войти в аккаунт Discord через кнопку «Войти» в правом верхнем углу сайта или в выпадающем меню, а после этого нажать на кнопку «Добавить» в левом верхнем углу сайта или в выпадающем меню.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.how.description.two": {
+  "faq.resources.adding.how.crowdinContext.two": {
     "message": "Если вы добавляли бота, то после прохождения процесса добавления он будет отправлен на проверку нашим модераторам. Вы можете отслеживать статус проверки в личных сообщениях Discord или на страничке бота в разделе «опции», там расположен чат с модераторами. Бот не будет принят, пока у модерации есть вопросы к нему, поэтому следите за чатом.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.how.description.three": {
+  "faq.resources.adding.how.crowdinContext.three": {
     "message": "Если вы добавляли сервер, то он сразу же появится в нашем поиске (индексация в поисковиках Google/Яндекс может занять некоторое время).",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.adding.how.description.four": {
+  "faq.resources.adding.how.crowdinContext.four": {
     "message": "Учтите, что несмотря на отсутствие этапа проверки при добавлении, мы следим за всеми серверами и можем удалить ваш сервер, если вы нарушаете наши правила.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.resources.change-resource.title": {
     "message": "Как скрыть/удалить/изменить бота/сервер из поиска?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.change-resource.description.one": {
+  "faq.resources.change-resource.crowdinContext.one": {
     "message": "Зайдите на страничку вашего бота/сервера и нажмите на карандашик возле кнопки «поднять».",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.change-resource.description.two": {
+  "faq.resources.change-resource.crowdinContext.two": {
     "message": "Если вы хотите скрыть бота/сервер из поиска, то измените статус на «скрыт».",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.change-resource.description.three": {
+  "faq.resources.change-resource.crowdinContext.three": {
     "message": "Если вы хотите удалить бота/сервер из поиска, то нажмите на кнопку «удалить» в самом\n низу страницы основных настроек.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.change-resource.description.four": {
+  "faq.resources.change-resource.crowdinContext.four": {
     "message": " Если вы хотите изменить информацию о боте/сервере, то измените её и нажмите на кнопку\n «сохранить» в самом низу любой страницы настроек.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.beautiful-description.title": {
+  "faq.resources.beautiful-crowdinContext.title": {
     "message": "Как сделать красивое описание боту/серверу?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.beautiful-description.description.one": {
+  "faq.resources.beautiful-crowdinContext.crowdinContext.one": {
     "message": "В описании ботов, серверов и профилей поддерживается ограниченная разметка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.beautiful-description.description.two": {
+  "faq.resources.beautiful-crowdinContext.crowdinContext.two": {
     "message": "а также изображения с",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.beautiful-description.description.three": {
+  "faq.resources.beautiful-crowdinContext.crowdinContext.three": {
     "message": "а также изображения с",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.beautiful-description.description.four": {
+  "faq.resources.beautiful-crowdinContext.crowdinContext.four": {
     "message": "а также изображения с",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.resources.beautiful-description.description.five": {
+  "faq.resources.beautiful-crowdinContext.crowdinContext.five": {
     "message": "Например, вы можете сделать текст <b>жирным</b>, используя <code><b>текст</b></code> или <code>**текст**</code>.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rules.title": {
     "message": "Правила проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.description": {
+  "faq.rules.crowdinContext": {
     "message": "Правила размещения на проекте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rules.terms.title": {
     "message": "Соблюдение условий",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.one": {
+  "faq.rules.terms.crowdinContext.one": {
     "message": "Боты, чьи авторы нарушили что-либо из:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.two": {
+  "faq.rules.terms.crowdinContext.two": {
     "message": "условий использования Discord;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.three": {
+  "faq.rules.terms.crowdinContext.three": {
     "message": "политики конфиденциальности Discord;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.four": {
+  "faq.rules.terms.crowdinContext.four": {
     "message": "условий использования для разработчиков в Discord;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.five": {
+  "faq.rules.terms.crowdinContext.five": {
     "message": "политики конфиденциальности BotiCord;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.six": {
+  "faq.rules.terms.crowdinContext.six": {
     "message": "условий использования BotiCord;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.seven": {
+  "faq.rules.terms.crowdinContext.seven": {
     "message": "правил добавления на BotiCord;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.terms.description.eight": {
+  "faq.rules.terms.crowdinContext.eight": {
     "message": "не будут добавлены в общий список (поиск). Если же правила были нарушены после добавления - бот будет принудительно скрыт.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rules.constructors.title": {
     "message": "Конструкторы для создания ботов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.constructors.description": {
+  "faq.rules.constructors.crowdinContext": {
     "message": "Для создания бота нельзя использовать конструкторы, например: Discord Bot Maker, Discord Bot Designer, aoi.js или другие похожие инструменты.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rules.api-basis.title": {
     "message": "Простейшие боты на основе API",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.api-basis.description.one": {
+  "faq.rules.api-basis.crowdinContext.one": {
     "message": "Боты с основной функциональной возможностью в виде использования чужих API, например:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.api-basis.description.two": {
+  "faq.rules.api-basis.crowdinContext.two": {
     "message": "функционал Chat GPT;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.api-basis.description.three": {
+  "faq.rules.api-basis.crowdinContext.three": {
     "message": "случайные картинки/gif;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.api-basis.description.four": {
+  "faq.rules.api-basis.crowdinContext.four": {
     "message": "искажение изображений;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.api-basis.description.five": {
+  "faq.rules.api-basis.crowdinContext.five": {
     "message": "поиск в Google/Яндекс и других поисковиках;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.api-basis.description.six": {
+  "faq.rules.api-basis.crowdinContext.six": {
     "message": "не пройдут проверку. Это правило не относится к ботам, в чьей структуре только часть функционала основана на подобных API.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rules.forbidden-functionality.title": {
     "message": "Запрещённый функционал",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.forbidden-functionality.description": {
+  "faq.rules.forbidden-functionality.crowdinContext": {
     "message": "Боты, созданные для защиты серверов от краша (Анти-Краш боты: защита от полного или частичного уничтожения сервера) или для продвижения конкурентов, не пройдут отбор.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.rules.quality-and-originality.title": {
     "message": "Качество и оригинальность бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.one": {
+  "faq.rules.quality-and-originality.crowdinContext.one": {
     "message": "Проверка будет пройдена при соблюдении всех критериев оценки:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.two": {
+  "faq.rules.quality-and-originality.crowdinContext.two": {
     "message": "бот должен быть понятен пользователю (например, не должно быть <a href=\"/faq/error.png\">неоформленных ошибок</a>);",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.three": {
+  "faq.rules.quality-and-originality.crowdinContext.three": {
     "message": "бот не должен отвечать на несуществующие команды (<a href=\"/faq/unknown-commands.png\">пример</a>);",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.four": {
+  "faq.rules.quality-and-originality.crowdinContext.four": {
     "message": "бот не должен быть создан на основе других ботов с открытым исходным кодом;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.five": {
+  "faq.rules.quality-and-originality.crowdinContext.five": {
     "message": "не должно быть очевидных ошибок (например, удаление -1 сообщения);",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.six": {
+  "faq.rules.quality-and-originality.crowdinContext.six": {
     "message": "у бота должен быть весь заявленный функционал в рабочем состоянии;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.seven": {
+  "faq.rules.quality-and-originality.crowdinContext.seven": {
     "message": "части бота (в том числе внешние, например сайт) не должны быть скопированы с других ботов, в том числе особенности форматирования (<a href=\"/faq/copying.png\">пример</a>);",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.eight": {
+  "faq.rules.quality-and-originality.crowdinContext.eight": {
     "message": "время простоя в месяц не должно превышать 20%, за этим следит автоматическая система после прохождения проверки;",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.rules.quality-and-originality.description.nine": {
+  "faq.rules.quality-and-originality.crowdinContext.nine": {
     "message": "бот не должен иметь сильно ограниченный функционал (недостаточно функционала).",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.support.title": {
     "message": "Поддержка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.description": {
+  "faq.support.crowdinContext": {
     "message": "Связь с представителями проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.support.question.title": {
     "message": "У меня есть вопрос!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.question.description.one": {
+  "faq.support.question.crowdinContext.one": {
     "message": "Зайдите на наш сервер поддержки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.question.description.two": {
+  "faq.support.question.crowdinContext.two": {
     "message": "и создайте тикет. Мы постараемся ответить вам как можно быстрее.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.support.project-officials.title": {
     "message": "Как связаться с официальными представителями проекта?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-officials.description.one": {
+  "faq.support.project-officials.crowdinContext.one": {
     "message": "По вопросам коммерческого сотрудничества:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-officials.description.two": {
+  "faq.support.project-officials.crowdinContext.two": {
     "message": "По вопросам, связанным с законодательством (включая GDPR/DMCA):",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-officials.description.three": {
+  "faq.support.project-officials.crowdinContext.three": {
     "message": "Запрос полной копии своих данных:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-officials.description.four": {
+  "faq.support.project-officials.crowdinContext.four": {
     "message": "Технические вопросы и сообщения о багах:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "faq.support.project-developers.title": {
     "message": "Как связаться с разработчиками?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-developers.description.one": {
+  "faq.support.project-developers.crowdinContext.one": {
     "message": "София, Team Leader + BizDevOps: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-developers.description.two": {
+  "faq.support.project-developers.crowdinContext.two": {
     "message": "Егор, Design + Layout: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-developers.description.three": {
+  "faq.support.project-developers.crowdinContext.three": {
     "message": "Егор, Back-End: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "faq.support.project-developers.description.four": {
+  "faq.support.project-developers.crowdinContext.four": {
     "message": "Никита, Front-End: ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "main.headline.title": {
     "message": "Магия Discord в одном месте",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "main.headline.description-one": {
+  "main.headline.crowdinContext-one": {
     "message": "Список из",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "main.headline.description-two": {
+  "main.headline.crowdinContext-two": {
     "message": "ботов и",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "main.headline.description-three": {
+  "main.headline.crowdinContext-three": {
     "message": "серверов, только для тебя.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "partners.headline.title": {
     "message": "Партнёры проекта",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "partners.headline.description": {
+  "partners.headline.crowdinContext": {
     "message": "Наши лучшие друзья",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.available-monitorings.check-manual.name": {
     "message": "Ручная проверка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "common.available-monitorings.check-manual.description": {
+  "common.available-monitorings.check-manual.crowdinContext": {
     "message": "Проверка производится вручную",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.available-monitorings.via": {
     "message": "Через",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.available-libs.nothing": {
     "message": "Не указано",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.available-libs.another": {
     "message": "Другая",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.legal-links.tos": {
     "message": "Правила использования",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.legal-links.privacy": {
     "message": "Конфиденциальность",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.legal-links.sales": {
     "message": "Продажи",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.legal-links.contacts": {
     "message": "Связь с нами",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.years": {
     "message": "лет назад | год назад | года назад | лет назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.months": {
     "message": "месяцев назад | месяц назад | месяца назад | месяцев назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.days": {
     "message": "дней назад | день назад | дня назад | дней назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.hours": {
     "message": "часов назад | час назад | часа назад | часов назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.minutes": {
     "message": "минут назад | минуту назад | минуты назад | минут назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.seconds": {
     "message": "секунд назад | секунду назад | секунды назад | секунд назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.convert-time.now": {
     "message": "Прямо сейчас",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.img.alt.error-entry": {
     "message": "Произошла ошибка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.img.alt.admin": {
     "message": "нельзя",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.img.alt.background-banner": {
     "message": "Фоновый баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.img.alt.app": {
     "message": "Ничего не видно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.img.alt.search-result": {
     "message": "Ничего не найдено",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "common.img.description.chat": {
+  "common.img.crowdinContext.chat": {
     "message": "Приложение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.captcha.verify": {
     "message": "Секундочку... Нужно проверить не робот ли вы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.captcha.expired": {
     "message": "Время ожидания капчи истекло",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.brand.name": {
     "message": "BotiCord",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.brand.link": {
     "message": "BotiCord.top",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.website-version": {
     "message": "Версия сайта:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.blue": {
     "message": "Синий",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.red": {
     "message": "Красный",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.orange": {
     "message": "Оранжевый",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.yellow": {
     "message": "Жёлтый",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.green": {
     "message": "Зелёный",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.indigo": {
     "message": "Индиго",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.purple": {
     "message": "Фиолетовый",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.banner.colors.white": {
     "message": "Белый",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.not-found.title": {
     "message": "Страница не найдена",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "common.not-found.description": {
+  "common.not-found.crowdinContext": {
     "message": "Кажется, вы попали на несуществующую страницу.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.support.server": {
     "message": "сервер поддержки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.recommendation": {
     "message": "Популярно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.purchase": {
     "message": "Приобрести",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.cancel": {
     "message": "Отменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.send": {
     "message": "Отправить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.save": {
     "message": "Сохранить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.clear": {
     "message": "Очистить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.delete": {
     "message": "Удалить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.disable": {
     "message": "Отключить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.action.find": {
     "message": "Найти",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.limits.text": {
     "message": "Мин. {n} символ | Мин. {n} символа | Мин. {n} символов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "common.unknown.user": {
     "message": "Неизвестный пользователь",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.loading.banner": {
     "message": "Загружаем баннер...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.loading.background": {
     "message": "Загружаем фон...",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.validation.length": {
     "message": "Мин. {limit} символов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.validation.url": {
     "message": "Должно быть ссылкой",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.validation.msg.length": {
     "message": "Минимальная длина сообщения {limit} символ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.activity.boost.description": {
+  "resource.activity.boost.crowdinContext": {
     "message": "Буст:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.boost.level": {
     "message": "{lvl} уровень",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.invite": {
     "message": "Пригласить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.join": {
     "message": "Вступить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.vote": {
     "message": "Поднять",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.edit": {
     "message": "Редактировать",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.fetch": {
     "message": "Обновить",
-    "description": "Fetch avatar and name"
+    "crowdinContext": "Fetch avatar and name"
   },
   "resource.activity.information": {
     "message": "Информация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.users": {
     "message": "Пользователей:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.tags": {
     "message": "Теги",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.links": {
     "message": "Ссылки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.activity.description": {
+  "resource.activity.crowdinContext": {
     "message": "Описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.reviews": {
     "message": "Оценки и отзывы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.reviews.checked": {
     "message": "Оценки и отзывы проверены",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.reviews.nothing": {
     "message": "Отзывов пока нет.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.reviews.nothing.first": {
     "message": "Оставьте первый!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.reviews.count": {
     "message": "Нет отзывов | {n} отзыв | {n} отзыва | {n} отзывов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.notify.vote.captcha": {
     "message": "Секундочку... Нужно проверить не робот ли вы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.notify.vote.captcha.timeout": {
     "message": "Время ожидания капчи истекло",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.notify.vote.success": {
     "message": "Успешный ап!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.activity.notify.cache.success": {
     "message": "Кеш успешно обновлён!",
-    "description": "Notify message of success update resource cache (name, avatar)"
+    "crowdinContext": "Notify message of success update resource cache (name, avatar)"
   },
   "resource.status.hidden": {
     "message": "Скрыт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.status.public": {
     "message": "Публичный",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.status.banned": {
     "message": "Заблокирован",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.status.pending": {
     "message": "Ожидает проверки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.pending.action": {
     "message": "Опции",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.prefix": {
     "message": "Префикс:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.shards": {
     "message": "Шардов:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.library": {
     "message": "Библиотека бота:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.website": {
     "message": "Сайт бота:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.developers": {
     "message": "Разработчики:",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.bot.notify.vote.hidden": {
     "message": "Нельзя апнуть бота который скрыт из общего списка!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.server.personal": {
     "message": "Персонал",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.server.website": {
     "message": "Сайт сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.server.notify.vote.hidden": {
     "message": "Нельзя апнуть сервер который скрыт из общего списка!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.common.reply": {
     "message": "Ответить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.edit": {
     "message": "Редактирование отзыва",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.openmenu": {
     "message": "Открыть меню",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.reply": {
     "message": "Ответ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.reply.dev": {
     "message": "разработчика",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.reply.personal": {
     "message": "персонала",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.reply.write": {
     "message": "Введите ответ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.notify.delete": {
     "message": "Отзыв успешно удалён!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.notify.reply": {
     "message": "Ответ успешно отправлен!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.notify.reply.length": {
     "message": "Минимальная длина ответа {length} символ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.notify.edit": {
     "message": "Отзыв успешно обновлен!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.notify.comment.length": {
     "message": "Минимальная длина отзыва {length} символ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.dropdown.edit": {
     "message": "Изменить",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.dropdown.report": {
     "message": "Репорт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.report.title": {
     "message": "Жалоба на отзыв",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.report.close": {
     "message": "Закрыть окно",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.report.label": {
     "message": "Опишите проблему",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.report.content": {
     "message": "Пожалуйста, подробно опишите в чём заключается Ваша жалоба.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.report.content.attention": {
     "message": "Внимание!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.reviews.report.content.description": {
+  "resource.reviews.report.content.crowdinContext": {
     "message": "Жалоба на отзыв может быть отправлена только один раз.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.report.notify.success": {
     "message": "Жалоба успешно отправлена!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.form.label": {
     "message": "Напишите отзыв",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.form.notify.success": {
     "message": "Успешно отправлено!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.reviews.form.notify.length": {
     "message": "Минимальная длина отзыва {length} символ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.action.back": {
     "message": "Вернуться назад",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.bot.notify.success": {
     "message": "Бот успешно сохранён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.bot.header.title.message": "Настройки бота",
   "resource.settings.server.notify.success": {
     "message": "Сервер успешно сохранён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.server.header.title": {
     "message": "Настройки сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.general": {
     "message": "Основные",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.boosts": {
     "message": "Бусты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.personalization": {
     "message": "Персонализация",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.api": {
     "message": "Настройки API",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.settings.api.action.title": {
     "message": "Присылать уведомления",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.settings.api.action.description": {
+  "resource.settings.api.action.crowdinContext": {
     "message": "Если включено, в нашем API будут поступать уведомления об этом сервере/боте (комментарии, апы и т.д.)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.status.title": {
     "message": "Статус бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.status.description": {
+  "resource.configuration.bot.general.status.crowdinContext": {
     "message": "Здесь можно скрыть бота из публичного доступа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.short-description.title": {
+  "resource.configuration.bot.general.short-crowdinContext.title": {
     "message": "Краткое описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.short-description.description": {
+  "resource.configuration.bot.general.short-crowdinContext.crowdinContext": {
     "message": "Текст, который будет отображаться в  карточке бота на главной странице",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.short-description.placeholder": {
+  "resource.configuration.bot.general.short-crowdinContext.placeholder": {
     "message": "Бот очень крутой, умеет всё, даже показывать поней и делать сайты!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.long-description.title": {
+  "resource.configuration.bot.general.long-crowdinContext.title": {
     "message": "Подробное описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.long-description.description": {
+  "resource.configuration.bot.general.long-crowdinContext.crowdinContext": {
     "message": "Расскажите нам всё о своем боте! Что умеет ваш бот? Что его выделяет среди других?",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.long-description.placeholder": {
+  "resource.configuration.bot.general.long-crowdinContext.placeholder": {
     "message": "{username} поможет вам в различных ситуациях!\nНапример, он может сделать сайт-визитку, показать поней всему серверу, помочь управлять вашим сервером, и многое другое!\nИз особенностей: сайты получаются ну очень красивыми.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.prefix.title": {
     "message": "Префикс",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.prefix.description": {
+  "resource.configuration.bot.general.prefix.crowdinContext": {
     "message": "На какой символ или фразу реагирует ваш бот? (мин. 1 символ)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.link.title": {
     "message": "Ссылка-приглашение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.link.description": {
+  "resource.configuration.bot.general.link.crowdinContext": {
     "message": "Ссылка, с помощью которой можно добавить вашего бота. Её можно сгенерировать на ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.link.portal": {
     "message": "портале разработчиков Discord",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.library.title": {
     "message": "Библиотека бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.library.description": {
+  "resource.configuration.bot.general.library.crowdinContext": {
     "message": "Библиотека для взаимодействия с Discord API",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.library.list": {
     "message": "Доступные библиотеки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.tags.title": {
     "message": "Теги",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.tags.description": {
+  "resource.configuration.bot.general.tags.crowdinContext": {
     "message": "Выберите теги, которые лучше описывают вашего бота. Это поможет людям проще найти бота в поиске",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.support.title": {
     "message": "Сервер поддержки бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.support.description": {
+  "resource.configuration.bot.general.support.crowdinContext": {
     "message": "Ссылка-приглашение на сервер, где могут помочь с вашим ботом",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.site.title": {
     "message": "Сайт бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.site.description": {
+  "resource.configuration.bot.general.site.crowdinContext": {
     "message": "Ссылка на сайт-визитку или настройки через веб",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.site.aria": {
     "message": "Ссылка на сайт бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.developers.title": {
     "message": "Разработчики бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.developers.description": {
+  "resource.configuration.bot.general.developers.crowdinContext": {
     "message": "Если вы не одни разрабатывали бота, можно указать других разработчиков здесь. Они смогут управлять профилем бота, в том числе добавлять и удалять разработчиков (макс. {max} разработчиков)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.developers.placeholder": {
     "message": "ID разработчика, например 232348485398036481",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.developers.aria": {
     "message": "ID разрботчика",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.developers.find": {
     "message": "Найти разработчика",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.delete.title": {
     "message": "Удаление бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.general.delete.description": {
+  "resource.configuration.bot.general.delete.crowdinContext": {
     "message": "Данное действие необратимо удалит вашего бота, оценки и апы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.general.notify.success": {
     "message": "Статус бота изменён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.personalization.banner.description": {
+  "resource.configuration.bot.personalization.banner.crowdinContext": {
     "message": "Выберите стандартный баннер  — он будет отображаться, если у бота нет\rперсонального баннера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.personalization.premium.banner.description": {
+  "resource.configuration.bot.personalization.premium.banner.crowdinContext": {
     "message": "Персональный баннер поможет вам привлечь внимание к карточке бота!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.personalization.premium.background.description": {
+  "resource.configuration.bot.personalization.premium.background.crowdinContext": {
     "message": "Добавьте немного атмосферности странице профиля бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.personalization.premium.auto-servers.title": {
     "message": "Автоматическое обновление количества серверов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.bot.personalization.premium.auto-servers.description": {
+  "resource.configuration.bot.personalization.premium.auto-servers.crowdinContext": {
     "message": "Количество серверов будет обновляться автоматически при поднятии бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.personalization.premium.activated": {
     "message": "У бота активированы премиум-возможности",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.personalization.premium.activated.banner": {
     "message": "Персональный баннер поможет вам привлечь внимание к карточке бота! Он будет отображаться в карточке бота на главной странице",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.personalization.premium.activated.background": {
     "message": "Пользовательский фон поможет вам добавить чуточку атмосферности на страничку бота! Он будет отображаться на странице вашего бота в качестве затемнённой задней картинки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.bot.personalization.premium.activated.auto-servers": {
     "message": "Количество серверов будет обновляться автоматически при поднятии бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.banner.title": {
     "message": "Стандартный баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.color.selected": {
     "message": "Выбранный цвет",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.title": {
     "message": "Активировать Premium",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.personalization.premium.description": {
+  "resource.configuration.personalization.premium.crowdinContext": {
     "message": "Лимитированные функции, доступные в Premium",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.banner.title": {
     "message": "Персональный баннер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.background.title": {
     "message": "Пользовательский фон",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.multiplier.title": {
     "message": "Двойной множитель апов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.personalization.premium.multiplier.description": {
+  "resource.configuration.personalization.premium.multiplier.crowdinContext": {
     "message": "В два раза легче попасть в топ с множителем апов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.activate": {
     "message": "Активировать",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.upload.requirement1": {
     "message": "Поддерживаемые форматы: {formats}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.upload.requirement2": {
     "message": "Картинка должна быть размером не менее {size}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.upload.requirement3": {
     "message": "Размер файла не должен превышать 8МБ",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.personalization.premium.upload.requirement4": {
     "message": "Рекомендованный размер: {size}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.status.title": {
     "message": "Статус сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.status.description": {
+  "resource.configuration.server.general.status.crowdinContext": {
     "message": "Здесь можно скрыть сервер из публичного доступа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.short-description.title": {
+  "resource.configuration.server.general.short-crowdinContext.title": {
     "message": "Краткое описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.short-description.description": {
+  "resource.configuration.server.general.short-crowdinContext.crowdinContext": {
     "message": "Кратко опишите вашего сервер — чем он отличается от других? Заинтересуйте гостей зайти именно к вам!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.short-description.placeholder": {
+  "resource.configuration.server.general.short-crowdinContext.placeholder": {
     "message": "На сервере есть всё, от поней до рецепта счастья!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.long-description.title": {
+  "resource.configuration.server.general.long-crowdinContext.title": {
     "message": "Подробное описание",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.long-description.description": {
+  "resource.configuration.server.general.long-crowdinContext.crowdinContext": {
     "message": "Расскажите нам всё о своем сервере! Что выделяет его среди других? Можете добавить капельку Markdown, HTML и CSS. Только не перебарщивайте, иначе только оттолкнёте пользователей",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.long-description.placeholder": {
+  "resource.configuration.server.general.long-crowdinContext.placeholder": {
     "message": "{server} — лучший сервер в мире! Тут есть всё, что нужно, чтобы весело провести время с друзьями! А ещё тут есть пони! 🦄",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.link.title": {
     "message": "Ссылка-приглашение",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.link.description": {
+  "resource.configuration.server.general.link.crowdinContext": {
     "message": "Ссылка-приглашение на ваш сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.tags.title": {
     "message": "Теги",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.tags.description": {
+  "resource.configuration.server.general.tags.crowdinContext": {
     "message": "Выберите теги, которые лучше всего описывают ваш сервер. Это поможет людям проще найти сервер в поиске",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.site.title": {
     "message": "Сайт сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.site.description": {
+  "resource.configuration.server.general.site.crowdinContext": {
     "message": "Ссылка на сайт-визитку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.site.aria": {
     "message": "Ссылка на сайт бота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.moderators.title": {
     "message": "Модераторы сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.moderators.description": {
+  "resource.configuration.server.general.moderators.crowdinContext": {
     "message": "Если вы не одни модерируете сервер, можно указать других модераторов здесь. Они смогут управлять профилем сервер, добавлять и удалять модераторов. Владельца удалить нельзя, лимит — макс. 10 модераторов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.moderators.placeholder": {
     "message": "ID модератора, например 232348485398036481",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.moderators.aria": {
     "message": "ID модератора",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.moderators.find": {
     "message": "Найти модератора",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.delete.title": {
     "message": "Удаление сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.general.delete.description": {
+  "resource.configuration.server.general.delete.crowdinContext": {
     "message": "Данное действие необратимо удалит ваш сервер, оценки и апы",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.general.notify.success": {
     "message": "Статус сервера изменён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.personalization.banner.description": {
+  "resource.configuration.server.personalization.banner.crowdinContext": {
     "message": "Выберите стандартный баннер  — он будет отображаться, если у сервера нет\rперсонального баннера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.personalization.premium.banner.description": {
+  "resource.configuration.server.personalization.premium.banner.crowdinContext": {
     "message": "Персональный баннер поможет вам привлечь внимание к карточке сервера!",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.personalization.premium.background.description": {
+  "resource.configuration.server.personalization.premium.background.crowdinContext": {
     "message": "Добавьте немного атмосферности странице профиля сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.personalization.premium.auto-users.title": {
     "message": "Частое обновление количества участников",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
-  "resource.configuration.server.personalization.premium.auto-users.description": {
+  "resource.configuration.server.personalization.premium.auto-users.crowdinContext": {
     "message": "Приоритет в обновлении счётчика участников в профиле сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.personalization.premium.activated": {
     "message": "У сервера активированы премиум-возможности",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.personalization.premium.activated.banner": {
     "message": "Баннер для карточки сервера на главной странице",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.personalization.premium.activated.background": {
     "message": "Фон для страницы профиля сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "resource.configuration.server.personalization.premium.activated.auto-users": {
     "message": "Приоритет в обновлении счётчика участников в профиле сервера",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.not-defined": {
     "message": "Проверка на робота не смогла инициализироваться из-за блокировки.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.undefined_error": {
     "message": "Неизвестная ошибка при проверке на робота. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.crashed": {
     "message": "Браузер остановил проверку на робота.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.100000": {
     "message": "Ошибка инициализации проверки на робота. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.102000-103000-104000-600000-300100": {
     "message": "Система приняла вас за робота. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.105000": {
     "message": "Версия программы проверки на робота устарела. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.106000-110500": {
     "message": "Неподходящий браузер для проверки. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.110100-110101": {
     "message": "Проверка на робота не может быть исполнена. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.110200": {
     "message": "Проверка на робота не может быть исполнена на этом сайте.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.110420-110430": {
     "message": "Внутренняя ошибка при проверке на робота. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.110600": {
     "message": "Проверка на робота длилась слишком долго.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.120000": {
     "message": "Тестовая ошибка. {code}",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.200010": {
     "message": "Часть системы проверки на робота кэширована.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.turnstile.200100": {
     "message": "Время на вашем устройстве идёт неправильно.",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.-4": {
     "message": "Нельзя добавить разработчика дважды",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.-3": {
     "message": "Нельзя добавить бота в список разработчиков",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.-2": {
     "message": "Сессия истекла, перезайдите в аккаунт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.-1": {
     "message": "Критическая неизвестная ошибка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.0": {
     "message": "Неизвестная ошибка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.1": {
     "message": "Ошибка сервера (>500)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.2": {
     "message": "Слишком быстрые запросы (429)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.3": {
     "message": "Не найдено (404)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.4": {
     "message": "Ошибка доступа (403)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.5": {
     "message": "Плохой запрос (400)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.6": {
     "message": "Необходимо авторизоваться (401)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.7": {
     "message": "Ошибка сервера (RPC)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.8": {
     "message": "Ошибка сервера (WS)",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.9": {
     "message": "Ошибка стороннего сервиса",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10": {
     "message": "Неизвестный пользователь",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.11": {
     "message": "Короткая ссылка уже занята",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.12": {
     "message": "Неизвестная короткая ссылка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.13": {
     "message": "Неизвестная библиотека",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.14": {
     "message": "Токен недействителен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.15": {
     "message": "Неизвестный ресурс",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.16": {
     "message": "Неизвестный тег",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.17": {
     "message": "Недостаточно прав",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.18": {
     "message": "Неизвестный отзыв",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.19": {
     "message": "Неизвестный бот",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.20": {
     "message": "Неизвестный сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.21": {
     "message": "Неизвестный значок",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.22": {
     "message": "Пользователь уже имеет этот значок",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.23": {
     "message": "Неверный код приглашения",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.24": {
     "message": "Сервер уже существует",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.25": {
     "message": "Бот отсутствует на служебном сервере",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.26": {
     "message": "Неизвестный ап",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.27": {
     "message": "Слишком много апов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.28": {
     "message": "Неверный статус ресурса",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.29": {
     "message": "Неизвестный репорт",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.30": {
     "message": "Неверный формат файла",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.31": {
     "message": "Бот не найден",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.32": {
     "message": "Система приняла вас за робота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.33": {
     "message": "Неправильный рейтинг",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.34": {
     "message": "Такой бот уже есть",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.35": {
     "message": "Сеть на сервере настроена неправильно. Обратитесь в поддержку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.36": {
     "message": "Сторонний мониторинг в данный момент недоступен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.37": {
     "message": "Ваше приложение отсутствует на стороннем мониторинге",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.38": {
     "message": "Неизвестная ошибка проверки на робота",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.39": {
     "message": "Сервис настроен неправильно. Пожалуйста, сообщите в поддержку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.40": {
     "message": "Неизвестный буст",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.41": {
     "message": "Буст истёк",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.42": {
     "message": "Невозможно оставить отзыв дважды",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.43": {
     "message": "Конфликт расчёта рейтинга. Текущий рейтинг слишком высок. Обратитесь в поддержку",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.44": {
     "message": "Не более двух сообщений подряд",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.45": {
     "message": "Сервисный бот не приглашён",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.46": {
     "message": "Вы уже отправляли жалобу на этот отзыв",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.47": {
     "message": "Нельзя удалить владельца из разработчиков",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.48": {
     "message": "Бот заблокирован, сначала разблокируйте его",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.49": {
     "message": "Неизвестный токен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.50": {
     "message": "Временно только владелец может добавить сервер",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.51": {
     "message": "На отзыв отправлена не решённая жалоба",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.52": {
     "message": "Недостаточно бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.53": {
     "message": "Сервис капчи недоступен",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.54": {
     "message": "Неверный ответ на капчу",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.55": {
     "message": "Ресурс не принадлежит вам",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.56": {
     "message": "КД обновления ресурса",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.57": {
     "message": "Невозможно получить владельца",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.58": {
     "message": "Слишком много попыток ответа на капчу",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.59": {
     "message": "Отзыв не может быть пустым",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10000": {
     "message": "Недостаточно бустов",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10001": {
     "message": "У вас уже есть активная подписка",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10002": {
     "message": "Нет активной подписки",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10003": {
     "message": "Нет привязанного способа оплаты",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10004": {
     "message": "Ошибка отмены платежа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10005": {
     "message": "Ошибка фиксации платежа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10006": {
     "message": "Ошибка возврата платежа",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10007": {
     "message": "Невозможно вернуть платёж",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10008": {
     "message": "Платёж не найден",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10009": {
     "message": "Лимит бустов исчерпан",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10010": {
     "message": "Нет буста",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   },
   "errors.api.code.10011": {
     "message": "Способ оплаты уже привязан",
-    "description": "TODO"
+    "crowdinContext": "TODO"
   }
 }
